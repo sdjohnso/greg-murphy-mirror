@@ -1,8 +1,8 @@
 # Public-Facing Page + RSS Feed
 **Branch:** `main`
 **Created:** 2026-03-01
-**Status:** In Progress - Phase 1, Step 1.2
-**Next Action:** Create dashboard page with HTML, CSS, and JavaScript
+**Status:** Complete
+**Next Action:** Verify all success criteria are met
 **Purpose:** Create a shareable webpage and RSS feed so non-technical users can access Murphy's voting record
 
 ---
@@ -141,11 +141,11 @@ Single-page dashboard showing:
 ---
 
 ### Step 1.2: Create Dashboard Page
-- [ ] Create `docs/index.html` with basic structure
-- [ ] Add `docs/assets/style.css` with clean styling
-- [ ] Create `docs/assets/app.js` to fetch and render JSON
-- [ ] Display: stats, recent votes, consistency alerts
-- [ ] Add links to full repo and Congress.gov
+- [x] Create `docs/index.html` with basic structure
+- [x] Add `docs/assets/style.css` with clean styling
+- [x] Create `docs/assets/app.js` to fetch and render JSON
+- [x] Display: stats, recent votes, consistency alerts
+- [x] Add links to full repo and Congress.gov
 
 **Resources:**
 - Pico CSS: https://picocss.com
@@ -169,10 +169,10 @@ Review `plans/public-page-rss.md` and continue with Phase 2, Step 2.1 (RSS feed 
 **Goal:** Generate subscribable RSS feed
 
 ### Step 2.1: Add RSS Generation to Scripts
-- [ ] Update `scripts/generate_docs.py` to create `docs/feeds/votes.xml`
-- [ ] Include last 50 votes as RSS items
-- [ ] Format dates as RFC 2822
-- [ ] Include Murphy's position, party totals, result, link to bill
+- [x] Update `scripts/generate_docs.py` to create `docs/feeds/votes.xml`
+- [x] Include last 50 votes as RSS items
+- [x] Format dates as RFC 2822
+- [x] Include Murphy's position, party totals, result, link to bill
 
 **Resources:**
 - RSS 2.0 spec: https://www.rssboard.org/rss-specification
@@ -185,9 +185,9 @@ Review `plans/public-page-rss.md` and continue with Phase 2, Step 2.1 (RSS feed 
 ---
 
 ### Step 2.2: Update Documentation
-- [ ] Add RSS link to `docs/index.html`
-- [ ] Add RSS autodiscovery `<link>` tag to HTML head
-- [ ] Update README with RSS subscription instructions
+- [x] Add RSS link to `docs/index.html`
+- [x] Add RSS autodiscovery `<link>` tag to HTML head
+- [x] Update README with RSS subscription instructions
 
 **Validation:**
 - RSS readers auto-detect feed from page URL

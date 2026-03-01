@@ -1,6 +1,6 @@
 #!/usr/bin/env python3 -u
 """
-Generate human-readable markdown documentation from processed data.
+Generate human-readable markdown documentation and RSS feed from processed data.
 
 Creates:
 - docs/index.md - Dashboard overview
@@ -11,14 +11,17 @@ Creates:
 - docs/votes/consistency.md - Position changes
 - docs/legislation/sponsored.md
 - docs/legislation/cosponsored.md
+- docs/feeds/votes.xml - RSS feed of recent votes
 """
 
 import sys
 sys.stdout.reconfigure(line_buffering=True)
 
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
+from email.utils import format_datetime
 from pathlib import Path
+import xml.etree.ElementTree as ET
 
 from config import (
     RAW_DIR,
@@ -461,6 +464,118 @@ Rep. Murphy has cosponsored **{len(cosponsored)}** bills.
     return content
 
 
+def generate_rss(votes: list) -> str:
+    """Generate RSS feed for recent votes."""
+    # Sort by date descending, take last 50
+    sorted_votes = sorted(
+        votes,
+        key=lambda x: x.get("date", ""),
+        reverse=True
+    )[:50]
+
+    # Build RSS XML
+    rss = ET.Element("rss", version="2.0")
+    rss.set("xmlns:atom", "http://www.w3.org/2005/Atom")
+
+    channel = ET.SubElement(rss, "channel")
+
+    # Channel metadata
+    ET.SubElement(channel, "title").text = "Rep. Greg Murphy Voting Record"
+    ET.SubElement(channel, "link").text = "https://sdjohnso.github.io/greg-murphy-mirror"
+    ET.SubElement(channel, "description").text = (
+        "Daily updates on how Rep. Greg Murphy (NC-03) votes in Congress"
+    )
+    ET.SubElement(channel, "language").text = "en-us"
+
+    # Self-reference link for RSS readers
+    atom_link = ET.SubElement(channel, "{http://www.w3.org/2005/Atom}link")
+    atom_link.set("href", "https://sdjohnso.github.io/greg-murphy-mirror/feeds/votes.xml")
+    atom_link.set("rel", "self")
+    atom_link.set("type", "application/rss+xml")
+
+    # Last build date
+    ET.SubElement(channel, "lastBuildDate").text = format_datetime(
+        datetime.now(timezone.utc)
+    )
+
+    # Add items
+    for vote in sorted_votes:
+        item = ET.SubElement(channel, "item")
+
+        # Title: "HR 1234 - Voted AYE (with party)" or similar
+        bill_id = f"{vote.get('legislation_type', '')} {vote.get('legislation_number', '')}".strip()
+        if not bill_id:
+            bill_id = f"Roll #{vote.get('roll_number', '?')}"
+
+        murphy_vote = vote.get("murphy_vote", "?")
+        with_party = vote.get("voted_with_party")
+        party_note = ""
+        if with_party is True:
+            party_note = " (with party)"
+        elif with_party is False:
+            party_note = " (BROKE WITH PARTY)"
+
+        title = f"{bill_id}: Voted {murphy_vote}{party_note}"
+        ET.SubElement(item, "title").text = title
+
+        # Link to Congress.gov
+        link = vote.get("legislation_url", "")
+        if not link:
+            # Fall back to House Clerk roll call
+            year = vote.get("date", "")[:4]
+            roll = vote.get("roll_number", "")
+            link = f"https://clerk.house.gov/evs/{year}/roll{roll}.xml"
+        ET.SubElement(item, "link").text = link
+
+        # GUID (unique identifier)
+        guid = ET.SubElement(item, "guid")
+        guid.set("isPermaLink", "false")
+        guid.text = f"murphy-vote-{vote.get('congress', '')}-{vote.get('roll_number', '')}"
+
+        # Publication date (RFC 2822 format)
+        date_str = vote.get("date", "")
+        if date_str:
+            try:
+                vote_date = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+                if vote_date.tzinfo is None:
+                    vote_date = vote_date.replace(tzinfo=timezone.utc)
+                ET.SubElement(item, "pubDate").text = format_datetime(vote_date)
+            except:
+                pass
+
+        # Description with party breakdown
+        party_totals = vote.get("party_totals", [])
+        rep = next((p for p in party_totals if p.get("party") == "Republican"), {})
+        dem = next((p for p in party_totals if p.get("party") == "Democratic"), {})
+
+        desc_parts = [
+            f"Murphy voted {murphy_vote}.",
+            f"Result: {vote.get('result', 'Unknown')}.",
+        ]
+
+        if rep:
+            desc_parts.append(f"Republicans: {rep.get('yea', 0)}-{rep.get('nay', 0)}.")
+        if dem:
+            desc_parts.append(f"Democrats: {dem.get('yea', 0)}-{dem.get('nay', 0)}.")
+
+        ET.SubElement(item, "description").text = " ".join(desc_parts)
+
+    # Convert to string with proper formatting
+    ET.register_namespace('atom', 'http://www.w3.org/2005/Atom')
+    xml_str = ET.tostring(rss, encoding="unicode", method="xml")
+
+    # Add XML declaration
+    return f'<?xml version="1.0" encoding="UTF-8"?>\n{xml_str}'
+
+
+def save_xml(content: str, path: Path):
+    """Save XML file."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w") as f:
+        f.write(content)
+    print(f"  Saved {path}")
+
+
 def main():
     """Generate all documentation."""
     print("=" * 60)
@@ -490,6 +605,10 @@ def main():
     save_md(generate_consistency(consistency), DOCS_DIR / "votes" / "consistency.md")
     save_md(generate_sponsored(sponsored), DOCS_DIR / "legislation" / "sponsored.md")
     save_md(generate_cosponsored(cosponsored), DOCS_DIR / "legislation" / "cosponsored.md")
+
+    # Generate RSS feed
+    print("\nGenerating RSS feed...")
+    save_xml(generate_rss(votes), DOCS_DIR / "feeds" / "votes.xml")
 
     print("\nDone!")
 

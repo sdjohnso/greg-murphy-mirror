@@ -12,7 +12,9 @@ A public data mirror of Rep. Greg Murphy's (NC-03) congressional activity, provi
 | **Bills Sponsored** | 117 |
 | **Bills Cosponsored** | 817 |
 
-*See [docs/index.md](docs/index.md) for the full dashboard.*
+**Live Dashboard**: [sdjohnso.github.io/greg-murphy-mirror](https://sdjohnso.github.io/greg-murphy-mirror)
+
+**RSS Feed**: [Subscribe to vote updates](https://sdjohnso.github.io/greg-murphy-mirror/feeds/votes.xml)
 
 ## Representative Profile
 
