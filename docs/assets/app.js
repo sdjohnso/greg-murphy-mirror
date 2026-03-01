@@ -1,4 +1,5 @@
 // Murphy Dashboard - Data Loading and Rendering
+// Organizes votes by date, then by bill for a timeline view
 
 const BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
     ? '..'
@@ -17,95 +18,201 @@ async function loadData() {
         const consistency = await consistencyRes.json();
 
         renderStats(metrics);
-        renderRecentVotes(votes);
+        renderVoteTimeline(votes);
         renderConsistencyAlerts(consistency);
         renderLastUpdated(metrics.generated_at);
     } catch (error) {
         console.error('Failed to load data:', error);
         document.getElementById('recent-votes').innerHTML =
-            '<p>Failed to load data. <a href="https://github.com/sdjohnso/greg-murphy-mirror">View on GitHub</a>.</p>';
+            '<div class="error-message">Failed to load data. <a href="https://github.com/sdjohnso/greg-murphy-mirror">View on GitHub</a>.</div>';
     }
 }
 
 function renderStats(metrics) {
     const summary = metrics.summary;
-
     document.getElementById('stat-participation').textContent = `${summary.participation_rate}%`;
     document.getElementById('stat-alignment').textContent = `${summary.party_alignment_rate}%`;
     document.getElementById('stat-bipartisan').textContent = summary.bipartisan_votes;
     document.getElementById('stat-bills').textContent = summary.bills_sponsored;
 }
 
-function renderRecentVotes(votes) {
-    // Sort by date descending and take most recent 15
-    const sortedVotes = [...votes].sort((a, b) =>
-        new Date(b.date) - new Date(a.date)
-    ).slice(0, 15);
+/**
+ * Groups votes by date, then by bill within each date
+ * Returns structure: { dateKey: { dateFormatted, bills: { billKey: { votes: [], ... } } } }
+ */
+function groupVotesByDateAndBill(votes) {
+    // Sort by date descending
+    const sorted = [...votes].sort((a, b) => new Date(b.date) - new Date(a.date));
 
+    const grouped = {};
+
+    sorted.forEach(vote => {
+        const voteDate = new Date(vote.date);
+        const dateKey = voteDate.toISOString().split('T')[0]; // YYYY-MM-DD
+
+        // Initialize date group if needed
+        if (!grouped[dateKey]) {
+            grouped[dateKey] = {
+                dateFormatted: voteDate.toLocaleDateString('en-US', {
+                    weekday: 'long',
+                    month: 'long',
+                    day: 'numeric',
+                    year: 'numeric'
+                }),
+                bills: {},
+                voteCount: 0
+            };
+        }
+
+        // Create bill key
+        const billKey = getBillKey(vote);
+
+        // Initialize bill group if needed
+        if (!grouped[dateKey].bills[billKey]) {
+            grouped[dateKey].bills[billKey] = {
+                displayId: getBillDisplayId(vote),
+                url: vote.legislation_url,
+                votes: []
+            };
+        }
+
+        // Add vote to bill group
+        grouped[dateKey].bills[billKey].votes.push(vote);
+        grouped[dateKey].voteCount++;
+    });
+
+    return grouped;
+}
+
+function getBillKey(vote) {
+    if (vote.legislation_type && vote.legislation_number) {
+        return `${vote.legislation_type}-${vote.legislation_number}`;
+    }
+    // For procedural votes without a bill
+    return `roll-${vote.roll_number}`;
+}
+
+function getBillDisplayId(vote) {
+    if (vote.legislation_type && vote.legislation_number) {
+        return `${vote.legislation_type} ${vote.legislation_number}`;
+    }
+    return `Roll Call ${vote.roll_number}`;
+}
+
+function renderVoteTimeline(votes) {
+    // Take recent votes (last 60 days worth or ~50 votes)
+    const cutoffDate = new Date();
+    cutoffDate.setDate(cutoffDate.getDate() - 60);
+
+    const recentVotes = votes
+        .filter(v => new Date(v.date) >= cutoffDate)
+        .slice(0, 50);
+
+    const grouped = groupVotesByDateAndBill(recentVotes);
     const container = document.getElementById('recent-votes');
-    container.removeAttribute('aria-busy');
     container.innerHTML = '';
 
-    sortedVotes.forEach(vote => {
-        const card = createVoteCard(vote);
-        container.appendChild(card);
+    // Render each date group
+    Object.entries(grouped).forEach(([dateKey, dateGroup]) => {
+        const dateEl = document.createElement('div');
+        dateEl.className = 'date-group';
+
+        // Date header
+        dateEl.innerHTML = `
+            <div class="date-header">
+                <span class="date-text">${dateGroup.dateFormatted}</span>
+                <span class="vote-count">${dateGroup.voteCount} vote${dateGroup.voteCount > 1 ? 's' : ''}</span>
+            </div>
+        `;
+
+        // Render each bill within this date
+        Object.entries(dateGroup.bills).forEach(([billKey, billGroup]) => {
+            const billEl = document.createElement('div');
+            billEl.className = 'bill-group';
+
+            // Bill header
+            const billHeader = document.createElement('div');
+            billHeader.className = 'bill-header';
+            billHeader.innerHTML = `
+                <span class="bill-id">
+                    <a href="${billGroup.url}" target="_blank" rel="noopener">${billGroup.displayId}</a>
+                </span>
+                <span class="bill-meta">${billGroup.votes.length} roll call${billGroup.votes.length > 1 ? 's' : ''}</span>
+            `;
+            billEl.appendChild(billHeader);
+
+            // Vote list
+            const voteList = document.createElement('div');
+            voteList.className = 'vote-list';
+
+            billGroup.votes.forEach(vote => {
+                const voteItem = createVoteItem(vote);
+                voteList.appendChild(voteItem);
+            });
+
+            billEl.appendChild(voteList);
+            dateEl.appendChild(billEl);
+        });
+
+        container.appendChild(dateEl);
     });
 }
 
-function createVoteCard(vote) {
-    const card = document.createElement('article');
-    card.className = 'vote-card';
+function createVoteItem(vote) {
+    const item = document.createElement('div');
+    item.className = 'vote-item';
 
-    if (vote.voted_with_party === true) {
-        card.classList.add('with-party');
-    } else if (vote.voted_with_party === false) {
-        card.classList.add('against-party');
+    if (vote.voted_with_party === false) {
+        item.classList.add('against-party');
     }
 
-    const billId = vote.legislation_type && vote.legislation_number
-        ? `${vote.legislation_type} ${vote.legislation_number}`
-        : `Roll ${vote.roll_number}`;
+    // Vote badge
+    const voteBadgeClass = getVoteBadgeClass(vote.murphy_vote);
 
-    const voteDate = new Date(vote.date);
-    const formattedDate = voteDate.toLocaleDateString('en-US', {
-        month: 'short',
-        day: 'numeric',
-        year: 'numeric'
-    });
+    // Result badge
+    const resultClass = vote.result.toLowerCase().includes('pass') ||
+                       vote.result.toLowerCase().includes('agreed') ? 'passed' : 'failed';
 
-    const murphyVoteClass = getMurphyVoteClass(vote.murphy_vote);
-    const resultClass = vote.result.toLowerCase().includes('pass') ? 'result-passed' : 'result-failed';
-
+    // Party breakdown
     const partyBreakdown = formatPartyBreakdown(vote.party_totals);
-    const withPartyText = vote.voted_with_party === false
-        ? '<em>(Broke with party)</em>'
-        : '';
 
-    card.innerHTML = `
-        <header>
-            <div>
-                <span class="bill-id">
-                    <a href="${vote.legislation_url}" target="_blank">${billId}</a>
-                </span>
-                ${withPartyText}
-            </div>
-            <span class="vote-date">${formattedDate}</span>
-        </header>
-        <div>
-            <span class="murphy-vote ${murphyVoteClass}">${vote.murphy_vote}</span>
-            <span class="result ${resultClass}">- ${vote.result}</span>
-        </div>
-        <div class="party-breakdown">${partyBreakdown}</div>
+    // Vote type (if available from result text)
+    const voteType = getVoteType(vote);
+
+    item.innerHTML = `
+        <span class="vote-badge ${voteBadgeClass}">${vote.murphy_vote}</span>
+        <span class="result-badge ${resultClass}">${vote.result}</span>
+        ${vote.voted_with_party === false ? '<span class="party-break-tag">Bipartisan</span>' : ''}
+        <span class="party-split">${partyBreakdown}</span>
+        ${voteType ? `<span class="vote-type">${voteType}</span>` : ''}
     `;
 
-    return card;
+    return item;
 }
 
-function getMurphyVoteClass(vote) {
+function getVoteBadgeClass(vote) {
     const v = vote.toLowerCase();
     if (v === 'yea' || v === 'aye') return 'yea';
     if (v === 'nay' || v === 'no') return 'nay';
     if (v === 'not voting') return 'not-voting';
+    return '';
+}
+
+function getVoteType(vote) {
+    // Try to extract vote type from the result or question
+    const result = vote.result.toLowerCase();
+    if (result.includes('motion to recommit')) return 'Motion to Recommit';
+    if (result.includes('previous question')) return 'Previous Question';
+    if (result.includes('rule')) return 'Rule';
+    if (result.includes('amendment')) return 'Amendment';
+    if (result.includes('passage')) return 'Passage';
+    if (result.includes('concur')) return 'Concurrence';
+
+    // Use vote_type if informative
+    if (vote.vote_type && !vote.vote_type.includes('Yea-And-Nay')) {
+        return vote.vote_type;
+    }
+
     return '';
 }
 
@@ -117,11 +224,13 @@ function formatPartyBreakdown(partyTotals) {
 
     if (!rep || !dem) return '';
 
-    return `R: ${rep.yea}-${rep.nay} | D: ${dem.yea}-${dem.nay}`;
+    return `R ${rep.yea}-${rep.nay} | D ${dem.yea}-${dem.nay}`;
 }
 
 function renderConsistencyAlerts(consistency) {
     const container = document.getElementById('consistency-alerts');
+    const totalBreaks = consistency.against_party_count ||
+                       (consistency.against_party_votes ? consistency.against_party_votes.length : 0);
 
     // Get recent party breaks (last 90 days)
     const ninetyDaysAgo = new Date();
@@ -132,36 +241,30 @@ function renderConsistencyAlerts(consistency) {
         .filter(v => new Date(v.date) >= ninetyDaysAgo)
         .slice(0, 5);
 
-    // Build summary
-    const totalBreaks = consistency.against_party_count || againstParty.length;
-
-    let html = `<p><strong>${totalBreaks} total bipartisan votes</strong> (voting against Republican majority)</p>`;
+    let html = `
+        <div class="consistency-stat">
+            <span class="number">${totalBreaks}</span>
+            <span class="label">times voted against Republican majority</span>
+        </div>
+    `;
 
     if (recentBreaks.length === 0) {
-        html += '<p class="no-alerts">No party-break votes in the past 90 days.</p>';
+        html += `<p class="consistency-note">No bipartisan votes in the past 90 days.</p>`;
     } else {
-        html += '<p>Recent examples:</p>';
-        recentBreaks.forEach(vote => {
+        html += `<p class="consistency-note"><strong>Recent examples:</strong> `;
+
+        const examples = recentBreaks.map(vote => {
             const voteDate = new Date(vote.date).toLocaleDateString('en-US', {
                 month: 'short',
-                day: 'numeric',
-                year: 'numeric'
+                day: 'numeric'
             });
-
             const billId = vote.legislation_type && vote.legislation_number
                 ? `${vote.legislation_type} ${vote.legislation_number}`
                 : `Roll #${vote.roll_number}`;
-
-            const clerkUrl = `https://clerk.house.gov/evs/${new Date(vote.date).getFullYear()}/roll${vote.roll_number}.xml`;
-
-            html += `
-                <div class="alert-card party-break">
-                    <strong>${voteDate}:</strong> Voted <strong>${vote.murphy_vote}</strong> on
-                    <a href="${clerkUrl}" target="_blank">${billId}</a>
-                    - broke with Republican majority (${vote.result})
-                </div>
-            `;
+            return `${voteDate} on ${billId}`;
         });
+
+        html += examples.join(' • ') + '</p>';
     }
 
     container.innerHTML = html;

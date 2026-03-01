@@ -4,86 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rep. Greg Murphy (NC-03) - Congressional Voting Record</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <meta name="description" content="Track Rep. Greg Murphy's voting record, party alignment, and legislative activity. Unofficial data mirror for civic transparency.">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="alternate" type="application/rss+xml" title="Murphy Voting Record RSS" href="feeds/votes.xml">
 </head>
 <body>
-    <header class="container">
-        <hgroup>
+    <header class="site-header">
+        <div class="container">
             <h1>Rep. Greg Murphy</h1>
-            <p>North Carolina's 3rd Congressional District | Republican</p>
-        </hgroup>
+            <p class="subtitle">NC-03 <span>|</span> Republican</p>
+        </div>
     </header>
 
     <main class="container">
         <!-- Stats Bar -->
-        <section id="stats" class="stats-grid">
-            <article>
-                <h3 id="stat-participation">--</h3>
-                <p>Participation</p>
-            </article>
-            <article>
-                <h3 id="stat-alignment">--</h3>
-                <p>Party Alignment</p>
-            </article>
-            <article>
-                <h3 id="stat-bipartisan">--</h3>
-                <p>Bipartisan Votes</p>
-            </article>
-            <article>
-                <h3 id="stat-bills">--</h3>
-                <p>Bills Sponsored</p>
-            </article>
+        <section class="stats-bar" id="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="stat-participation">--</div>
+                <div class="stat-label">Participation</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="stat-alignment">--</div>
+                <div class="stat-label">Party Alignment</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="stat-bipartisan">--</div>
+                <div class="stat-label">Bipartisan</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="stat-bills">--</div>
+                <div class="stat-label">Bills Sponsored</div>
+            </div>
         </section>
 
         <!-- Recent Votes -->
         <section id="votes-section">
-            <h2>Recent Votes</h2>
-            <div id="recent-votes" aria-busy="true">
-                <p>Loading votes...</p>
+            <div class="section-header">
+                <h2>Recent Voting Activity</h2>
+            </div>
+            <div id="recent-votes" class="vote-timeline">
+                <div class="loading">Loading votes</div>
             </div>
         </section>
 
-        <!-- Consistency Alerts -->
+        <!-- Consistency Notes -->
         <section id="alerts-section">
-            <h2>Consistency Notes</h2>
-            <div id="consistency-alerts">
-                <p>Loading...</p>
+            <div class="section-header">
+                <h2>Bipartisan Votes</h2>
+            </div>
+            <div id="consistency-alerts" class="consistency-summary">
+                <div class="loading">Loading</div>
             </div>
         </section>
 
-        <!-- Links -->
+        <!-- Resources -->
         <section id="links-section">
-            <h2>Resources</h2>
-            <div class="grid">
-                <a href="https://www.congress.gov/member/gregory-murphy/M001210" role="button" class="outline">
-                    Congress.gov Profile
+            <div class="section-header">
+                <h2>Resources</h2>
+            </div>
+            <div class="resource-links">
+                <a href="https://www.congress.gov/member/gregory-murphy/M001210" class="resource-link" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    Congress.gov
                 </a>
-                <a href="https://github.com/sdjohnso/greg-murphy-mirror" role="button" class="outline">
-                    Full Data (GitHub)
+                <a href="https://github.com/sdjohnso/greg-murphy-mirror" class="resource-link" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    Full Data
                 </a>
-                <a href="feeds/votes.xml" role="button" class="outline">
+                <a href="feeds/votes.xml" class="resource-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
                     RSS Feed
                 </a>
             </div>
         </section>
     </main>
 
-    <footer class="container">
-        <p>
-            <small>
+    <footer class="site-footer">
+        <div class="container">
+            <p>
                 Data sourced from <a href="https://api.congress.gov">Congress.gov API</a> and
-                <a href="https://clerk.house.gov">House Clerk</a>.
-                Updated daily. <span id="last-updated"></span>
-            </small>
-        </p>
-        <p>
-            <small>
+                <a href="https://clerk.house.gov">House Clerk</a>. Updated daily.
+            </p>
+            <p>
                 This is an unofficial data mirror for civic transparency.
                 For official information, visit <a href="https://murphy.house.gov">murphy.house.gov</a>.
-            </small>
-        </p>
+            </p>
+            <p class="last-updated" id="last-updated"></p>
+        </div>
     </footer>
 
     <script src="assets/app.js"></script>

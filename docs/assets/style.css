@@ -1,145 +1,612 @@
-/* Custom styles for Murphy Dashboard */
+/* ============================================
+   Greg Murphy Congressional Dashboard
+   Professional design inspired by civic transparency
+   ============================================ */
 
 :root {
-    --rep-color: #c62828;
-    --dem-color: #1565c0;
-    --pass-color: #2e7d32;
-    --fail-color: #c62828;
+  /* Primary - Trust & Professionalism */
+  --primary-navy: #1a365d;
+  --primary-light: #2c5282;
+  --primary-dark: #1a202c;
+
+  /* Republican Red (accent) */
+  --rep-red: #c53030;
+  --rep-red-dark: #9b2c2c;
+  --rep-red-light: #fc8181;
+
+  /* Democratic Blue (for context) */
+  --dem-blue: #2b6cb0;
+
+  /* Semantic Colors */
+  --pass-green: #276749;
+  --pass-green-bg: rgba(72, 187, 120, 0.15);
+  --fail-red: #c53030;
+  --fail-red-bg: rgba(245, 101, 101, 0.15);
+
+  /* Neutrals */
+  --white: #ffffff;
+  --light-gray: #f7fafc;
+  --gray-100: #edf2f7;
+  --gray-200: #e2e8f0;
+  --gray-300: #cbd5e0;
+  --gray-400: #a0aec0;
+  --gray-500: #718096;
+  --gray-600: #4a5568;
+  --gray-700: #2d3748;
+  --dark-gray: #1a202c;
+
+  /* Typography */
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-heading: Georgia, 'Times New Roman', serif;
+  --font-size-base: 16px;
+  --line-height: 1.6;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+
+  /* Container */
+  --container-max: 800px;
+  --container-padding: 1.25rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  /* Borders */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
 }
 
-/* Stats Grid */
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 1rem;
-    margin-bottom: 2rem;
+/* ============================================
+   Reset & Base
+   ============================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.stats-grid article {
-    text-align: center;
-    padding: 1rem;
+html {
+  font-size: var(--font-size-base);
+  scroll-behavior: smooth;
 }
 
-.stats-grid h3 {
-    margin-bottom: 0.25rem;
-    font-size: 2rem;
-    color: var(--pico-primary);
+body {
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  color: var(--gray-700);
+  background-color: var(--light-gray);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
-.stats-grid p {
-    margin: 0;
-    font-size: 0.9rem;
-    opacity: 0.8;
+a {
+  color: var(--primary-navy);
+  text-decoration: none;
+  transition: color var(--transition-fast);
 }
 
-/* Vote Cards */
-.vote-card {
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border-left: 4px solid var(--pico-muted-border-color);
+a:hover {
+  color: var(--primary-light);
 }
 
-.vote-card.with-party {
-    border-left-color: var(--rep-color);
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-.vote-card.against-party {
-    border-left-color: var(--dem-color);
+/* ============================================
+   Typography
+   ============================================ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary-navy);
 }
 
-.vote-card header {
-    display: flex;
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+small {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+}
+
+/* ============================================
+   Layout
+   ============================================ */
+
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+/* ============================================
+   Header
+   ============================================ */
+
+.site-header {
+  background: linear-gradient(135deg, var(--primary-navy) 0%, var(--primary-light) 100%);
+  color: var(--white);
+  padding: var(--spacing-xl) 0;
+  text-align: center;
+}
+
+.site-header h1 {
+  color: var(--white);
+  margin-bottom: var(--spacing-xs);
+  font-size: clamp(1.75rem, 5vw, 2.25rem);
+}
+
+.site-header .subtitle {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.site-header .subtitle span {
+  opacity: 0.6;
+  margin: 0 0.5rem;
+}
+
+/* ============================================
+   Main Content
+   ============================================ */
+
+main {
+  padding: var(--spacing-xl) 0 var(--spacing-2xl);
+}
+
+section {
+  margin-bottom: var(--spacing-xl);
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+/* ============================================
+   Stats Bar
+   ============================================ */
+
+.stats-bar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-xl);
+}
+
+@media (min-width: 600px) {
+  .stats-bar {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.stat-card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--primary-navy);
+  line-height: 1;
+  margin-bottom: var(--spacing-xs);
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--gray-500);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ============================================
+   Section Headers
+   ============================================ */
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--gray-200);
+}
+
+.section-header h2 {
+  margin-bottom: 0;
+}
+
+.section-header .view-all {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* ============================================
+   Timeline / Vote Feed
+   ============================================ */
+
+.vote-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+/* Date Group */
+.date-group {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.date-header {
+  background: var(--gray-100);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-bottom: 1px solid var(--gray-200);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.date-header .date-text {
+  font-weight: 600;
+  color: var(--gray-700);
+  font-size: 0.95rem;
+}
+
+.date-header .vote-count {
+  font-size: 0.75rem;
+  color: var(--gray-500);
+  background: var(--gray-200);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+/* Bill Group */
+.bill-group {
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.bill-group:last-child {
+  border-bottom: none;
+}
+
+.bill-header {
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+@media (min-width: 500px) {
+  .bill-header {
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+  }
+}
+
+.bill-id {
+  font-weight: 700;
+  color: var(--primary-navy);
+  font-size: 1rem;
+}
+
+.bill-id a {
+  color: inherit;
+}
+
+.bill-id a:hover {
+  text-decoration: underline;
+}
+
+.bill-meta {
+  font-size: 0.8rem;
+  color: var(--gray-500);
+}
+
+/* Vote Items */
+.vote-list {
+  padding: 0 var(--spacing-md) var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.vote-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--gray-100);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.vote-item.against-party {
+  background: rgba(43, 108, 176, 0.1);
+  border-left: 3px solid var(--dem-blue);
+}
+
+/* Vote Badge */
+.vote-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.vote-badge.yea {
+  background: var(--pass-green-bg);
+  color: var(--pass-green);
+}
+
+.vote-badge.nay {
+  background: var(--fail-red-bg);
+  color: var(--fail-red);
+}
+
+.vote-badge.not-voting {
+  background: var(--gray-200);
+  color: var(--gray-500);
+}
+
+/* Result Badge */
+.result-badge {
+  font-size: 0.8rem;
+  color: var(--gray-600);
+}
+
+.result-badge.passed {
+  color: var(--pass-green);
+}
+
+.result-badge.failed {
+  color: var(--fail-red);
+}
+
+/* Vote Type Label */
+.vote-type {
+  font-size: 0.75rem;
+  color: var(--gray-500);
+  flex: 1;
+  text-align: right;
+}
+
+/* Party Breakdown (compact) */
+.party-split {
+  font-size: 0.75rem;
+  color: var(--gray-400);
+  margin-left: auto;
+}
+
+/* Party Break Tag */
+.party-break-tag {
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  background: var(--dem-blue);
+  color: var(--white);
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+/* ============================================
+   Consistency Section
+   ============================================ */
+
+.consistency-summary {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.consistency-stat {
+  display: flex;
+  align-items: baseline;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.consistency-stat .number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dem-blue);
+}
+
+.consistency-stat .label {
+  color: var(--gray-600);
+}
+
+.consistency-note {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+  padding: var(--spacing-md);
+  background: var(--gray-100);
+  border-radius: var(--radius-sm);
+}
+
+/* ============================================
+   Resource Links
+   ============================================ */
+
+.resource-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.resource-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md);
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  color: var(--gray-700);
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: center;
+  transition: all var(--transition-fast);
+}
+
+.resource-link:hover {
+  border-color: var(--primary-navy);
+  color: var(--primary-navy);
+  box-shadow: var(--shadow-sm);
+}
+
+.resource-link svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+
+.site-footer {
+  background: var(--primary-navy);
+  color: rgba(255, 255, 255, 0.8);
+  padding: var(--spacing-xl) 0;
+  margin-top: var(--spacing-2xl);
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  margin-bottom: var(--spacing-sm);
+  font-size: 0.85rem;
+}
+
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.site-footer a {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.site-footer a:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.last-updated {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: var(--spacing-sm);
+}
+
+/* ============================================
+   Loading State
+   ============================================ */
+
+.loading {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  color: var(--gray-500);
+}
+
+.loading::after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--gray-300);
+  border-top-color: var(--primary-navy);
+  border-radius: 50%;
+  margin-left: var(--spacing-sm);
+  animation: spin 0.8s linear infinite;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ============================================
+   Error State
+   ============================================ */
+
+.error-message {
+  text-align: center;
+  padding: var(--spacing-xl);
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  color: var(--gray-600);
+}
+
+.error-message a {
+  font-weight: 500;
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+
+@media (max-width: 500px) {
+  .vote-item {
+    flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-}
+  }
 
-.vote-card .bill-id {
-    font-weight: bold;
-}
+  .vote-type {
+    text-align: left;
+    width: 100%;
+    margin-top: var(--spacing-xs);
+  }
 
-.vote-card .vote-date {
-    font-size: 0.85rem;
-    opacity: 0.7;
-    white-space: nowrap;
-}
-
-.vote-card .murphy-vote {
-    font-weight: bold;
-    padding: 0.2rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.85rem;
-}
-
-.vote-card .murphy-vote.yea {
-    background-color: rgba(46, 125, 50, 0.2);
-    color: var(--pass-color);
-}
-
-.vote-card .murphy-vote.nay {
-    background-color: rgba(198, 40, 40, 0.2);
-    color: var(--fail-color);
-}
-
-.vote-card .murphy-vote.not-voting {
-    background-color: rgba(128, 128, 128, 0.2);
-    color: #666;
-}
-
-.vote-card .party-breakdown {
-    font-size: 0.85rem;
-    opacity: 0.8;
-}
-
-.vote-card .result {
-    font-size: 0.9rem;
-    margin-top: 0.25rem;
-}
-
-.result-passed {
-    color: var(--pass-color);
-}
-
-.result-failed {
-    color: var(--fail-color);
-}
-
-/* Consistency Alerts */
-.alert-card {
-    padding: 1rem;
-    margin-bottom: 0.75rem;
-    border-radius: 4px;
-    background-color: rgba(255, 193, 7, 0.1);
-    border-left: 4px solid #ffc107;
-}
-
-.alert-card.party-break {
-    background-color: rgba(33, 150, 243, 0.1);
-    border-left-color: #2196f3;
-}
-
-/* No alerts state */
-.no-alerts {
-    padding: 1rem;
-    text-align: center;
-    opacity: 0.7;
-}
-
-/* Footer */
-footer {
-    margin-top: 3rem;
-    text-align: center;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-    .stats-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .vote-card header {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
+  .party-split {
+    margin-left: 0;
+  }
 }
