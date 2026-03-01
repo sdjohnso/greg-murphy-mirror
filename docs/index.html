@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rep. Greg Murphy (NC-03) - Congressional Voting Record</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="alternate" type="application/rss+xml" title="Murphy Voting Record RSS" href="feeds/votes.xml">
+</head>
+<body>
+    <header class="container">
+        <hgroup>
+            <h1>Rep. Greg Murphy</h1>
+            <p>North Carolina's 3rd Congressional District | Republican</p>
+        </hgroup>
+    </header>
+
+    <main class="container">
+        <!-- Stats Bar -->
+        <section id="stats" class="stats-grid">
+            <article>
+                <h3 id="stat-participation">--</h3>
+                <p>Participation</p>
+            </article>
+            <article>
+                <h3 id="stat-alignment">--</h3>
+                <p>Party Alignment</p>
+            </article>
+            <article>
+                <h3 id="stat-bipartisan">--</h3>
+                <p>Bipartisan Votes</p>
+            </article>
+            <article>
+                <h3 id="stat-bills">--</h3>
+                <p>Bills Sponsored</p>
+            </article>
+        </section>
+
+        <!-- Recent Votes -->
+        <section id="votes-section">
+            <h2>Recent Votes</h2>
+            <div id="recent-votes" aria-busy="true">
+                <p>Loading votes...</p>
+            </div>
+        </section>
+
+        <!-- Consistency Alerts -->
+        <section id="alerts-section">
+            <h2>Consistency Notes</h2>
+            <div id="consistency-alerts">
+                <p>Loading...</p>
+            </div>
+        </section>
+
+        <!-- Links -->
+        <section id="links-section">
+            <h2>Resources</h2>
+            <div class="grid">
+                <a href="https://www.congress.gov/member/gregory-murphy/M001210" role="button" class="outline">
+                    Congress.gov Profile
+                </a>
+                <a href="https://github.com/sdjohnso/greg-murphy-mirror" role="button" class="outline">
+                    Full Data (GitHub)
+                </a>
+                <a href="feeds/votes.xml" role="button" class="outline">
+                    RSS Feed
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <p>
+            <small>
+                Data sourced from <a href="https://api.congress.gov">Congress.gov API</a> and
+                <a href="https://clerk.house.gov">House Clerk</a>.
+                Updated daily. <span id="last-updated"></span>
+            </small>
+        </p>
+        <p>
+            <small>
+                This is an unofficial data mirror for civic transparency.
+                For official information, visit <a href="https://murphy.house.gov">murphy.house.gov</a>.
+            </small>
+        </p>
+    </footer>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>

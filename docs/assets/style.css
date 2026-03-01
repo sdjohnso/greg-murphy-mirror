@@ -1,0 +1,145 @@
+/* Custom styles for Murphy Dashboard */
+
+:root {
+    --rep-color: #c62828;
+    --dem-color: #1565c0;
+    --pass-color: #2e7d32;
+    --fail-color: #c62828;
+}
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.stats-grid article {
+    text-align: center;
+    padding: 1rem;
+}
+
+.stats-grid h3 {
+    margin-bottom: 0.25rem;
+    font-size: 2rem;
+    color: var(--pico-primary);
+}
+
+.stats-grid p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Vote Cards */
+.vote-card {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-left: 4px solid var(--pico-muted-border-color);
+}
+
+.vote-card.with-party {
+    border-left-color: var(--rep-color);
+}
+
+.vote-card.against-party {
+    border-left-color: var(--dem-color);
+}
+
+.vote-card header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.vote-card .bill-id {
+    font-weight: bold;
+}
+
+.vote-card .vote-date {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    white-space: nowrap;
+}
+
+.vote-card .murphy-vote {
+    font-weight: bold;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.vote-card .murphy-vote.yea {
+    background-color: rgba(46, 125, 50, 0.2);
+    color: var(--pass-color);
+}
+
+.vote-card .murphy-vote.nay {
+    background-color: rgba(198, 40, 40, 0.2);
+    color: var(--fail-color);
+}
+
+.vote-card .murphy-vote.not-voting {
+    background-color: rgba(128, 128, 128, 0.2);
+    color: #666;
+}
+
+.vote-card .party-breakdown {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.vote-card .result {
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+.result-passed {
+    color: var(--pass-color);
+}
+
+.result-failed {
+    color: var(--fail-color);
+}
+
+/* Consistency Alerts */
+.alert-card {
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    border-radius: 4px;
+    background-color: rgba(255, 193, 7, 0.1);
+    border-left: 4px solid #ffc107;
+}
+
+.alert-card.party-break {
+    background-color: rgba(33, 150, 243, 0.1);
+    border-left-color: #2196f3;
+}
+
+/* No alerts state */
+.no-alerts {
+    padding: 1rem;
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .vote-card header {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

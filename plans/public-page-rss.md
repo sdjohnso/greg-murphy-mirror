@@ -1,8 +1,8 @@
 # Public-Facing Page + RSS Feed
 **Branch:** `main`
 **Created:** 2026-03-01
-**Status:** Not Started - Blocked by initial-setup.md completion
-**Next Action:** Wait for mirror to be complete, then enable GitHub Pages
+**Status:** In Progress - Phase 1, Step 1.2
+**Next Action:** Create dashboard page with HTML, CSS, and JavaScript
 **Purpose:** Create a shareable webpage and RSS feed so non-technical users can access Murphy's voting record
 
 ---
@@ -128,9 +128,9 @@ Single-page dashboard showing:
 **Goal:** Enable GitHub Pages and create basic page structure
 
 ### Step 1.1: Enable GitHub Pages
-- [ ] Go to repo Settings → Pages
-- [ ] Set Source: Deploy from branch, main, /docs folder
-- [ ] Verify page is accessible at expected URL
+- [x] Go to repo Settings → Pages
+- [x] Set Source: Deploy from branch, main, /docs folder
+- [x] Verify page is accessible at expected URL
 
 **Resources:**
 - GitHub Pages docs: https://docs.github.com/en/pages
