@@ -595,17 +595,34 @@ section:last-child {
 
 @media (max-width: 500px) {
   .vote-item {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    gap: var(--spacing-xs);
   }
 
-  .vote-type {
-    text-align: left;
-    width: 100%;
-    margin-top: var(--spacing-xs);
+  .vote-badge {
+    padding: 2px 8px;
+    font-size: 0.75rem;
+  }
+
+  .result-badge {
+    font-size: 0.75rem;
   }
 
   .party-split {
-    margin-left: 0;
+    font-size: 0.7rem;
+  }
+
+  .vote-type {
+    font-size: 0.7rem;
+  }
+
+  .vote-list {
+    gap: var(--spacing-xs);
+    padding: 0 var(--spacing-sm) var(--spacing-sm);
+  }
+
+  .bill-header {
+    padding: var(--spacing-sm);
   }
 }
