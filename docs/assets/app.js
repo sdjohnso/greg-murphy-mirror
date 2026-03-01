@@ -133,11 +133,23 @@ function renderVoteTimeline(votes) {
             // Bill header
             const billHeader = document.createElement('div');
             billHeader.className = 'bill-header';
+            const emailSubject = encodeURIComponent(`Regarding ${billGroup.displayId}`);
+            const emailBody = encodeURIComponent(`Dear Rep. Murphy,\n\nI am writing regarding ${billGroup.displayId}.\n\n`);
             billHeader.innerHTML = `
                 <span class="bill-id">
                     <a href="${billGroup.url}" target="_blank" rel="noopener">${billGroup.displayId}</a>
                 </span>
-                <span class="bill-meta">${billGroup.votes.length} roll call${billGroup.votes.length > 1 ? 's' : ''}</span>
+                <span class="bill-meta">
+                    ${billGroup.votes.length} roll call${billGroup.votes.length > 1 ? 's' : ''}
+                    <a href="https://murphy.house.gov/contact?subject=${emailSubject}"
+                       class="email-rep"
+                       target="_blank"
+                       rel="noopener"
+                       title="Email Rep. Murphy about this bill"
+                       onclick="trackEmailClick('${billGroup.displayId}')">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </a>
+                </span>
             `;
             billEl.appendChild(billHeader);
 
@@ -287,6 +299,27 @@ function renderLastUpdated(timestamp) {
     });
 
     document.getElementById('last-updated').textContent = `Last updated: ${formatted}`;
+}
+
+/**
+ * Track email link clicks (for analytics integration)
+ * Currently logs to console; can be extended with GA or other analytics
+ */
+function trackEmailClick(billId) {
+    console.log(`[Email Click] ${billId} - ${new Date().toISOString()}`);
+
+    // If Google Analytics is present, send event
+    if (typeof gtag === 'function') {
+        gtag('event', 'email_click', {
+            'bill_id': billId,
+            'event_category': 'engagement'
+        });
+    }
+
+    // Store in localStorage for simple tracking
+    const clicks = JSON.parse(localStorage.getItem('emailClicks') || '[]');
+    clicks.push({ billId, timestamp: new Date().toISOString() });
+    localStorage.setItem('emailClicks', JSON.stringify(clicks.slice(-100))); // Keep last 100
 }
 
 // Load data on page load
