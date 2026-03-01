@@ -199,20 +199,26 @@ function getVoteBadgeClass(vote) {
 }
 
 function getVoteType(vote) {
-    // Try to extract vote type from the result or question
+    // Extract meaningful vote context from the result field
     const result = vote.result.toLowerCase();
+
     if (result.includes('motion to recommit')) return 'Motion to Recommit';
     if (result.includes('previous question')) return 'Previous Question';
-    if (result.includes('rule')) return 'Rule';
+    if (result.includes('motion to table')) return 'Motion to Table';
+    if (result.includes('suspend the rules')) return 'Suspension';
     if (result.includes('amendment')) return 'Amendment';
-    if (result.includes('passage')) return 'Passage';
     if (result.includes('concur')) return 'Concurrence';
+    if (result.includes('conference report')) return 'Conference Report';
+    if (result.includes('veto')) return 'Veto Override';
 
-    // Use vote_type if informative
-    if (vote.vote_type && !vote.vote_type.includes('Yea-And-Nay')) {
-        return vote.vote_type;
-    }
+    // Check if it's a rule vote
+    if (result.includes('rule') && !result.includes('suspend')) return 'Rule';
 
+    // Final passage is implied if none of the above
+    // Only show "Passage" if the result explicitly says it
+    if (result.includes('passed') || result.includes('agreed')) return 'Passage';
+
+    // Don't show procedural vote types like "Yea-and-Nay", "Recorded Vote", etc.
     return '';
 }
 
