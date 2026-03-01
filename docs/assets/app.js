@@ -135,16 +135,15 @@ function renderVoteTimeline(votes) {
             billHeader.className = 'bill-header';
             const emailSubject = encodeURIComponent(`Regarding ${billGroup.displayId}`);
             const emailBody = encodeURIComponent(`Dear Rep. Murphy,\n\nI am writing regarding ${billGroup.displayId}.\n\n`);
+            const mailtoLink = `mailto:greg.murphy@mail.house.gov?subject=${emailSubject}&body=${emailBody}`;
             billHeader.innerHTML = `
                 <span class="bill-id">
                     <a href="${billGroup.url}" target="_blank" rel="noopener">${billGroup.displayId}</a>
                 </span>
                 <span class="bill-meta">
                     ${billGroup.votes.length} roll call${billGroup.votes.length > 1 ? 's' : ''}
-                    <a href="https://murphy.house.gov/contact?subject=${emailSubject}"
+                    <a href="${mailtoLink}"
                        class="email-rep"
-                       target="_blank"
-                       rel="noopener"
                        title="Email Rep. Murphy about this bill"
                        onclick="trackEmailClick('${billGroup.displayId}')">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
