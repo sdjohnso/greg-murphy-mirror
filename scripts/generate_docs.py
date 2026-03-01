@@ -43,13 +43,15 @@ def save_md(content: str, path: Path):
     print(f"  Saved {path}")
 
 
-def format_date(date_str: str | None) -> str:
+def format_date(date_str: str | None, short: bool = False) -> str:
     """Format ISO date string for display."""
     if not date_str:
         return "Unknown"
     try:
         dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
-        return dt.strftime("%B %d, %Y")
+        if short:
+            return dt.strftime("%Y-%m-%d")
+        return dt.strftime("%b %d, %Y")
     except:
         return date_str[:10] if date_str else "Unknown"
 
@@ -235,7 +237,7 @@ def generate_recent_votes(votes: list) -> str:
 
     rows = ""
     for vote in recent[:50]:  # Limit to 50
-        date = format_date(vote.get("date"))[:12]
+        date = format_date(vote.get("date"))
         roll = vote.get("roll_number", "?")
         result = vote.get("result", "?")
         murphy = vote.get("murphy_vote", "?")
@@ -281,7 +283,7 @@ This page shows bills that received multiple votes (amendments, recommit motions
         content += "|------|------|----------|--------|--------|\n"
 
         for vote in data["votes"]:
-            date = format_date(vote.get("date"))[:12]
+            date = format_date(vote.get("date"))
             roll = vote.get("roll_number", "?")
             question = (vote.get("question") or "Vote")[:40]
             result = vote.get("result", "?")
@@ -322,7 +324,7 @@ def generate_consistency(consistency: dict) -> str:
 """
 
     for vote in against_party[:25]:
-        date = format_date(vote.get("date"))[:12]
+        date = format_date(vote.get("date"))
         roll = vote.get("roll_number", "?")
         leg = f"{vote.get('legislation_type', '')} {vote.get('legislation_number', '')}"
         result = vote.get("result", "?")
@@ -344,7 +346,7 @@ These are bills where Rep. Murphy voted differently across multiple stages
         content += "|------|------|----------|-------------|\n"
 
         for vote in data["votes"]:
-            date = format_date(vote.get("date"))[:12]
+            date = format_date(vote.get("date"))
             roll = vote.get("roll_number", "?")
             question = (vote.get("question") or "Vote")[:35]
             murphy = vote.get("murphy_vote", "?")

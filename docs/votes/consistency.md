@@ -12,31 +12,31 @@
 
 | Date | Roll | Legislation | Result | Murphy Vote |
 |------|------|-------------|--------|-------------|
-| October 26,  | 539 | None None | Failed | Aye |
-| April 17, 20 | 135 | None None | Failed | Aye |
-| April 12, 20 | 115 | None None | Agreed to | No |
-| July 24, 202 | 389 | None None | Failed | No |
-| November 02, | 572 | None None | Failed | No |
-| November 02, | 573 | None None | Failed | No |
-| September 28 | 482 | None None | Failed | No |
-| January 06,  | 19 | None None | Failed | Nay |
-| July 26, 202 | 370 | None None | Failed | Aye |
-| July 26, 202 | 371 | None None | Failed | Aye |
-| September 27 | 408 | None None | Failed | No |
-| September 27 | 409 | None None | Failed | No |
-| September 27 | 411 | None None | Failed | Aye |
-| September 27 | 431 | None None | Agreed to | Aye |
-| October 26,  | 545 | None None | Failed | Aye |
-| October 26,  | 554 | None None | Failed | Aye |
-| November 02, | 571 | None None | Failed | No |
-| April 12, 20 | 114 | None None | Failed | No |
-| November 14, | 657 | None None | Failed | No |
-| March 06, 20 | 64 | HRES 1061 | Passed | Nay |
-| January 22,  | 43 | None None | Failed | No |
-| January 22,  | 44 | None None | Failed | No |
-| December 01, | 691 | HRES 878 | Passed | Yea |
-| September 03 | 234 | None None | Failed | No |
-| March 24, 20 | 157 | None None | Failed | Aye |
+| Oct 26, 2023 | 539 | None None | Failed | Aye |
+| Apr 17, 2024 | 135 | None None | Failed | Aye |
+| Apr 12, 2024 | 115 | None None | Agreed to | No |
+| Jul 24, 2024 | 389 | None None | Failed | No |
+| Nov 02, 2023 | 572 | None None | Failed | No |
+| Nov 02, 2023 | 573 | None None | Failed | No |
+| Sep 28, 2023 | 482 | None None | Failed | No |
+| Jan 06, 2023 | 19 | None None | Failed | Nay |
+| Jul 26, 2023 | 370 | None None | Failed | Aye |
+| Jul 26, 2023 | 371 | None None | Failed | Aye |
+| Sep 27, 2023 | 408 | None None | Failed | No |
+| Sep 27, 2023 | 409 | None None | Failed | No |
+| Sep 27, 2023 | 411 | None None | Failed | Aye |
+| Sep 27, 2023 | 431 | None None | Agreed to | Aye |
+| Oct 26, 2023 | 545 | None None | Failed | Aye |
+| Oct 26, 2023 | 554 | None None | Failed | Aye |
+| Nov 02, 2023 | 571 | None None | Failed | No |
+| Apr 12, 2024 | 114 | None None | Failed | No |
+| Nov 14, 2023 | 657 | None None | Failed | No |
+| Mar 06, 2024 | 64 | HRES 1061 | Passed | Nay |
+| Jan 22, 2026 | 43 | None None | Failed | No |
+| Jan 22, 2026 | 44 | None None | Failed | No |
+| Dec 01, 2023 | 691 | HRES 878 | Passed | Yea |
+| Sep 03, 2025 | 234 | None None | Failed | No |
+| Mar 24, 2023 | 157 | None None | Failed | Aye |
 
 
 ## Bills with Inconsistent Positions
@@ -49,8 +49,8 @@ These are bills where Rep. Murphy voted differently across multiple stages
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| July 27, 202 | 379 | Vote | Nay |
-| July 27, 202 | 380 | Vote | Yea |
+| Jul 27, 2023 | 379 | Vote | Nay |
+| Jul 27, 2023 | 380 | Vote | Yea |
 
 ### HR-276
 
@@ -63,97 +63,97 @@ These are bills where Rep. Murphy voted differently across multiple stages
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| November 07, | 608 | Vote | Nay |
-| November 07, | 622 | Vote | Yea |
+| Nov 07, 2023 | 608 | Vote | Nay |
+| Nov 07, 2023 | 622 | Vote | Yea |
 
 ### HR-4365
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| September 28 | 501 | Vote | Nay |
-| September 28 | 502 | Vote | Yea |
+| Sep 28, 2023 | 501 | Vote | Nay |
+| Sep 28, 2023 | 502 | Vote | Yea |
 
 ### HR-5525
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| September 29 | 510 | Vote | Nay |
-| September 29 | 511 | Vote | Yea |
+| Sep 29, 2023 | 510 | Vote | Nay |
+| Sep 29, 2023 | 511 | Vote | Yea |
 
 ### HR-4394
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| October 26,  | 557 | Vote | Nay |
-| October 26,  | 558 | Vote | Yea |
+| Oct 26, 2023 | 557 | Vote | Nay |
+| Oct 26, 2023 | 558 | Vote | Yea |
 
 ### HR-2670
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| July 14, 202 | 327 | Vote | Nay |
-| July 14, 202 | 328 | Vote | Yea |
-| September 19 | 395 | Vote | Yea |
-| September 19 | 396 | Vote | Yea |
-| September 20 | 400 | Vote | Nay |
-| December 14, | 723 | Vote | Yea |
+| Jul 14, 2023 | 327 | Vote | Nay |
+| Jul 14, 2023 | 328 | Vote | Yea |
+| Sep 19, 2023 | 395 | Vote | Yea |
+| Sep 19, 2023 | 396 | Vote | Yea |
+| Sep 20, 2023 | 400 | Vote | Nay |
+| Dec 14, 2023 | 723 | Vote | Yea |
 
 ### HR-8035
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| April 20, 20 | 150 | Vote | No |
-| April 20, 20 | 151 | Vote | Yea |
+| Apr 20, 2024 | 150 | Vote | No |
+| Apr 20, 2024 | 151 | Vote | Yea |
 
 ### HR-7023
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| March 21, 20 | 100 | Vote | Nay |
-| March 21, 20 | 101 | Vote | Aye |
+| Mar 21, 2024 | 100 | Vote | Nay |
+| Mar 21, 2024 | 101 | Vote | Aye |
 
 ### HR-4758
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| February 25, | 77 | Vote | Nay |
-| February 25, | 78 | Vote | Yea |
+| Feb 25, 2026 | 77 | Vote | Nay |
+| Feb 25, 2026 | 78 | Vote | Yea |
 
 ### HR-485
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| February 07, | 39 | Vote | Nay |
-| February 07, | 40 | Vote | Aye |
+| Feb 07, 2024 | 39 | Vote | Nay |
+| Feb 07, 2024 | 40 | Vote | Aye |
 
 ### HR-7980
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| September 12 | 416 | Vote | Nay |
-| September 12 | 417 | Vote | Yea |
+| Sep 12, 2024 | 416 | Vote | Nay |
+| Sep 12, 2024 | 417 | Vote | Yea |
 
 ### HR-22
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| January 12,  | 31 | Vote | Yea |
-| April 10, 20 | 101 | Vote | Nay |
-| April 10, 20 | 102 | Vote | Yea |
+| Jan 12, 2023 | 31 | Vote | Yea |
+| Apr 10, 2025 | 101 | Vote | Nay |
+| Apr 10, 2025 | 102 | Vote | Yea |
 
 ### S-1071
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| December 10, | 319 | Vote | Nay |
-| December 10, | 320 | Vote | Yea |
+| Dec 10, 2025 | 319 | Vote | Nay |
+| Dec 10, 2025 | 320 | Vote | Yea |
 
 ### HR-6276
 
 | Date | Roll | Question | Murphy Vote |
 |------|------|----------|-------------|
-| March 12, 20 | 83 | Vote | Nay |
-| March 12, 20 | 84 | Vote | Aye |
+| Mar 12, 2024 | 83 | Vote | Nay |
+| Mar 12, 2024 | 84 | Vote | Aye |
 
 
 ---
