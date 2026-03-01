@@ -1,0 +1,332 @@
+{
+  "generated_at": "2026-03-01T09:13:08.689822",
+  "participation": {
+    "total_votes": 1681,
+    "participated": 1422,
+    "not_voting": 251,
+    "not_found": 0,
+    "participation_rate": 84.6
+  },
+  "party_alignment": {
+    "with_party": 1335,
+    "against_party": 67,
+    "alignment_rate": 95.2,
+    "bipartisan_votes": 67,
+    "calculable_votes": 1402
+  },
+  "votes_by_type": {
+    "null": {
+      "count": 643,
+      "recent": [
+        {
+          "roll": 320,
+          "date": "2023-07-13T23:05:00-04:00",
+          "result": "Failed",
+          "murphy_vote": "Aye",
+          "voted_with_party": true
+        },
+        {
+          "roll": 351,
+          "date": "2023-07-19T22:12:00-04:00",
+          "result": "Failed",
+          "murphy_vote": "No",
+          "voted_with_party": true
+        },
+        {
+          "roll": 352,
+          "date": "2023-07-19T22:16:00-04:00",
+          "result": "Failed",
+          "murphy_vote": "Aye",
+          "voted_with_party": true
+        },
+        {
+          "roll": 427,
+          "date": "2023-09-27T17:33:00-04:00",
+          "result": "Failed",
+          "murphy_vote": "Aye",
+          "voted_with_party": true
+        },
+        {
+          "roll": 2,
+          "date": "2025-01-03T14:33:00-05:00",
+          "result": "Elected Speaker Name",
+          "murphy_vote": "Johnson (LA)",
+          "voted_with_party": null
+        }
+      ]
+    },
+    "HR": {
+      "count": 613,
+      "recent": [
+        {
+          "roll": 240,
+          "date": "2025-09-08T18:56:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 379,
+          "date": "2023-07-27T13:43:00-04:00",
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true
+        },
+        {
+          "roll": 401,
+          "date": "2023-09-20T14:27:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 306,
+          "date": "2025-12-01T18:57:00-05:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 241,
+          "date": "2025-09-08T19:02:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        }
+      ]
+    },
+    "HRES": {
+      "count": 308,
+      "recent": [
+        {
+          "roll": 296,
+          "date": "2023-07-13T14:05:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Aye",
+          "voted_with_party": true
+        },
+        {
+          "roll": 367,
+          "date": "2023-07-26T13:51:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 331,
+          "date": "2023-07-18T13:39:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 74,
+          "date": "2026-02-24T14:18:00-05:00",
+          "result": "Passed",
+          "murphy_vote": "Aye",
+          "voted_with_party": true
+        },
+        {
+          "roll": 294,
+          "date": "2023-07-12T14:09:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Aye",
+          "voted_with_party": true
+        }
+      ]
+    },
+    "HJRES": {
+      "count": 47,
+      "recent": [
+        {
+          "roll": 10,
+          "date": "2024-01-12T10:46:00-05:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 113,
+          "date": "2025-05-01T10:20:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 114,
+          "date": "2025-05-01T10:37:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 59,
+          "date": "2025-03-05T16:42:00-05:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 52,
+          "date": "2025-02-26T16:43:00-05:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        }
+      ]
+    },
+    "S": {
+      "count": 43,
+      "recent": [
+        {
+          "roll": 72,
+          "date": "2026-02-24T14:04:00-05:00",
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true
+        },
+        {
+          "roll": 442,
+          "date": "2024-09-23T19:18:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Not Voting",
+          "voted_with_party": null
+        },
+        {
+          "roll": 319,
+          "date": "2025-12-10T17:24:00-05:00",
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true
+        },
+        {
+          "roll": 315,
+          "date": "2025-12-09T18:57:00-05:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 320,
+          "date": "2025-12-10T17:32:00-05:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        }
+      ]
+    },
+    "HCONRES": {
+      "count": 16,
+      "recent": [
+        {
+          "roll": 100,
+          "date": "2025-04-10T11:08:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 123,
+          "date": "2025-05-13T18:53:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 50,
+          "date": "2025-02-25T20:19:00-05:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 345,
+          "date": "2025-12-17T18:01:00-05:00",
+          "result": "Failed",
+          "murphy_vote": "Not Voting",
+          "voted_with_party": null
+        },
+        {
+          "roll": 346,
+          "date": "2025-12-17T18:08:00-05:00",
+          "result": "Failed",
+          "murphy_vote": "Not Voting",
+          "voted_with_party": null
+        }
+      ]
+    },
+    "SJRES": {
+      "count": 11,
+      "recent": [
+        {
+          "roll": 96,
+          "date": "2025-04-09T16:23:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 8,
+          "date": "2024-01-11T16:35:00-05:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 61,
+          "date": "2025-03-06T10:19:00-05:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 95,
+          "date": "2025-04-09T16:17:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        },
+        {
+          "roll": 382,
+          "date": "2023-07-27T15:23:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        }
+      ]
+    }
+  },
+  "legislation": {
+    "sponsored": {
+      "total": 117,
+      "by_congress": {
+        "119": 32,
+        "118": 37,
+        "117": 33,
+        "116": 15
+      },
+      "statuses": {
+        "In Committee": 97,
+        "Other": 18,
+        "Became Law": 2
+      }
+    },
+    "cosponsored": {
+      "total": 817,
+      "by_congress": {
+        "119": 156,
+        "118": 253,
+        "117": 257,
+        "116": 151
+      }
+    }
+  },
+  "summary": {
+    "total_votes": 1681,
+    "participation_rate": 84.6,
+    "party_alignment_rate": 95.2,
+    "bipartisan_votes": 67,
+    "bills_sponsored": 117,
+    "bills_cosponsored": 817
+  }
+}

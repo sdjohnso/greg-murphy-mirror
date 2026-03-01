@@ -1,8 +1,8 @@
 # Greg Murphy Congressional Mirror - Initial Setup
 **Branch:** `main`
 **Created:** 2026-02-28
-**Status:** In Progress - Phase 2 complete
-**Next Action:** Create generate_metrics.py for performance stats (Step 3.1)
+**Status:** In Progress - Phase 3 complete
+**Next Action:** Create update_mirror.py orchestrator script (Step 4.1)
 **Purpose:** Create a public data mirror of Rep. Greg Murphy's congressional activity for transparent civic access
 
 ---
@@ -348,7 +348,7 @@ Review `plans/initial-setup.md` and continue with Phase 3, Step 3.1 (generate_me
 **Goal:** Transform raw data into useful metrics and aggregations
 
 ### Step 3.1: Metrics Generation Script
-- [ ] Create `scripts/generate_metrics.py`
+- [x] Create `scripts/generate_metrics.py`
 - [ ] Compute participation rate
 - [ ] Compute party alignment percentage
 - [ ] Compute bipartisan vote count
@@ -389,7 +389,7 @@ Review `plans/initial-setup.md` and continue with Phase 3, Step 3.1 (generate_me
 ---
 
 ### Step 3.2: Documentation Generation Script
-- [ ] Create `scripts/generate_docs.py`
+- [x] Create `scripts/generate_docs.py`
 - [ ] Generate `docs/index.md` - overview dashboard
 - [ ] Generate `docs/profile.md` - bio and committees
 - [ ] Generate `docs/votes/index.md` - vote summary
