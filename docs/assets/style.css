@@ -279,9 +279,8 @@ section:last-child {
 }
 
 .date-header {
-  background: var(--gray-100);
+  background: var(--primary-navy);
   padding: var(--spacing-sm) var(--spacing-md);
-  border-bottom: 1px solid var(--gray-200);
   display: flex;
   align-items: center;
   gap: var(--spacing-sm);
@@ -289,14 +288,14 @@ section:last-child {
 
 .date-header .date-text {
   font-weight: 600;
-  color: var(--gray-700);
+  color: var(--white);
   font-size: 0.95rem;
 }
 
 .date-header .vote-count {
   font-size: 0.75rem;
-  color: var(--gray-500);
-  background: var(--gray-200);
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.2);
   padding: 2px 8px;
   border-radius: 999px;
 }
