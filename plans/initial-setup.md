@@ -1,8 +1,8 @@
 # Greg Murphy Congressional Mirror - Initial Setup
 **Branch:** `main`
 **Created:** 2026-02-28
-**Status:** In Progress - Phase 3 complete
-**Next Action:** Create update_mirror.py orchestrator script (Step 4.1)
+**Status:** Complete
+**Next Action:** Add CONGRESS_API_KEY secret to GitHub repo settings for Actions to work
 **Purpose:** Create a public data mirror of Rep. Greg Murphy's congressional activity for transparent civic access
 
 ---
@@ -422,7 +422,7 @@ Review `plans/initial-setup.md` and continue with Phase 4, Step 4.1 (orchestrato
 **Goal:** Create orchestration and GitHub Actions for daily updates
 
 ### Step 4.1: Orchestrator Script
-- [ ] Create `scripts/update_mirror.py`
+- [x] Create `scripts/update_mirror.py`
 - [ ] Call all pull scripts in sequence
 - [ ] Call metrics generation
 - [ ] Call docs generation
@@ -442,7 +442,7 @@ Review `plans/initial-setup.md` and continue with Phase 4, Step 4.1 (orchestrato
 ---
 
 ### Step 4.2: GitHub Actions Workflow
-- [ ] Create `.github/workflows/update-mirror.yml`
+- [x] Create `.github/workflows/update-mirror.yml`
 - [ ] Schedule daily at 6 AM EST (11:00 UTC)
 - [ ] Set up Python environment
 - [ ] Install dependencies
@@ -462,7 +462,7 @@ Review `plans/initial-setup.md` and continue with Phase 4, Step 4.1 (orchestrato
 ---
 
 ### Step 4.3: Final Documentation
-- [ ] Complete README.md with usage instructions
+- [x] Complete README.md with usage instructions
 - [ ] Document data schema
 - [ ] Add examples for downstream consumers
 - [ ] Add contribution guidelines
