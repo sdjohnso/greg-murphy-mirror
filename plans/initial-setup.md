@@ -1,8 +1,8 @@
 # Greg Murphy Congressional Mirror - Initial Setup
 **Branch:** `main`
 **Created:** 2026-02-28
-**Status:** Not Started
-**Next Action:** Set up project structure and obtain Congress.gov API key
+**Status:** In Progress - Phase 1 complete
+**Next Action:** Create pull_member.py to fetch member profile (Step 2.1)
 **Purpose:** Create a public data mirror of Rep. Greg Murphy's congressional activity for transparent civic access
 
 ---
@@ -226,10 +226,10 @@ Congress.gov API
 **Goal:** Establish project structure, dependencies, and configuration
 
 ### Step 1.1: Create Directory Structure
-- [ ] Create all directories (raw/, processed/, docs/, scripts/, .github/workflows/)
-- [ ] Create .gitignore
-- [ ] Create requirements.txt
-- [ ] Create initial README.md
+- [x] Create all directories (raw/, processed/, docs/, scripts/, .github/workflows/)
+- [x] Create .gitignore
+- [x] Create requirements.txt
+- [x] Create initial README.md
 
 **Resources:**
 - Project root: `/Users/scottjohnson/Documents/Python-Projects/greg-murphy-mirror`
@@ -241,9 +241,9 @@ Congress.gov API
 ---
 
 ### Step 1.2: Create Configuration Module
-- [ ] Create `scripts/config.py` with API settings
-- [ ] Define paths, constants, bioguide ID
-- [ ] Add rate limiting and retry settings
+- [x] Create `scripts/config.py` with API settings
+- [x] Define paths, constants, bioguide ID
+- [x] Add rate limiting and retry settings
 
 **Resources:**
 - NCDOT pattern: `/Users/scottjohnson/Documents/Python-Projects/ncdot-transportation-mirror/scripts/config.py`
@@ -256,10 +256,10 @@ Congress.gov API
 ---
 
 ### Step 1.3: Obtain and Configure API Key
-- [ ] Register at api.congress.gov
-- [ ] Test API key with simple request
-- [ ] Document key usage in README
-- [ ] Set up `.env` pattern for local development
+- [x] Register at api.congress.gov
+- [x] Test API key with simple request
+- [x] Document key usage in README
+- [x] Set up `.env` pattern for local development
 
 **Resources:**
 - API signup: https://api.congress.gov
