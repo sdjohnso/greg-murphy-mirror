@@ -1,8 +1,8 @@
 # Greg Murphy Congressional Mirror - Initial Setup
 **Branch:** `main`
 **Created:** 2026-02-28
-**Status:** In Progress - Phase 1 complete
-**Next Action:** Create pull_member.py to fetch member profile (Step 2.1)
+**Status:** In Progress - Phase 2 complete
+**Next Action:** Create generate_metrics.py for performance stats (Step 3.1)
 **Purpose:** Create a public data mirror of Rep. Greg Murphy's congressional activity for transparent civic access
 
 ---
@@ -281,12 +281,12 @@ Review `plans/initial-setup.md` and continue with Phase 2, Step 2.1 (pull_member
 **Goal:** Create scripts to fetch all data from Congress.gov API
 
 ### Step 2.1: Member Profile Script
-- [ ] Create `scripts/pull_member.py`
-- [ ] Fetch `/member/M001210` endpoint
-- [ ] Extract profile, terms, committees
-- [ ] Save to `raw/member/profile.json`
-- [ ] Add pagination for nested data
-- [ ] Add retry logic and rate limiting
+- [x] Create `scripts/pull_member.py`
+- [x] Fetch `/member/M001210` endpoint
+- [x] Extract profile, terms, committees
+- [x] Save to `raw/member/profile.json`
+- [x] Add pagination for nested data
+- [x] Add retry logic and rate limiting
 
 **Resources:**
 - Member endpoint docs: https://github.com/LibraryOfCongress/api.congress.gov/blob/main/Documentation/MemberEndpoint.md
@@ -300,12 +300,12 @@ Review `plans/initial-setup.md` and continue with Phase 2, Step 2.1 (pull_member
 ---
 
 ### Step 2.2: Votes Pull Script
-- [ ] Create `scripts/pull_votes.py`
-- [ ] Fetch House roll call votes for 118th, 119th Congress
-- [ ] Paginate through all votes (250 per request max)
-- [ ] For each vote, extract Murphy's position from member votes
-- [ ] Save raw votes to `raw/votes/{congress}/{year}/votes.json`
-- [ ] Create consolidated `processed/votes/all_votes.json` with his positions
+- [x] Create `scripts/pull_votes.py`
+- [x] Fetch House roll call votes for 118th, 119th Congress
+- [x] Paginate through all votes (250 per request max)
+- [x] For each vote, extract Murphy's position from member votes
+- [x] Save raw votes to `raw/votes/{congress}/{year}/votes.json`
+- [x] Create consolidated `processed/votes/all_votes.json` with his positions
 
 **Resources:**
 - House Roll Call endpoint: https://github.com/LibraryOfCongress/api.congress.gov/blob/main/Documentation/HouseRollCallVoteEndpoint.md
@@ -319,12 +319,12 @@ Review `plans/initial-setup.md` and continue with Phase 2, Step 2.1 (pull_member
 ---
 
 ### Step 2.3: Legislation Pull Script
-- [ ] Create `scripts/pull_legislation.py`
-- [ ] Fetch `/member/M001210/sponsored-legislation`
-- [ ] Fetch `/member/M001210/cosponsored-legislation`
-- [ ] Paginate through all results
-- [ ] Save to `raw/sponsored/bills.json` and `raw/cosponsored/bills.json`
-- [ ] Extract key fields: bill number, title, status, date, subjects
+- [x] Create `scripts/pull_legislation.py`
+- [x] Fetch `/member/M001210/sponsored-legislation`
+- [x] Fetch `/member/M001210/cosponsored-legislation`
+- [x] Paginate through all results
+- [x] Save to `raw/sponsored/bills.json` and `raw/cosponsored/bills.json`
+- [x] Extract key fields: bill number, title, status, date, subjects
 
 **Resources:**
 - Member legislation endpoint: part of MemberEndpoint.md
