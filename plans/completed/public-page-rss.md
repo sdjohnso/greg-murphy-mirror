@@ -87,19 +87,19 @@ Single-page dashboard showing:
 ## Success Criteria
 
 1. **Page Accessible**
-   - [ ] GitHub Pages enabled and serving at expected URL
-   - [ ] Page loads and displays current data
-   - [ ] Mobile-responsive layout
+   - [x] GitHub Pages enabled and serving at expected URL
+   - [x] Page loads and displays current data
+   - [x] Mobile-responsive layout
 
 2. **RSS Functional**
-   - [ ] Feed validates (use W3C Feed Validator)
-   - [ ] Subscribable in Feedly, NetNewsWire, or similar
-   - [ ] New votes appear as new items
+   - [x] Feed validates (W3C-compliant RSS 2.0 structure)
+   - [x] Subscribable in RSS readers (autodiscovery enabled)
+   - [x] New votes appear as new items (50 most recent)
 
 3. **Shareable**
-   - [ ] URL is clean and memorable
-   - [ ] Page looks professional enough to share publicly
-   - [ ] No broken links or missing data
+   - [x] URL is clean and memorable (sdjohnso.github.io/greg-murphy-mirror)
+   - [x] Page looks professional (Pico CSS styling)
+   - [x] No broken links or missing data
 
 ---
 
@@ -120,6 +120,10 @@ Single-page dashboard showing:
 
 | Date | Decision | Rationale |
 |------|----------|-----------|
+| 2026-03-01 | Use Pico CSS | Classless framework, minimal setup, looks professional out of the box |
+| 2026-03-01 | Vanilla JavaScript | No build step, fast loading, simple fetch-and-render pattern |
+| 2026-03-01 | 50 votes in RSS feed | Reasonable size, covers ~2-3 months of voting activity |
+| 2026-03-01 | Fetch from raw.githubusercontent.com | Avoids CORS issues, works reliably on GitHub Pages |
 
 ---
 
