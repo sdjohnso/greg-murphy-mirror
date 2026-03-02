@@ -5,27 +5,153 @@ const BASE_URL = window.location.hostname === 'localhost' || window.location.hos
     ? '..'
     : 'https://raw.githubusercontent.com/sdjohnso/greg-murphy-mirror/main';
 
+// Global state for toggle
+let currentView = 'recent'; // 'recent' or 'coming-up'
+let scheduleData = null;
+
 async function loadData() {
     try {
-        const [metricsRes, votesRes, consistencyRes] = await Promise.all([
+        const [metricsRes, votesRes, consistencyRes, scheduleRes] = await Promise.all([
             fetch(`${BASE_URL}/processed/metrics.json`),
             fetch(`${BASE_URL}/processed/votes/all_votes.json`),
-            fetch(`${BASE_URL}/processed/consistency.json`)
+            fetch(`${BASE_URL}/processed/consistency.json`),
+            fetch(`${BASE_URL}/processed/schedule/weekly.json`).catch(() => null)
         ]);
 
         const metrics = await metricsRes.json();
         const votes = await votesRes.json();
         const consistency = await consistencyRes.json();
 
+        // Schedule is optional - may not exist yet
+        if (scheduleRes && scheduleRes.ok) {
+            scheduleData = await scheduleRes.json();
+            renderComingUp(scheduleData);
+        } else {
+            scheduleData = { days: [] };
+            renderComingUp(scheduleData);
+        }
+
         renderStats(metrics);
         renderVoteTimeline(votes);
         renderConsistencyAlerts(consistency);
         renderLastUpdated(metrics.generated_at);
+        setupToggle();
     } catch (error) {
         console.error('Failed to load data:', error);
         document.getElementById('recent-votes').innerHTML =
             '<div class="error-message">Failed to load data. <a href="https://github.com/sdjohnso/greg-murphy-mirror">View on GitHub</a>.</div>';
     }
+}
+
+/**
+ * Setup toggle button handlers
+ */
+function setupToggle() {
+    const comingUpBtn = document.getElementById('toggle-coming-up');
+    const recentBtn = document.getElementById('toggle-recent');
+    const comingUpView = document.getElementById('coming-up');
+    const recentView = document.getElementById('recent-votes');
+    const rollingLabel = document.getElementById('rolling-label');
+
+    comingUpBtn.addEventListener('click', () => {
+        currentView = 'coming-up';
+        comingUpBtn.classList.add('active');
+        recentBtn.classList.remove('active');
+        comingUpView.style.display = 'flex';
+        recentView.style.display = 'none';
+        rollingLabel.textContent = 'This week';
+    });
+
+    recentBtn.addEventListener('click', () => {
+        currentView = 'recent';
+        recentBtn.classList.add('active');
+        comingUpBtn.classList.remove('active');
+        recentView.style.display = 'flex';
+        comingUpView.style.display = 'none';
+        rollingLabel.textContent = '60-day rolling';
+    });
+}
+
+/**
+ * Render the Coming Up schedule view
+ */
+function renderComingUp(schedule) {
+    const container = document.getElementById('coming-up');
+
+    if (!schedule || !schedule.days || schedule.days.length === 0) {
+        container.innerHTML = `
+            <div class="coming-up-empty">
+                <h3>No Legislation Currently Scheduled</h3>
+                <p>The House floor schedule will appear here when bills are scheduled for upcoming votes.</p>
+            </div>
+        `;
+        return;
+    }
+
+    container.innerHTML = '';
+
+    schedule.days.forEach(day => {
+        const dayEl = document.createElement('div');
+        dayEl.className = 'coming-up-day';
+
+        // Day header
+        const dateDisplay = day.date
+            ? new Date(day.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric' })
+            : '';
+        dayEl.innerHTML = `
+            <div class="coming-up-day-header">
+                <span class="day-text">${day.day}${dateDisplay ? ', ' + dateDisplay : ''}</span>
+                <span class="bill-count">${day.bills.length} bill${day.bills.length > 1 ? 's' : ''}</span>
+            </div>
+        `;
+
+        // Bills
+        day.bills.forEach(bill => {
+            const billEl = document.createElement('div');
+            billEl.className = 'coming-up-bill';
+
+            const procedureLabel = getProcedureLabel(bill.procedure);
+            const emailSubject = encodeURIComponent(`Regarding ${bill.bill_id}`);
+            const emailBody = encodeURIComponent(`Dear Rep. Murphy,\n\nI am writing regarding ${bill.bill_id}${bill.title ? ' - ' + bill.title : ''}.\n\n`);
+            const mailtoLink = `mailto:greg.murphy@mail.house.gov?subject=${emailSubject}&body=${emailBody}`;
+
+            billEl.innerHTML = `
+                <div class="coming-up-bill-header">
+                    <span class="coming-up-bill-id">
+                        <a href="${bill.congress_url}" target="_blank" rel="noopener">${bill.bill_id}</a>
+                    </span>
+                    <span class="procedure-badge ${bill.procedure}">${procedureLabel}</span>
+                </div>
+                ${bill.title ? `<div class="coming-up-bill-title">${bill.title}</div>` : ''}
+                ${bill.sponsor ? `<div class="coming-up-bill-sponsor">${bill.sponsor}</div>` : ''}
+                <div class="coming-up-bill-actions">
+                    <a href="${mailtoLink}"
+                       class="email-rep"
+                       title="Email Rep. Murphy about this bill"
+                       onclick="trackEmailClick('${bill.bill_id}')">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        Contact Rep. Murphy
+                    </a>
+                </div>
+            `;
+
+            dayEl.appendChild(billEl);
+        });
+
+        container.appendChild(dayEl);
+    });
+}
+
+/**
+ * Get human-readable procedure label
+ */
+function getProcedureLabel(procedure) {
+    const labels = {
+        'suspension': 'Suspension',
+        'rule': 'Under Rule',
+        'may_be_considered': 'May Be Considered'
+    };
+    return labels[procedure] || procedure;
 }
 
 function renderStats(metrics) {

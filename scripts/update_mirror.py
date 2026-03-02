@@ -96,6 +96,7 @@ def full_update() -> bool:
     print("FULL UPDATE")
     print("=" * 60)
 
+    # Core scripts
     scripts = [
         "pull_member.py",
         "pull_votes.py",
@@ -104,7 +105,19 @@ def full_update() -> bool:
         "generate_docs.py",
     ]
 
+    # Optional scripts - failures don't affect overall status
+    optional_scripts = [
+        "pull_schedule.py",
+    ]
+
     success = True
+
+    # Run optional scripts first
+    for script in optional_scripts:
+        if not run_script(script):
+            print(f"\nWARNING: {script} failed (non-critical), continuing...")
+
+    # Run core scripts
     for script in scripts:
         if not run_script(script):
             success = False
@@ -115,7 +128,7 @@ def full_update() -> bool:
 
 def daily_update() -> bool:
     """
-    Run a daily update: votes, metrics, and docs.
+    Run a daily update: votes, schedule, metrics, and docs.
 
     Skips member profile and legislation (rarely change).
 
@@ -126,14 +139,27 @@ def daily_update() -> bool:
     print("DAILY UPDATE")
     print("=" * 60)
 
-    scripts = [
+    # Core scripts that must succeed
+    core_scripts = [
         "pull_votes.py",
         "generate_metrics.py",
         "generate_docs.py",
     ]
 
+    # Optional scripts - failures don't affect overall status
+    optional_scripts = [
+        "pull_schedule.py",
+    ]
+
     success = True
-    for script in scripts:
+
+    # Run optional scripts first (schedule can fail without breaking update)
+    for script in optional_scripts:
+        if not run_script(script):
+            print(f"\nWARNING: {script} failed (non-critical), continuing...")
+
+    # Run core scripts
+    for script in core_scripts:
         if not run_script(script):
             success = False
             print(f"\nWARNING: {script} failed, continuing with remaining scripts...")

@@ -71,6 +71,15 @@
                     </dl>
                 </div>
                 <div class="glossary-section">
+                    <h4>Floor Procedures</h4>
+                    <dl>
+                        <dt>Suspension</dt>
+                        <dd>Fast-track procedure for non-controversial bills. Limited debate, no amendments, requires 2/3 majority to pass.</dd>
+                        <dt>Under Rule</dt>
+                        <dd>Standard procedure with full debate and amendments allowed. Simple majority (1/2) required to pass.</dd>
+                    </dl>
+                </div>
+                <div class="glossary-section">
                     <h4>Reading the Data</h4>
                     <dl>
                         <dt>YEA / NAY</dt>
@@ -86,11 +95,17 @@
             </div>
         </details>
 
-        <!-- Recent Votes -->
+        <!-- Votes Section with Toggle -->
         <section id="votes-section">
             <div class="section-header">
-                <h2>Recent Voting Activity</h2>
-                <span class="rolling-window">60-day rolling</span>
+                <div class="view-toggle">
+                    <button class="toggle-btn" id="toggle-coming-up">Coming Up</button>
+                    <button class="toggle-btn active" id="toggle-recent">Recent Votes</button>
+                </div>
+                <span class="rolling-window" id="rolling-label">60-day rolling</span>
+            </div>
+            <div id="coming-up" class="vote-timeline" style="display: none;">
+                <div class="loading">Loading schedule</div>
             </div>
             <div id="recent-votes" class="vote-timeline">
                 <div class="loading">Loading votes</div>

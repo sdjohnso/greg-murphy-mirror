@@ -372,6 +372,60 @@ section:last-child {
 }
 
 /* ============================================
+   View Toggle (Coming Up / Recent Votes)
+   ============================================ */
+
+.view-toggle {
+  display: flex;
+  gap: 0;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 2px solid var(--primary-navy);
+}
+
+.toggle-btn {
+  background: var(--white);
+  color: var(--primary-navy);
+  border: none;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  min-height: 44px; /* Touch-friendly */
+}
+
+.toggle-btn:first-child {
+  border-right: 1px solid var(--primary-navy);
+}
+
+.toggle-btn:hover:not(.active) {
+  background: var(--gray-100);
+}
+
+.toggle-btn.active {
+  background: var(--primary-navy);
+  color: var(--white);
+}
+
+@media (max-width: 500px) {
+  .toggle-btn {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+  }
+
+  .rolling-window {
+    align-self: flex-end;
+  }
+}
+
+/* ============================================
    Timeline / Vote Feed
    ============================================ */
 
@@ -563,6 +617,133 @@ section:last-child {
   color: var(--white);
   border-radius: 3px;
   font-weight: 500;
+}
+
+/* ============================================
+   Coming Up (Floor Schedule)
+   ============================================ */
+
+.coming-up-day {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.coming-up-day-header {
+  background: var(--primary-light);
+  padding: var(--spacing-sm) var(--spacing-md);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.coming-up-day-header .day-text {
+  font-weight: 600;
+  color: var(--white);
+  font-size: 0.95rem;
+}
+
+.coming-up-day-header .bill-count {
+  font-size: 0.75rem;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.coming-up-bill {
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--gray-100);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.coming-up-bill:last-child {
+  border-bottom: none;
+}
+
+.coming-up-bill-header {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.coming-up-bill-id {
+  font-weight: 700;
+  color: var(--primary-navy);
+  font-size: 0.95rem;
+}
+
+.coming-up-bill-id a {
+  color: inherit;
+}
+
+.coming-up-bill-id a:hover {
+  text-decoration: underline;
+}
+
+.procedure-badge {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.procedure-badge.suspension {
+  background: #ed8936;
+  color: var(--white);
+}
+
+.procedure-badge.rule {
+  background: var(--primary-navy);
+  color: var(--white);
+}
+
+.procedure-badge.may_be_considered {
+  background: var(--gray-400);
+  color: var(--white);
+}
+
+.coming-up-bill-title {
+  font-size: 0.9rem;
+  color: var(--gray-600);
+  line-height: 1.4;
+}
+
+.coming-up-bill-sponsor {
+  font-size: 0.8rem;
+  color: var(--gray-500);
+  font-style: italic;
+}
+
+.coming-up-bill-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-xs);
+}
+
+.coming-up-empty {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  color: var(--gray-500);
+}
+
+.coming-up-empty h3 {
+  color: var(--gray-600);
+  margin-bottom: var(--spacing-sm);
+}
+
+.coming-up-empty p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
 }
 
 /* ============================================
