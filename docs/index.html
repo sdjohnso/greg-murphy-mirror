@@ -5,7 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rep. Greg Murphy (NC-03) - Congressional Voting Record</title>
     <meta name="description" content="Track Rep. Greg Murphy's voting record, party alignment, and legislative activity. Unofficial data mirror for civic transparency.">
-    <link rel="stylesheet" href="assets/style.css">
+    <meta name="theme-color" content="#1a365d">
+    <meta property="og:title" content="Rep. Greg Murphy (NC-03) - Voting Record">
+    <meta property="og:description" content="Track Rep. Greg Murphy's voting record, party alignment, and legislative activity.">
+    <meta property="og:type" content="website">
+
+    <!-- Preconnect to data origin for faster JSON fetches -->
+    <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
+    <link rel="dns-prefetch" href="https://raw.githubusercontent.com">
+
+    <!-- Critical CSS: above-the-fold styles inlined for instant first paint -->
+    <style>
+      *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+      :root{--primary-navy:#1a365d;--primary-light:#2c5282;--white:#fff;--light-gray:#f7fafc;--gray-100:#edf2f7;--gray-200:#e2e8f0;--gray-500:#718096;--gray-700:#2d3748;--spacing-xs:.25rem;--spacing-sm:.5rem;--spacing-md:1rem;--spacing-lg:1.5rem;--spacing-xl:2rem;--container-max:800px;--container-padding:1.25rem;--radius-md:8px;--shadow-sm:0 1px 2px rgba(0,0,0,.05);--font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;--font-heading:Georgia,'Times New Roman',serif}
+      body{font-family:var(--font-family);line-height:1.6;color:var(--gray-700);background:var(--light-gray);-webkit-font-smoothing:antialiased;min-height:100vh}
+      .container{width:100%;max-width:var(--container-max);margin:0 auto;padding:0 var(--container-padding)}
+      .site-header{background:linear-gradient(135deg,var(--primary-navy) 0%,var(--primary-light) 100%);color:var(--white);padding:var(--spacing-xl) 0;text-align:center}
+      .site-header h1{color:var(--white);margin-bottom:var(--spacing-xs);font-family:var(--font-heading);font-size:clamp(1.75rem,5vw,2.25rem);font-weight:700;line-height:1.2}
+      .site-header .subtitle{color:rgba(255,255,255,.85);font-size:1rem;margin:0}
+      .site-header .subtitle span{opacity:.6;margin:0 .5rem}
+      .header-contact{display:flex;justify-content:center;gap:var(--spacing-lg);margin-top:var(--spacing-md);font-size:.85rem;flex-wrap:wrap}
+      .header-contact a{color:rgba(255,255,255,.85);display:inline-flex;align-items:center;gap:.35rem;text-decoration:none}
+      .header-contact svg{width:14px;height:14px}
+      h1,h2,h3{font-family:var(--font-heading);font-weight:700;line-height:1.2;color:var(--primary-navy)}
+      main{padding:var(--spacing-xl) 0 3rem}
+      .stats-bar{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--spacing-md);margin-bottom:var(--spacing-xl)}
+      .stat-card{background:var(--white);border-radius:var(--radius-md);padding:var(--spacing-lg);text-align:center;box-shadow:var(--shadow-sm)}
+      .stat-value{font-size:1.75rem;font-weight:700;color:var(--primary-navy);line-height:1;margin-bottom:var(--spacing-xs)}
+      .stat-label{font-size:.8rem;color:var(--gray-500);text-transform:uppercase;letter-spacing:.05em}
+      @media(min-width:600px){.stats-bar{grid-template-columns:repeat(4,1fr)}}
+      .loading{text-align:center;padding:3rem;color:var(--gray-500)}
+      .loading::after{content:'';display:inline-block;width:20px;height:20px;border:2px solid var(--gray-200);border-top-color:var(--primary-navy);border-radius:50%;margin-left:var(--spacing-sm);animation:spin .8s linear infinite;vertical-align:middle}
+      @keyframes spin{to{transform:rotate(360deg)}}
+    </style>
+
+    <!-- Full stylesheet loaded asynchronously (non-render-blocking) -->
+    <link rel="preload" href="assets/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/style.css"></noscript>
+
     <link rel="alternate" type="application/rss+xml" title="Murphy Voting Record RSS" href="feeds/votes.xml">
 </head>
 <body>
@@ -158,6 +195,6 @@
         </div>
     </footer>
 
-    <script src="assets/app.js"></script>
+    <script src="assets/app.js" defer></script>
 </body>
 </html>
