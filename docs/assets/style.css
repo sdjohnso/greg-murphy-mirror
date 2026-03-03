@@ -79,7 +79,6 @@
 
 html {
   font-size: var(--font-size-base);
-  scroll-behavior: smooth;
 }
 
 body {
@@ -289,7 +288,7 @@ small {
    ============================================ */
 
 main {
-  padding: var(--spacing-xl) 0 var(--spacing-2xl);
+  padding: 3.5rem 0 var(--spacing-2xl);
 }
 
 section {
@@ -749,6 +748,12 @@ section:last-child {
 /* ============================================
    Consistency Section
    ============================================ */
+
+#alerts-section,
+#links-section {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 200px;
+}
 
 .consistency-summary {
   background: var(--white);

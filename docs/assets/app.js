@@ -9,32 +9,38 @@ const BASE_URL = window.location.hostname === 'localhost' || window.location.hos
 let currentView = 'recent'; // 'recent' or 'coming-up'
 let scheduleData = null;
 
+// Reusable email SVG icon to avoid duplicating inline SVG markup
+const EMAIL_SVG = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>';
+
 async function loadData() {
     try {
-        const [metricsRes, votesRes, consistencyRes, scheduleRes] = await Promise.all([
-            fetch(`${BASE_URL}/processed/metrics.json`),
+        // Fetch metrics first (smallest payload, drives above-the-fold stats)
+        // then fire off remaining fetches in parallel
+        const metricsRes = await fetch(`${BASE_URL}/processed/metrics.json`);
+        const metrics = await metricsRes.json();
+        renderStats(metrics);
+        renderLastUpdated(metrics.generated_at);
+
+        // Now fetch the heavier data in parallel
+        const [votesRes, consistencyRes, scheduleRes] = await Promise.all([
             fetch(`${BASE_URL}/processed/votes/all_votes.json`),
             fetch(`${BASE_URL}/processed/consistency.json`),
             fetch(`${BASE_URL}/processed/schedule/weekly.json`).catch(() => null)
         ]);
 
-        const metrics = await metricsRes.json();
         const votes = await votesRes.json();
         const consistency = await consistencyRes.json();
 
         // Schedule is optional - may not exist yet
         if (scheduleRes && scheduleRes.ok) {
             scheduleData = await scheduleRes.json();
-            renderComingUp(scheduleData);
         } else {
             scheduleData = { days: [] };
-            renderComingUp(scheduleData);
         }
 
-        renderStats(metrics);
+        renderComingUp(scheduleData);
         renderVoteTimeline(votes);
         renderConsistencyAlerts(consistency);
-        renderLastUpdated(metrics.generated_at);
         setupToggle();
     } catch (error) {
         console.error('Failed to load data:', error);
@@ -88,34 +94,27 @@ function renderComingUp(schedule) {
         return;
     }
 
-    container.innerHTML = '';
+    // Build all HTML as a string, then set once (single DOM write)
+    let html = '';
 
     schedule.days.forEach(day => {
-        const dayEl = document.createElement('div');
-        dayEl.className = 'coming-up-day';
-
-        // Day header
         const dateDisplay = day.date
             ? new Date(day.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric' })
             : '';
-        dayEl.innerHTML = `
+
+        html += `<div class="coming-up-day">
             <div class="coming-up-day-header">
                 <span class="day-text">${day.day}${dateDisplay ? ', ' + dateDisplay : ''}</span>
                 <span class="bill-count">${day.bills.length} bill${day.bills.length > 1 ? 's' : ''}</span>
-            </div>
-        `;
+            </div>`;
 
-        // Bills
         day.bills.forEach(bill => {
-            const billEl = document.createElement('div');
-            billEl.className = 'coming-up-bill';
-
             const procedureLabel = getProcedureLabel(bill.procedure);
             const emailSubject = encodeURIComponent(`Regarding ${bill.bill_id}`);
             const emailBody = encodeURIComponent(`Dear Rep. Murphy,\n\nI am writing regarding ${bill.bill_id}${bill.title ? ' - ' + bill.title : ''}.\n\n`);
             const mailtoLink = `mailto:greg.murphy@mail.house.gov?subject=${emailSubject}&body=${emailBody}`;
 
-            billEl.innerHTML = `
+            html += `<div class="coming-up-bill">
                 <div class="coming-up-bill-header">
                     <span class="coming-up-bill-id">
                         <a href="${bill.congress_url}" target="_blank" rel="noopener">${bill.bill_id}</a>
@@ -129,29 +128,30 @@ function renderComingUp(schedule) {
                        class="email-rep"
                        title="Email Rep. Murphy about this bill"
                        onclick="trackEmailClick('${bill.bill_id}')">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        ${EMAIL_SVG}
                         Contact Rep. Murphy
                     </a>
                 </div>
-            `;
-
-            dayEl.appendChild(billEl);
+            </div>`;
         });
 
-        container.appendChild(dayEl);
+        html += '</div>';
     });
+
+    container.innerHTML = html;
 }
 
 /**
  * Get human-readable procedure label
  */
+const PROCEDURE_LABELS = {
+    'suspension': 'Suspension',
+    'rule': 'Under Rule',
+    'may_be_considered': 'May Be Considered'
+};
+
 function getProcedureLabel(procedure) {
-    const labels = {
-        'suspension': 'Suspension',
-        'rule': 'Under Rule',
-        'may_be_considered': 'May Be Considered'
-    };
-    return labels[procedure] || procedure;
+    return PROCEDURE_LABELS[procedure] || procedure;
 }
 
 function renderStats(metrics) {
@@ -167,36 +167,42 @@ function renderStats(metrics) {
  * Returns structure: { dateKey: { dateFormatted, bills: { billKey: { votes: [], ... } } } }
  */
 function groupVotesByDateAndBill(votes) {
-    // Sort by date descending
-    const sorted = [...votes].sort((a, b) => new Date(b.date) - new Date(a.date));
+    // Sort by date descending using cached timestamps
+    const sorted = [...votes].sort((a, b) => {
+        const ta = a._ts || (a._ts = new Date(b.date).getTime());
+        const tb = b._ts || (b._ts = new Date(a.date).getTime());
+        // Note: reversed for descending
+        return tb - ta;
+    });
 
     const grouped = {};
+    const dateFormatOptions = { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' };
 
     sorted.forEach(vote => {
-        const voteDate = new Date(vote.date);
-        const dateKey = voteDate.toISOString().split('T')[0]; // YYYY-MM-DD
+        // Use a simple string split for dateKey instead of creating a Date object
+        const dateKey = vote.date.split('T')[0];
 
         // Initialize date group if needed
         if (!grouped[dateKey]) {
+            const voteDate = new Date(vote.date);
             grouped[dateKey] = {
-                dateFormatted: voteDate.toLocaleDateString('en-US', {
-                    weekday: 'long',
-                    month: 'long',
-                    day: 'numeric',
-                    year: 'numeric'
-                }),
+                dateFormatted: voteDate.toLocaleDateString('en-US', dateFormatOptions),
                 bills: {},
                 voteCount: 0
             };
         }
 
         // Create bill key
-        const billKey = getBillKey(vote);
+        const billKey = vote.legislation_type && vote.legislation_number
+            ? `${vote.legislation_type}-${vote.legislation_number}`
+            : `roll-${vote.roll_number}`;
 
         // Initialize bill group if needed
         if (!grouped[dateKey].bills[billKey]) {
             grouped[dateKey].bills[billKey] = {
-                displayId: getBillDisplayId(vote),
+                displayId: vote.legislation_type && vote.legislation_number
+                    ? `${vote.legislation_type} ${vote.legislation_number}`
+                    : `Roll Call ${vote.roll_number}`,
                 url: vote.legislation_url,
                 votes: []
             };
@@ -210,121 +216,79 @@ function groupVotesByDateAndBill(votes) {
     return grouped;
 }
 
-function getBillKey(vote) {
-    if (vote.legislation_type && vote.legislation_number) {
-        return `${vote.legislation_type}-${vote.legislation_number}`;
-    }
-    // For procedural votes without a bill
-    return `roll-${vote.roll_number}`;
-}
-
-function getBillDisplayId(vote) {
-    if (vote.legislation_type && vote.legislation_number) {
-        return `${vote.legislation_type} ${vote.legislation_number}`;
-    }
-    return `Roll Call ${vote.roll_number}`;
-}
-
 function renderVoteTimeline(votes) {
     // Take recent votes (last 60 days worth or ~50 votes)
     const cutoffDate = new Date();
     cutoffDate.setDate(cutoffDate.getDate() - 60);
+    const cutoffTime = cutoffDate.getTime();
 
     const recentVotes = votes
-        .filter(v => new Date(v.date) >= cutoffDate)
+        .filter(v => new Date(v.date).getTime() >= cutoffTime)
         .slice(0, 50);
 
     const grouped = groupVotesByDateAndBill(recentVotes);
     const container = document.getElementById('recent-votes');
-    container.innerHTML = '';
 
-    // Render each date group
+    // Build entire timeline as HTML string for a single DOM write
+    let html = '';
+
     Object.entries(grouped).forEach(([dateKey, dateGroup]) => {
-        const dateEl = document.createElement('div');
-        dateEl.className = 'date-group';
-
-        // Date header
-        dateEl.innerHTML = `
+        html += `<div class="date-group">
             <div class="date-header">
                 <span class="date-text">${dateGroup.dateFormatted}</span>
                 <span class="vote-count">${dateGroup.voteCount} vote${dateGroup.voteCount > 1 ? 's' : ''}</span>
-            </div>
-        `;
+            </div>`;
 
-        // Render each bill within this date
         Object.entries(dateGroup.bills).forEach(([billKey, billGroup]) => {
-            const billEl = document.createElement('div');
-            billEl.className = 'bill-group';
-
-            // Bill header
-            const billHeader = document.createElement('div');
-            billHeader.className = 'bill-header';
             const emailSubject = encodeURIComponent(`Regarding ${billGroup.displayId}`);
             const emailBody = encodeURIComponent(`Dear Rep. Murphy,\n\nI am writing regarding ${billGroup.displayId}.\n\n`);
             const mailtoLink = `mailto:greg.murphy@mail.house.gov?subject=${emailSubject}&body=${emailBody}`;
-            billHeader.innerHTML = `
-                <span class="bill-id">
-                    <a href="${billGroup.url}" target="_blank" rel="noopener">${billGroup.displayId}</a>
-                </span>
-                <span class="bill-meta">
-                    ${billGroup.votes.length} roll call${billGroup.votes.length > 1 ? 's' : ''}
-                    <a href="${mailtoLink}"
-                       class="email-rep"
-                       title="Email Rep. Murphy about this bill"
-                       onclick="trackEmailClick('${billGroup.displayId}')">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                    </a>
-                </span>
-            `;
-            billEl.appendChild(billHeader);
 
-            // Vote list
-            const voteList = document.createElement('div');
-            voteList.className = 'vote-list';
+            html += `<div class="bill-group">
+                <div class="bill-header">
+                    <span class="bill-id">
+                        <a href="${billGroup.url}" target="_blank" rel="noopener">${billGroup.displayId}</a>
+                    </span>
+                    <span class="bill-meta">
+                        ${billGroup.votes.length} roll call${billGroup.votes.length > 1 ? 's' : ''}
+                        <a href="${mailtoLink}"
+                           class="email-rep"
+                           title="Email Rep. Murphy about this bill"
+                           onclick="trackEmailClick('${billGroup.displayId}')">
+                            ${EMAIL_SVG}
+                        </a>
+                    </span>
+                </div>
+                <div class="vote-list">`;
 
             billGroup.votes.forEach(vote => {
-                const voteItem = createVoteItem(vote);
-                voteList.appendChild(voteItem);
+                html += buildVoteItemHTML(vote);
             });
 
-            billEl.appendChild(voteList);
-            dateEl.appendChild(billEl);
+            html += '</div></div>';
         });
 
-        container.appendChild(dateEl);
+        html += '</div>';
     });
+
+    container.innerHTML = html;
 }
 
-function createVoteItem(vote) {
-    const item = document.createElement('div');
-    item.className = 'vote-item';
-
-    if (vote.voted_with_party === false) {
-        item.classList.add('against-party');
-    }
-
-    // Vote badge
+function buildVoteItemHTML(vote) {
     const voteBadgeClass = getVoteBadgeClass(vote.murphy_vote);
-
-    // Result badge
-    const resultClass = vote.result.toLowerCase().includes('pass') ||
-                       vote.result.toLowerCase().includes('agreed') ? 'passed' : 'failed';
-
-    // Party breakdown
+    const resultLower = vote.result.toLowerCase();
+    const resultClass = resultLower.includes('pass') || resultLower.includes('agreed') ? 'passed' : 'failed';
     const partyBreakdown = formatPartyBreakdown(vote.party_totals);
+    const voteType = getVoteType(resultLower);
+    const againstParty = vote.voted_with_party === false;
 
-    // Vote type (if available from result text)
-    const voteType = getVoteType(vote);
-
-    item.innerHTML = `
+    return `<div class="vote-item${againstParty ? ' against-party' : ''}">
         <span class="vote-badge ${voteBadgeClass}">${vote.murphy_vote}</span>
         <span class="result-badge ${resultClass}">${vote.result}</span>
-        ${vote.voted_with_party === false ? '<span class="party-break-tag">Bipartisan</span>' : ''}
+        ${againstParty ? '<span class="party-break-tag">Bipartisan</span>' : ''}
         <span class="party-split">${partyBreakdown}</span>
         ${voteType ? `<span class="vote-type">${voteType}</span>` : ''}
-    `;
-
-    return item;
+    </div>`;
 }
 
 function getVoteBadgeClass(vote) {
@@ -335,35 +299,30 @@ function getVoteBadgeClass(vote) {
     return '';
 }
 
-function getVoteType(vote) {
-    // Extract meaningful vote context from the result field
-    const result = vote.result.toLowerCase();
-
-    if (result.includes('motion to recommit')) return 'Motion to Recommit';
-    if (result.includes('previous question')) return 'Previous Question';
-    if (result.includes('motion to table')) return 'Motion to Table';
-    if (result.includes('suspend the rules')) return 'Suspension';
-    if (result.includes('amendment')) return 'Amendment';
-    if (result.includes('concur')) return 'Concurrence';
-    if (result.includes('conference report')) return 'Conference Report';
-    if (result.includes('veto')) return 'Veto Override';
-
-    // Check if it's a rule vote
-    if (result.includes('rule') && !result.includes('suspend')) return 'Rule';
-
-    // Final passage is implied if none of the above
-    // Only show "Passage" if the result explicitly says it
-    if (result.includes('passed') || result.includes('agreed')) return 'Passage';
-
-    // Don't show procedural vote types like "Yea-and-Nay", "Recorded Vote", etc.
+function getVoteType(resultLower) {
+    // Accept pre-lowercased result string to avoid redundant .toLowerCase() calls
+    if (resultLower.includes('motion to recommit')) return 'Motion to Recommit';
+    if (resultLower.includes('previous question')) return 'Previous Question';
+    if (resultLower.includes('motion to table')) return 'Motion to Table';
+    if (resultLower.includes('suspend the rules')) return 'Suspension';
+    if (resultLower.includes('amendment')) return 'Amendment';
+    if (resultLower.includes('concur')) return 'Concurrence';
+    if (resultLower.includes('conference report')) return 'Conference Report';
+    if (resultLower.includes('veto')) return 'Veto Override';
+    if (resultLower.includes('rule') && !resultLower.includes('suspend')) return 'Rule';
+    if (resultLower.includes('passed') || resultLower.includes('agreed')) return 'Passage';
     return '';
 }
 
 function formatPartyBreakdown(partyTotals) {
     if (!partyTotals || partyTotals.length === 0) return '';
 
-    const rep = partyTotals.find(p => p.party === 'Republican');
-    const dem = partyTotals.find(p => p.party === 'Democratic');
+    let rep = null, dem = null;
+    for (let i = 0; i < partyTotals.length; i++) {
+        if (partyTotals[i].party === 'Republican') rep = partyTotals[i];
+        else if (partyTotals[i].party === 'Democratic') dem = partyTotals[i];
+        if (rep && dem) break;
+    }
 
     if (!rep || !dem) return '';
 
@@ -378,10 +337,11 @@ function renderConsistencyAlerts(consistency) {
     // Get recent party breaks (last 90 days)
     const ninetyDaysAgo = new Date();
     ninetyDaysAgo.setDate(ninetyDaysAgo.getDate() - 90);
+    const cutoffTime = ninetyDaysAgo.getTime();
 
     const againstParty = consistency.against_party_votes || [];
     const recentBreaks = againstParty
-        .filter(v => new Date(v.date) >= ninetyDaysAgo)
+        .filter(v => new Date(v.date).getTime() >= cutoffTime)
         .slice(0, 5);
 
     let html = `
@@ -396,18 +356,16 @@ function renderConsistencyAlerts(consistency) {
     } else {
         html += `<p class="consistency-note"><strong>Recent examples:</strong> `;
 
+        const shortDateOptions = { month: 'short', day: 'numeric' };
         const examples = recentBreaks.map(vote => {
-            const voteDate = new Date(vote.date).toLocaleDateString('en-US', {
-                month: 'short',
-                day: 'numeric'
-            });
+            const voteDate = new Date(vote.date).toLocaleDateString('en-US', shortDateOptions);
             const billId = vote.legislation_type && vote.legislation_number
                 ? `${vote.legislation_type} ${vote.legislation_number}`
                 : `Roll #${vote.roll_number}`;
             return `${voteDate} on ${billId}`;
         });
 
-        html += examples.join(' • ') + '</p>';
+        html += examples.join(' &bull; ') + '</p>';
     }
 
     container.innerHTML = html;
@@ -428,11 +386,8 @@ function renderLastUpdated(timestamp) {
 
 /**
  * Track email link clicks (for analytics integration)
- * Currently logs to console; can be extended with GA or other analytics
  */
 function trackEmailClick(billId) {
-    console.log(`[Email Click] ${billId} - ${new Date().toISOString()}`);
-
     // If Google Analytics is present, send event
     if (typeof gtag === 'function') {
         gtag('event', 'email_click', {
@@ -442,10 +397,14 @@ function trackEmailClick(billId) {
     }
 
     // Store in localStorage for simple tracking
-    const clicks = JSON.parse(localStorage.getItem('emailClicks') || '[]');
-    clicks.push({ billId, timestamp: new Date().toISOString() });
-    localStorage.setItem('emailClicks', JSON.stringify(clicks.slice(-100))); // Keep last 100
+    try {
+        const clicks = JSON.parse(localStorage.getItem('emailClicks') || '[]');
+        clicks.push({ billId, timestamp: new Date().toISOString() });
+        localStorage.setItem('emailClicks', JSON.stringify(clicks.slice(-100)));
+    } catch (e) {
+        // localStorage may be unavailable in private browsing
+    }
 }
 
-// Load data on page load
-document.addEventListener('DOMContentLoaded', loadData);
+// With defer attribute, DOMContentLoaded is guaranteed — call loadData directly
+loadData();
