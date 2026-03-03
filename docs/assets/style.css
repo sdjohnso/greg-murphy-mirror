@@ -288,7 +288,7 @@ small {
    ============================================ */
 
 main {
-  padding: var(--spacing-2xl) 0 var(--spacing-2xl);
+  padding: 3.5rem 0 var(--spacing-2xl);
 }
 
 section {
