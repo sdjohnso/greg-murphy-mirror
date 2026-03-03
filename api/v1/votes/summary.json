@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-03-03T11:56:20.877888",
+  "participation": {
+    "total_votes": 1681,
+    "participated": 1422,
+    "not_voting": 251,
+    "participation_rate": 84.6
+  },
+  "party_alignment": {
+    "with_party": 1335,
+    "against_party": 67,
+    "alignment_rate": 95.2,
+    "bipartisan_votes": 67
+  },
+  "by_congress": {
+    "119": 440,
+    "118": 1241
+  },
+  "by_legislation_type": {
+    "unclassified": 643,
+    "HR": 613,
+    "HRES": 308,
+    "HJRES": 47,
+    "S": 43,
+    "HCONRES": 16,
+    "SJRES": 11
+  }
+}

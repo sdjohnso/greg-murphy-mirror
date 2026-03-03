@@ -4,6 +4,8 @@ on:
   schedule:
     # Run daily at 6 AM EST (11:00 UTC)
     - cron: '0 11 * * *'
+    # Run full update on the 1st of each month at 7 AM EST (12:00 UTC)
+    - cron: '0 12 1 * *'
   workflow_dispatch:
     inputs:
       update_type:
@@ -36,12 +38,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Determine update type
+        id: update-type
+        run: |
+          if [ -n "${{ github.event.inputs.update_type }}" ]; then
+            echo "type=${{ github.event.inputs.update_type }}" >> $GITHUB_OUTPUT
+          elif [ "$(date +%d)" = "01" ]; then
+            echo "type=full" >> $GITHUB_OUTPUT
+          else
+            echo "type=daily" >> $GITHUB_OUTPUT
+          fi
+
       - name: Run update
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
         run: |
-          UPDATE_TYPE=${{ github.event.inputs.update_type || 'daily' }}
-          python scripts/update_mirror.py $UPDATE_TYPE
+          echo "Running ${{ steps.update-type.outputs.type }} update"
+          python scripts/update_mirror.py ${{ steps.update-type.outputs.type }}
 
       - name: Commit and push changes
         run: |

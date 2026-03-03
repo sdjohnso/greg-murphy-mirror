@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-03-03T11:56:20.877888",
+  "member": {
+    "bioguide_id": "M001210",
+    "name": "Gregory F. Murphy",
+    "party": "Republican",
+    "state": "North Carolina",
+    "district": 3,
+    "serving_since": "September 2019",
+    "birth_year": "1963",
+    "photo_url": "https://www.congress.gov/img/member/m001210_200.jpg",
+    "website": "https://murphy.house.gov",
+    "office": "407 Cannon House Office Building",
+    "phone": "(202) 225-3415",
+    "congress_gov_url": "https://www.congress.gov/member/gregory-murphy/M001210"
+  },
+  "metrics": {
+    "participation_rate": 84.6,
+    "total_votes": 1681,
+    "votes_cast": 1422,
+    "votes_missed": 251,
+    "party_alignment_rate": 95.2,
+    "with_party": 1335,
+    "against_party": 67,
+    "bipartisan_votes": 67,
+    "bills_sponsored": 117,
+    "bills_cosponsored": 817
+  }
+}

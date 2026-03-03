@@ -19,6 +19,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 RAW_DIR = PROJECT_ROOT / "raw"
 PROCESSED_DIR = PROJECT_ROOT / "processed"
 DOCS_DIR = PROJECT_ROOT / "docs"
+API_DIR = PROJECT_ROOT / "api"
 
 # =============================================================================
 # Congress.gov API Configuration
@@ -112,6 +113,7 @@ def ensure_dirs():
         PROCESSED_DIR / "legislation",
         DOCS_DIR / "votes",
         DOCS_DIR / "legislation",
+        API_DIR / "v1" / "votes",
     ]
 
     for congress in CONGRESSES:

@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-03-03T22:26:20.286607",
+  "version": "v1",
+  "description": "Consolidated JSON API for Rep. Greg Murphy (NC-03) congressional data. Auto-updated monthly from the greg-murphy-mirror.",
+  "source_repo": "https://github.com/sdjohnso/greg-murphy-mirror",
+  "endpoints": {
+    "member": {
+      "path": "member.json",
+      "description": "Member profile and key metrics"
+    },
+    "votes_summary": {
+      "path": "votes/summary.json",
+      "description": "Voting statistics and breakdowns"
+    },
+    "votes_recent": {
+      "path": "votes/recent.json",
+      "description": "Votes from the last 30 days"
+    },
+    "votes_all": {
+      "path": "votes/all.json",
+      "description": "Complete voting record with party breakdowns"
+    },
+    "legislation": {
+      "path": "legislation.json",
+      "description": "Sponsored and cosponsored bills"
+    },
+    "consistency": {
+      "path": "consistency.json",
+      "description": "Voting consistency and party alignment analysis"
+    }
+  }
+}

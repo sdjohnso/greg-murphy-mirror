@@ -103,6 +103,7 @@ def full_update() -> bool:
         "pull_legislation.py",
         "generate_metrics.py",
         "generate_docs.py",
+        "generate_json.py",
     ]
 
     # Optional scripts - failures don't affect overall status
@@ -144,6 +145,7 @@ def daily_update() -> bool:
         "pull_votes.py",
         "generate_metrics.py",
         "generate_docs.py",
+        "generate_json.py",
     ]
 
     # Optional scripts - failures don't affect overall status
