@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T11:37:55.438471",
+  "generated_at": "2026-03-05T11:40:18.093286",
   "week_of": "2026-03-02",
   "days": [
     {
@@ -96,6 +96,13 @@
           "procedure": "suspension",
           "sponsor": "Del. Moylan / Education & Workforce Committee",
           "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6472"
+        },
+        {
+          "bill_id": "H.Res. 1099",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1099"
         }
       ]
     },

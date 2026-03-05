@@ -2959,6 +2959,23 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-resolution/936"
   },
+  "S-723": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 81,
+        "congress": 119,
+        "date": "2026-03-04T14:13:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/senate-bill/723"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/senate-bill/723"
+  },
   "HR-3486": {
     "vote_count": 1,
     "consistent": true,
@@ -3927,6 +3944,33 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/3383"
   },
+  "HRES-1095": {
+    "vote_count": 2,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 79,
+        "congress": 119,
+        "date": "2026-03-04T13:59:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1095"
+      },
+      {
+        "roll_number": 80,
+        "congress": 119,
+        "date": "2026-03-04T14:06:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Aye",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1095"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1095"
+  },
   "HR-3898": {
     "vote_count": 2,
     "consistent": false,
@@ -3953,6 +3997,23 @@
       }
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/3898"
+  },
+  "HRES-1100": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 83,
+        "congress": 119,
+        "date": "2026-03-04T14:33:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1100"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1100"
   },
   "HJRES-27": {
     "vote_count": 2,
@@ -4972,6 +5033,23 @@
       }
     ],
     "legislation_url": "https://www.congress.gov/bill/118/house-bill/1"
+  },
+  "HR-6472": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 82,
+        "congress": 119,
+        "date": "2026-03-04T14:20:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/6472"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/6472"
   },
   "HRES-878": {
     "vote_count": 3,
