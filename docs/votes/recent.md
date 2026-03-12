@@ -1,6 +1,6 @@
 # Recent Votes (Last 30 Days)
 
-*31 votes in the last 30 days*
+*29 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
@@ -33,8 +33,6 @@
 | Feb 11, 2026 | 61 | HRES 1057 | Passed | Not Voting | - |
 | Feb 10, 2026 | 60 | HRES 1042 | Failed | Not Voting | - |
 | Feb 10, 2026 | 59 | HRES 1042 | Passed | Not Voting | - |
-| Feb 09, 2026 | 58 | HR 1531 | Passed | Not Voting | - |
-| Feb 09, 2026 | 57 | HR 6644 | Passed | Not Voting | - |
 
 
 ---
