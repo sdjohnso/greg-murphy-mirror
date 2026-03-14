@@ -1,128 +1,142 @@
 {
-  "generated_at": "2026-03-13T11:37:43.161471",
+  "generated_at": "2026-03-14T11:32:05.139148",
   "week_of": "2026-03-09",
   "days": [
     {
-      "day": "Tuesday",
-      "date": "2026-03-03",
+      "day": "Monday",
+      "date": "2026-03-16",
       "bills": [
         {
-          "bill_id": "H.R. 6365",
-          "title": "Wintergreen Emergency Egress Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. McGuire / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6365"
-        },
-        {
-          "bill_id": "H.R. 5910",
-          "title": "To authorize leases of up to 99 years for land held in trust for federally recognized Indian Tribes",
-          "procedure": "suspension",
-          "sponsor": "Rep. Hageman / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5910"
-        },
-        {
-          "bill_id": "H.R. 3903",
-          "title": "Chugach Alaska Land Exchange Oil Spill Recovery Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Begich / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3903"
-        },
-        {
-          "bill_id": "H.R. 5419",
-          "title": "Enhancing Administrative Reviews for Broadband Deployment Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Kean / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5419"
-        },
-        {
-          "bill_id": "H.R. 755",
-          "title": "Critical Mineral Consistency Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Ciscomani / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/755"
-        },
-        {
-          "bill_id": "H.R. 1945",
-          "title": "America\u2019s National Churchill Museum National Historic Landmark Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Onder / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1945"
-        },
-        {
-          "bill_id": "H.R. 681",
-          "title": "To amend the Act of August 9, 1955",
-          "procedure": "suspension",
-          "sponsor": "Rep. Keating / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/681"
-        },
-        {
-          "bill_id": "H.R. 3692",
-          "title": "Captain Accursio \u2018\u2018Gus\u2019\u2019 Sanfilippo Young Fishermen\u2019s Development Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Moulton / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3692"
-        },
-        {
-          "bill_id": "H.R. 4467",
-          "title": "Vicksburg National Military Park Boundary Modification Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Thompson (MS",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4467"
-        },
-        {
-          "bill_id": "H.R. 4386",
-          "title": "America the Beautiful Motorcycle Fairness Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Walberg / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4386"
-        },
-        {
-          "bill_id": "H.R. 4307",
-          "title": "Enhancing Detection of Human Trafficking Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Walberg / Education & Workforce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4307"
-        },
-        {
-          "bill_id": "H.R. 6392",
-          "title": "Home School Graduation Recognition Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Harris (NC",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6392"
-        },
-        {
-          "bill_id": "H.R. 6472",
-          "title": "Territorial Student Access to Higher Education Act",
-          "procedure": "suspension",
-          "sponsor": "Del. Moylan / Education & Workforce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6472"
-        },
-        {
-          "bill_id": "H.Res. 1099",
+          "bill_id": "H.R. 1422",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1099"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1422"
+        },
+        {
+          "bill_id": "H.R. 2709",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2709"
+        },
+        {
+          "bill_id": "H.R. 4467",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4467"
+        },
+        {
+          "bill_id": "H.R. 4284",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4284"
+        },
+        {
+          "bill_id": "H.R. 1665",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1665"
+        },
+        {
+          "bill_id": "H.R. 2294",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2294"
+        },
+        {
+          "bill_id": "H.R. 3073",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3073"
+        },
+        {
+          "bill_id": "H.R. 4294",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4294"
+        },
+        {
+          "bill_id": "H.R. 5254",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5254"
+        },
+        {
+          "bill_id": "H.R. 5729",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5729"
+        },
+        {
+          "bill_id": "H.R. 2196",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2196"
+        },
+        {
+          "bill_id": "H.R. 528",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/528"
+        },
+        {
+          "bill_id": "H.R. 6380",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6380"
+        },
+        {
+          "bill_id": "H.R. 831",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/831"
         }
       ]
     },
     {
-      "day": "Wednesday",
-      "date": "2026-03-04",
+      "day": "Tuesday",
+      "date": "2026-03-17",
       "bills": [
         {
-          "bill_id": "H.R. 7744",
+          "bill_id": "H.R. 1958",
           "title": "",
           "procedure": "rule",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7744"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1958"
         },
         {
-          "bill_id": "H.Con.Res. 38",
-          "title": "Directing the President pursuant to section 5",
-          "procedure": "may_be_considered",
-          "sponsor": "Rep. Massie / Foreign Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/38"
+          "bill_id": "H.R. 4638",
+          "title": "",
+          "procedure": "rule",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4638"
+        },
+        {
+          "bill_id": "H.R. 556",
+          "title": "",
+          "procedure": "rule",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/556"
+        },
+        {
+          "bill_id": "H.J.Res. 139",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/139"
         }
       ]
     }

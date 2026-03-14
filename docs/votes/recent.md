@@ -1,6 +1,6 @@
 # Recent Votes (Last 30 Days)
 
-*27 votes in the last 30 days*
+*17 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
@@ -21,16 +21,6 @@
 | Feb 24, 2026 | 73 | HRES 1075 | Passed | Yea | Yes |
 | Feb 24, 2026 | 72 | S 2503 | Failed | Nay | Yes |
 | Feb 24, 2026 | 71 | HR 6329 | Passed | Not Voting | - |
-| Feb 12, 2026 | 70 | HR 2189 | Passed | Not Voting | - |
-| Feb 11, 2026 | 69 | S 1383 | Passed | Not Voting | - |
-| Feb 11, 2026 | 68 | S 1383 | Failed | Not Voting | - |
-| Feb 11, 2026 | 67 | HR 261 | Passed | Not Voting | - |
-| Feb 11, 2026 | 66 | HR 261 | Failed | Not Voting | - |
-| Feb 11, 2026 | 65 | HJRES 72 | Passed | Not Voting | - |
-| Feb 11, 2026 | 64 | HR 3617 | Passed | Not Voting | - |
-| Feb 11, 2026 | 63 | HR 3617 | Failed | Not Voting | - |
-| Feb 11, 2026 | 62 | HRES 1057 | Passed | Not Voting | - |
-| Feb 11, 2026 | 61 | HRES 1057 | Passed | Not Voting | - |
 
 
 ---
