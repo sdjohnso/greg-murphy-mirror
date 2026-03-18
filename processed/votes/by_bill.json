@@ -10195,6 +10195,67 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/2189"
   },
+  "HR-4294": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 88,
+        "congress": 119,
+        "date": "2026-03-17T15:36:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/4294"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/4294"
+  },
+  "S-3971": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 89,
+        "congress": 119,
+        "date": "2026-03-17T15:44:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/senate-bill/3971"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/senate-bill/3971"
+  },
+  "HRES-1115": {
+    "vote_count": 2,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 90,
+        "congress": 119,
+        "date": "2026-03-17T15:51:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1115"
+      },
+      {
+        "roll_number": 91,
+        "congress": 119,
+        "date": "2026-03-17T15:57:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Aye",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1115"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1115"
+  },
   "HR-3391": {
     "vote_count": 1,
     "consistent": true,
