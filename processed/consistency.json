@@ -1,5 +1,5 @@
 {
-  "inconsistent_bill_count": 98,
+  "inconsistent_bill_count": 99,
   "inconsistent_bills": {
     "HR-4366": {
       "vote_count": 2,
@@ -1780,6 +1780,33 @@
       ],
       "legislation_url": "https://www.congress.gov/bill/119/house-bill/4090"
     },
+    "HR-556": {
+      "vote_count": 2,
+      "consistent": false,
+      "votes": [
+        {
+          "roll_number": 92,
+          "congress": 119,
+          "date": "2026-03-18T17:13:00-04:00",
+          "question": null,
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/556"
+        },
+        {
+          "roll_number": 93,
+          "congress": 119,
+          "date": "2026-03-18T17:21:00-04:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Aye",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/556"
+        }
+      ],
+      "legislation_url": "https://www.congress.gov/bill/119/house-bill/556"
+    },
     "HR-28": {
       "vote_count": 2,
       "consistent": false,
@@ -2928,7 +2955,7 @@
       "legislation_url": "https://www.congress.gov/bill/118/house-bill/6009"
     }
   },
-  "voted_against_cosponsored_count": 14,
+  "voted_against_cosponsored_count": 15,
   "voted_against_cosponsored": [
     {
       "bill_id": "HR-7023",
@@ -3058,6 +3085,19 @@
         "murphy_vote": "Nay",
         "voted_with_party": true,
         "legislation_url": "https://www.congress.gov/bill/118/house-bill/1163"
+      }
+    },
+    {
+      "bill_id": "HR-556",
+      "vote": {
+        "roll_number": 92,
+        "congress": 119,
+        "date": "2026-03-18T17:13:00-04:00",
+        "question": null,
+        "result": "Failed",
+        "murphy_vote": "Nay",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/556"
       }
     },
     {
