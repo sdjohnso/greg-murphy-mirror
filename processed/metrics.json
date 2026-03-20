@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-19T11:58:35.287347",
+  "generated_at": "2026-03-20T11:56:22.318991",
   "participation": {
-    "total_votes": 1698,
+    "total_votes": 1699,
     "participated": 1439,
-    "not_voting": 251,
+    "not_voting": 252,
     "not_found": 0,
     "participation_rate": 84.7
   },
@@ -56,7 +56,7 @@
       ]
     },
     "HR": {
-      "count": 620,
+      "count": 621,
       "recent": [
         {
           "roll": 240,
@@ -322,7 +322,7 @@
     }
   },
   "summary": {
-    "total_votes": 1698,
+    "total_votes": 1699,
     "participation_rate": 84.7,
     "party_alignment_rate": 95.3,
     "bipartisan_votes": 67,

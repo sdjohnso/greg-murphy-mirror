@@ -4,9 +4,9 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Votes** | 1698 |
+| **Total Votes** | 1699 |
 | **Participated** | 1439 |
-| **Not Voting** | 251 |
+| **Not Voting** | 252 |
 | **Participation Rate** | 84.7% |
 
 ## Party Alignment
@@ -22,7 +22,7 @@
 
 | Congress | Votes |
 |----------|-------|
-| 119th | 457 |
+| 119th | 458 |
 | 118th | 1241 |
 
 
@@ -31,7 +31,7 @@
 | Type | Count |
 |------|-------|
 | null | 643 |
-| HR | 620 |
+| HR | 621 |
 | HRES | 314 |
 | HJRES | 48 |
 | S | 45 |

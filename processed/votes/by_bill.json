@@ -10222,23 +10222,6 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/556"
   },
-  "HR-1958": {
-    "vote_count": 1,
-    "consistent": true,
-    "votes": [
-      {
-        "roll_number": 94,
-        "congress": 119,
-        "date": "2026-03-18T17:27:00-04:00",
-        "question": null,
-        "result": "Passed",
-        "murphy_vote": "Yea",
-        "voted_with_party": true,
-        "legislation_url": "https://www.congress.gov/bill/119/house-bill/1958"
-      }
-    ],
-    "legislation_url": "https://www.congress.gov/bill/119/house-bill/1958"
-  },
   "HR-4294": {
     "vote_count": 1,
     "consistent": true,
@@ -10255,23 +10238,6 @@
       }
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/4294"
-  },
-  "HJRES-139": {
-    "vote_count": 1,
-    "consistent": true,
-    "votes": [
-      {
-        "roll_number": 95,
-        "congress": 119,
-        "date": "2026-03-18T17:34:00-04:00",
-        "question": null,
-        "result": "Failed",
-        "murphy_vote": "Yea",
-        "voted_with_party": true,
-        "legislation_url": "https://www.congress.gov/bill/119/house-joint-resolution/139"
-      }
-    ],
-    "legislation_url": "https://www.congress.gov/bill/119/house-joint-resolution/139"
   },
   "S-3971": {
     "vote_count": 1,
@@ -10316,6 +10282,57 @@
       }
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1115"
+  },
+  "HR-1958": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 94,
+        "congress": 119,
+        "date": "2026-03-18T17:27:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/1958"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/1958"
+  },
+  "HJRES-139": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 95,
+        "congress": 119,
+        "date": "2026-03-18T17:34:00-04:00",
+        "question": null,
+        "result": "Failed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-joint-resolution/139"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-joint-resolution/139"
+  },
+  "HR-4638": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 96,
+        "congress": 119,
+        "date": "2026-03-19T10:30:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Not Voting",
+        "voted_with_party": null,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/4638"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/4638"
   },
   "HR-3391": {
     "vote_count": 1,
