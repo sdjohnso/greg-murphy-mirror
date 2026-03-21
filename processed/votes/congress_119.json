@@ -16320,6 +16320,44 @@
   {
     "congress": 119,
     "session": 2,
+    "roll_number": 96,
+    "date": "2026-03-19T10:30:00-04:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "Yea-and-Nay",
+    "legislation_type": "HR",
+    "legislation_number": "4638",
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/4638",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll096.xml",
+    "murphy_vote": "Not Voting",
+    "voted_with_party": null,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 212,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 5
+      },
+      {
+        "party": "Democratic",
+        "yea": 15,
+        "nay": 190,
+        "present": 0,
+        "not_voting": 9
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
     "roll_number": 89,
     "date": "2026-03-17T15:44:00-04:00",
     "question": null,
@@ -16501,44 +16539,6 @@
       {
         "party": "Independent",
         "yea": 0,
-        "nay": 0,
-        "present": 0,
-        "not_voting": 0
-      }
-    ]
-  },
-  {
-    "congress": 119,
-    "session": 2,
-    "roll_number": 96,
-    "date": "2026-03-19T10:30:00-04:00",
-    "question": null,
-    "result": "Passed",
-    "vote_type": "Yea-and-Nay",
-    "legislation_type": "HR",
-    "legislation_number": "4638",
-    "legislation_url": "https://www.congress.gov/bill/119/house-bill/4638",
-    "source_xml": "https://clerk.house.gov/evs/2026/roll096.xml",
-    "murphy_vote": "Not Voting",
-    "voted_with_party": null,
-    "party_totals": [
-      {
-        "party": "Republican",
-        "yea": 212,
-        "nay": 0,
-        "present": 0,
-        "not_voting": 5
-      },
-      {
-        "party": "Democratic",
-        "yea": 15,
-        "nay": 190,
-        "present": 0,
-        "not_voting": 9
-      },
-      {
-        "party": "Independent",
-        "yea": 1,
         "nay": 0,
         "present": 0,
         "not_voting": 0

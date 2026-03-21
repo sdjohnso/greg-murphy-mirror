@@ -1,142 +1,149 @@
 {
-  "generated_at": "2026-03-20T11:38:15.170943",
+  "generated_at": "2026-03-21T11:30:02.209523",
   "week_of": "2026-03-16",
   "days": [
     {
-      "day": "Monday",
-      "date": "2026-03-16",
+      "day": "Tuesday",
+      "date": "2026-03-24",
       "bills": [
         {
-          "bill_id": "H.R. 1422",
+          "bill_id": "H.R. 4624",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1422"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4624"
         },
         {
-          "bill_id": "H.R. 2709",
+          "bill_id": "H.R. 2474",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2709"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2474"
         },
         {
-          "bill_id": "H.R. 4467",
+          "bill_id": "H.R. 6480",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4467"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6480"
         },
         {
-          "bill_id": "H.R. 4284",
+          "bill_id": "H.R. 6481",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4284"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6481"
         },
         {
-          "bill_id": "H.R. 1665",
+          "bill_id": "H.R. 7388",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1665"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7388"
         },
         {
-          "bill_id": "H.R. 2294",
+          "bill_id": "H.Con.Res. 73",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2294"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/73"
         },
         {
-          "bill_id": "H.R. 3073",
+          "bill_id": "H.R. 7342",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3073"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7342"
         },
         {
-          "bill_id": "H.R. 4294",
+          "bill_id": "H.R. 6618",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4294"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6618"
         },
         {
-          "bill_id": "H.R. 5254",
+          "bill_id": "H.R. 6267",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5254"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6267"
         },
         {
-          "bill_id": "H.R. 5729",
+          "bill_id": "H.R. 5663",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5729"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5663"
         },
         {
-          "bill_id": "H.R. 2196",
+          "bill_id": "H.R. 6427",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2196"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6427"
         },
         {
-          "bill_id": "H.R. 528",
+          "bill_id": "H.R. 6460",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/528"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6460"
         },
         {
-          "bill_id": "H.R. 6380",
+          "bill_id": "H.R. 2247",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6380"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2247"
         },
         {
-          "bill_id": "H.R. 831",
+          "bill_id": "H.R. 3410",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/831"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3410"
+        },
+        {
+          "bill_id": "H.R. 6422",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6422"
         }
       ]
     },
     {
-      "day": "Tuesday",
-      "date": "2026-03-17",
+      "day": "Wednesday",
+      "date": "2026-03-25",
       "bills": [
         {
-          "bill_id": "H.R. 1958",
+          "bill_id": "H.R. 8029",
           "title": "",
           "procedure": "rule",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1958"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8029"
         },
         {
-          "bill_id": "H.R. 4638",
+          "bill_id": "H.Res. 1128",
           "title": "",
           "procedure": "rule",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4638"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1128"
         },
         {
-          "bill_id": "H.R. 556",
+          "bill_id": "H.R. 7084",
           "title": "",
           "procedure": "rule",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/556"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7084"
         },
         {
-          "bill_id": "H.J.Res. 139",
+          "bill_id": "H.R. 5103",
           "title": "",
-          "procedure": "suspension",
+          "procedure": "rule",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/139"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5103"
         }
       ]
     }
