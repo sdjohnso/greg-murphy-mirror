@@ -10334,6 +10334,23 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-joint-resolution/139"
   },
+  "HR-6422": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 97,
+        "congress": 119,
+        "date": "2026-03-24T18:56:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/6422"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/6422"
+  },
   "HR-3391": {
     "vote_count": 1,
     "consistent": true,
