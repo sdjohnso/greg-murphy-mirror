@@ -1,5 +1,5 @@
 {
-  "inconsistent_bill_count": 99,
+  "inconsistent_bill_count": 100,
   "inconsistent_bills": {
     "HR-4366": {
       "vote_count": 2,
@@ -1806,6 +1806,33 @@
         }
       ],
       "legislation_url": "https://www.congress.gov/bill/119/house-bill/556"
+    },
+    "HR-5103": {
+      "vote_count": 2,
+      "consistent": false,
+      "votes": [
+        {
+          "roll_number": 100,
+          "congress": 119,
+          "date": "2026-03-25T15:22:00-04:00",
+          "question": null,
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/5103"
+        },
+        {
+          "roll_number": 101,
+          "congress": 119,
+          "date": "2026-03-25T15:29:00-04:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/5103"
+        }
+      ],
+      "legislation_url": "https://www.congress.gov/bill/119/house-bill/5103"
     },
     "HR-28": {
       "vote_count": 2,
