@@ -4,9 +4,9 @@
 
 | Metric | Count |
 |--------|-------|
-| Bills with Inconsistent Positions | 100 |
+| Bills with Inconsistent Positions | 101 |
 | Votes Against Party | 67 |
-| Cosponsored Bills Voted Against | 15 |
+| Cosponsored Bills Voted Against | 16 |
 
 ## Recent Votes Against Party
 
