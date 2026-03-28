@@ -10405,22 +10405,32 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1131"
   },
-  "HRES-1128": {
-    "vote_count": 1,
+  "HRES-1142": {
+    "vote_count": 2,
     "consistent": true,
     "votes": [
       {
-        "roll_number": 102,
+        "roll_number": 107,
         "congress": 119,
-        "date": "2026-03-26T15:11:00-04:00",
+        "date": "2026-03-27T23:19:00-04:00",
         "question": null,
         "result": "Passed",
         "murphy_vote": "Yea",
         "voted_with_party": true,
-        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1128"
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1142"
+      },
+      {
+        "roll_number": 108,
+        "congress": 119,
+        "date": "2026-03-27T23:25:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Aye",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1142"
       }
     ],
-    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1128"
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1142"
   },
   "HR-8029": {
     "vote_count": 2,
@@ -10448,6 +10458,40 @@
       }
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/8029"
+  },
+  "HRES-1128": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 102,
+        "congress": 119,
+        "date": "2026-03-26T15:11:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1128"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1128"
+  },
+  "HR-7084": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 105,
+        "congress": 119,
+        "date": "2026-03-27T10:27:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/7084"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/7084"
   },
   "HR-3391": {
     "vote_count": 1,
