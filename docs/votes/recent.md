@@ -1,6 +1,6 @@
 # Recent Votes (Last 30 Days)
 
-*25 votes in the last 30 days*
+*21 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
@@ -25,10 +25,6 @@
 | Mar 17, 2026 | 90 | HRES 1115 | Passed | Yea | Yes |
 | Mar 17, 2026 | 89 | S 3971 | Passed | Yea | Yes |
 | Mar 17, 2026 | 88 | HR 4294 | Passed | Yea | Yes |
-| Mar 05, 2026 | 87 | HR 7744 | Passed | Yea | Yes |
-| Mar 05, 2026 | 86 | HR 7744 | Failed | Nay | Yes |
-| Mar 05, 2026 | 85 | HCONRES 38 | Failed | Nay | Yes |
-| Mar 05, 2026 | 84 | HRES 1099 | Passed | Yea | Yes |
 
 
 ---
