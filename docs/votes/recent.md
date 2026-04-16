@@ -1,9 +1,12 @@
 # Recent Votes (Last 30 Days)
 
-*23 votes in the last 30 days*
+*26 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Apr 15, 2026 | 113 | HRES 965 | Passed | Nay | Yes |
+| Apr 15, 2026 | 112 | HRES 1174 | Passed | Aye | Yes |
+| Apr 15, 2026 | 111 | HRES 1174 | Passed | Yea | Yes |
 | Apr 14, 2026 | 110 | HR 7613 | Passed | Yea | Yes |
 | Apr 14, 2026 | 109 | HR 1011 | Passed | Yea | Yes |
 | Mar 27, 2026 | 108 | HRES 1142 | Passed | Aye | Yes |
