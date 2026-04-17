@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-16T12:21:29.448081",
+  "generated_at": "2026-04-17T12:15:58.956390",
   "participation": {
-    "total_votes": 1716,
-    "participated": 1456,
-    "not_voting": 252,
+    "total_votes": 1727,
+    "participated": 1466,
+    "not_voting": 253,
     "not_found": 0,
-    "participation_rate": 84.8
+    "participation_rate": 84.9
   },
   "party_alignment": {
-    "with_party": 1369,
+    "with_party": 1379,
     "against_party": 67,
-    "alignment_rate": 95.3,
+    "alignment_rate": 95.4,
     "bipartisan_votes": 67,
-    "calculable_votes": 1436
+    "calculable_votes": 1446
   },
   "votes_by_type": {
     "null": {
-      "count": 644,
+      "count": 645,
       "recent": [
         {
           "roll": 320,
@@ -56,7 +56,7 @@
       ]
     },
     "HR": {
-      "count": 629,
+      "count": 634,
       "recent": [
         {
           "roll": 240,
@@ -96,7 +96,7 @@
       ]
     },
     "HRES": {
-      "count": 322,
+      "count": 326,
       "recent": [
         {
           "roll": 296,
@@ -216,7 +216,7 @@
       ]
     },
     "HCONRES": {
-      "count": 17,
+      "count": 18,
       "recent": [
         {
           "roll": 100,
@@ -228,6 +228,13 @@
         {
           "roll": 85,
           "date": "2026-03-05T16:37:00-05:00",
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true
+        },
+        {
+          "roll": 114,
+          "date": "2026-04-16T12:06:00-04:00",
           "result": "Failed",
           "murphy_vote": "Nay",
           "voted_with_party": true
@@ -245,13 +252,6 @@
           "result": "Passed",
           "murphy_vote": "Yea",
           "voted_with_party": true
-        },
-        {
-          "roll": 345,
-          "date": "2025-12-17T18:01:00-05:00",
-          "result": "Failed",
-          "murphy_vote": "Not Voting",
-          "voted_with_party": null
         }
       ]
     },
@@ -322,9 +322,9 @@
     }
   },
   "summary": {
-    "total_votes": 1716,
-    "participation_rate": 84.8,
-    "party_alignment_rate": 95.3,
+    "total_votes": 1727,
+    "participation_rate": 84.9,
+    "party_alignment_rate": 95.4,
     "bipartisan_votes": 67,
     "bills_sponsored": 117,
     "bills_cosponsored": 817

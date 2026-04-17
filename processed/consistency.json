@@ -1,5 +1,5 @@
 {
-  "inconsistent_bill_count": 101,
+  "inconsistent_bill_count": 104,
   "inconsistent_bills": {
     "HR-4366": {
       "vote_count": 2,
@@ -746,6 +746,33 @@
       ],
       "legislation_url": "https://www.congress.gov/bill/119/house-bill/7744"
     },
+    "HCONRES-40": {
+      "vote_count": 2,
+      "consistent": false,
+      "votes": [
+        {
+          "roll_number": 227,
+          "congress": 118,
+          "date": "2023-05-18T10:53:00-04:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Aye",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/118/house-concurrent-resolution/40"
+        },
+        {
+          "roll_number": 114,
+          "congress": 119,
+          "date": "2026-04-16T12:06:00-04:00",
+          "question": null,
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-concurrent-resolution/40"
+        }
+      ],
+      "legislation_url": "https://www.congress.gov/bill/118/house-concurrent-resolution/40"
+    },
     "HR-185": {
       "vote_count": 2,
       "consistent": false,
@@ -826,6 +853,60 @@
         }
       ],
       "legislation_url": "https://www.congress.gov/bill/118/house-bill/1449"
+    },
+    "HR-6398": {
+      "vote_count": 2,
+      "consistent": false,
+      "votes": [
+        {
+          "roll_number": 117,
+          "congress": 119,
+          "date": "2026-04-16T12:26:00-04:00",
+          "question": null,
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/6398"
+        },
+        {
+          "roll_number": 118,
+          "congress": 119,
+          "date": "2026-04-16T12:32:00-04:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/6398"
+        }
+      ],
+      "legislation_url": "https://www.congress.gov/bill/119/house-bill/6398"
+    },
+    "HR-6409": {
+      "vote_count": 2,
+      "consistent": false,
+      "votes": [
+        {
+          "roll_number": 115,
+          "congress": 119,
+          "date": "2026-04-16T12:13:00-04:00",
+          "question": null,
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/6409"
+        },
+        {
+          "roll_number": 116,
+          "congress": 119,
+          "date": "2026-04-16T12:20:00-04:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/6409"
+        }
+      ],
+      "legislation_url": "https://www.congress.gov/bill/119/house-bill/6409"
     },
     "HR-3668": {
       "vote_count": 2,
