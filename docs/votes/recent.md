@@ -1,9 +1,12 @@
 # Recent Votes (Last 30 Days)
 
-*30 votes in the last 30 days*
+*33 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Apr 21, 2026 | 129 | S 1020 | Passed | Yea | Yes |
+| Apr 21, 2026 | 128 | HR 2493 | Passed | Yea | Yes |
+| Apr 21, 2026 | 127 | HR 5201 | Passed | Yea | Yes |
 | Apr 20, 2026 | 126 | HR 5200 | Passed | Yea | Yes |
 | Apr 20, 2026 | 125 | HR 1681 | Passed | Yea | Yes |
 | Apr 17, 2026 | 124 | HRES 1175 | Failed | Aye | Yes |
