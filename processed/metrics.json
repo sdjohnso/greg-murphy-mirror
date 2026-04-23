@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-22T12:22:14.359478",
+  "generated_at": "2026-04-23T12:22:51.378526",
   "participation": {
-    "total_votes": 1732,
-    "participated": 1471,
+    "total_votes": 1739,
+    "participated": 1478,
     "not_voting": 253,
     "not_found": 0,
-    "participation_rate": 84.9
+    "participation_rate": 85.0
   },
   "party_alignment": {
-    "with_party": 1384,
+    "with_party": 1391,
     "against_party": 67,
     "alignment_rate": 95.4,
     "bipartisan_votes": 67,
-    "calculable_votes": 1451
+    "calculable_votes": 1458
   },
   "votes_by_type": {
     "null": {
@@ -56,7 +56,7 @@
       ]
     },
     "HR": {
-      "count": 638,
+      "count": 642,
       "recent": [
         {
           "roll": 240,
@@ -96,7 +96,7 @@
       ]
     },
     "HRES": {
-      "count": 326,
+      "count": 329,
       "recent": [
         {
           "roll": 296,
@@ -322,8 +322,8 @@
     }
   },
   "summary": {
-    "total_votes": 1732,
-    "participation_rate": 84.9,
+    "total_votes": 1739,
+    "participation_rate": 85.0,
     "party_alignment_rate": 95.4,
     "bipartisan_votes": 67,
     "bills_sponsored": 117,

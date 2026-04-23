@@ -1,5 +1,5 @@
 {
-  "inconsistent_bill_count": 104,
+  "inconsistent_bill_count": 106,
   "inconsistent_bills": {
     "HR-4366": {
       "vote_count": 2,
@@ -1661,6 +1661,60 @@
         }
       ],
       "legislation_url": "https://www.congress.gov/bill/119/house-bill/6945"
+    },
+    "HR-4690": {
+      "vote_count": 2,
+      "consistent": false,
+      "votes": [
+        {
+          "roll_number": 133,
+          "congress": 119,
+          "date": "2026-04-22T16:51:00-04:00",
+          "question": null,
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/4690"
+        },
+        {
+          "roll_number": 134,
+          "congress": 119,
+          "date": "2026-04-22T16:58:00-04:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/4690"
+        }
+      ],
+      "legislation_url": "https://www.congress.gov/bill/119/house-bill/4690"
+    },
+    "HR-6387": {
+      "vote_count": 2,
+      "consistent": false,
+      "votes": [
+        {
+          "roll_number": 135,
+          "congress": 119,
+          "date": "2026-04-22T17:04:00-04:00",
+          "question": null,
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/6387"
+        },
+        {
+          "roll_number": 136,
+          "congress": 119,
+          "date": "2026-04-22T17:17:00-04:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/6387"
+        }
+      ],
+      "legislation_url": "https://www.congress.gov/bill/119/house-bill/6387"
     },
     "HR-4016": {
       "vote_count": 3,
