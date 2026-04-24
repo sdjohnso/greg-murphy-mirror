@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-23T12:22:51.378526",
+  "generated_at": "2026-04-24T12:20:50.417021",
   "participation": {
-    "total_votes": 1739,
-    "participated": 1478,
+    "total_votes": 1740,
+    "participated": 1479,
     "not_voting": 253,
     "not_found": 0,
     "participation_rate": 85.0
   },
   "party_alignment": {
-    "with_party": 1391,
+    "with_party": 1392,
     "against_party": 67,
     "alignment_rate": 95.4,
     "bipartisan_votes": 67,
-    "calculable_votes": 1458
+    "calculable_votes": 1459
   },
   "votes_by_type": {
     "null": {
@@ -56,7 +56,7 @@
       ]
     },
     "HR": {
-      "count": 642,
+      "count": 643,
       "recent": [
         {
           "roll": 240,
@@ -322,7 +322,7 @@
     }
   },
   "summary": {
-    "total_votes": 1739,
+    "total_votes": 1740,
     "participation_rate": 85.0,
     "party_alignment_rate": 95.4,
     "bipartisan_votes": 67,

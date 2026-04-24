@@ -4,6 +4,7 @@
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Apr 23, 2026 | 137 | HR 5587 | Passed | Yea | Yes |
 | Apr 22, 2026 | 136 | HR 6387 | Passed | Yea | Yes |
 | Apr 22, 2026 | 135 | HR 6387 | Failed | Nay | Yes |
 | Apr 22, 2026 | 134 | HR 4690 | Passed | Yea | Yes |
@@ -43,7 +44,6 @@
 | Mar 25, 2026 | 100 | HR 5103 | Failed | Nay | Yes |
 | Mar 25, 2026 | 99 | HRES 1131 | Passed | Aye | Yes |
 | Mar 25, 2026 | 98 | HRES 1131 | Passed | Yea | Yes |
-| Mar 24, 2026 | 97 | HR 6422 | Passed | Yea | Yes |
 
 
 ---

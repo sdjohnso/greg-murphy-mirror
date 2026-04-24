@@ -1,6 +1,6 @@
 # Rep. Greg Murphy Congressional Dashboard
 
-*Data updated: 2026-04-23*
+*Data updated: 2026-04-24*
 
 ## Representative Profile
 
@@ -22,7 +22,7 @@
 | **Participation Rate** | 85.0% |
 | **Party Alignment** | 95.4% |
 | **Bipartisan Votes** | 67 |
-| **Total Votes Cast** | 1478 of 1739 |
+| **Total Votes Cast** | 1479 of 1740 |
 | **Bills Sponsored** | 117 |
 | **Bills Cosponsored** | 817 |
 
