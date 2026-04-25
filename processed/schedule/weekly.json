@@ -1,121 +1,128 @@
 {
-  "generated_at": "2026-04-24T12:01:21.710203",
+  "generated_at": "2026-04-25T11:44:24.311814",
   "week_of": "2026-04-20",
   "days": [
     {
       "day": "Monday",
-      "date": "2026-04-20",
+      "date": "2026-04-27",
       "bills": [
         {
-          "bill_id": "H.R. 7386",
-          "title": "First Responder Network Authority Reauthorization Act of 2026",
+          "bill_id": "H.R. 4930",
+          "title": "To expand the sharing of information with respect to suspected violations of intellectual property rights in trade.",
           "procedure": "suspension",
-          "sponsor": "Rep. Dunn / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7386"
+          "sponsor": "Rep. Moore (UT",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4930"
         },
         {
-          "bill_id": "H.R. 7022",
-          "title": "Mystic Alerts Act",
+          "bill_id": "H.R. 6506",
+          "title": "Taxpayer Due Process Enhancement Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Pfluger / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7022"
+          "sponsor": "Rep. Moran / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6506"
         },
         {
-          "bill_id": "H.R. 1681",
-          "title": "Expediting Federal Broadband Deployment Reviews Act",
+          "bill_id": "H.R. 6956",
+          "title": "BARCODE Efficiency Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Evans / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1681"
+          "sponsor": "Rep. Schneider / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6956"
         },
         {
-          "bill_id": "H.R. 1343",
-          "title": "Federal Broadband Deployment Tracking Act",
+          "bill_id": "H.R. 7971",
+          "title": "Taxpayer Experience Improvement Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Pfluger / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1343"
+          "sponsor": "Rep. Schweikert / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7971"
         },
         {
-          "bill_id": "H.R. 5200",
-          "title": "Emergency Reporting Act",
+          "bill_id": "H.R. 7959",
+          "title": "IRS Whistleblower Program Improvement Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Matsui / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5200"
+          "sponsor": "Rep. Kelly (PA",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7959"
         },
         {
-          "bill_id": "H.R. 5201",
-          "title": "Kari's Law Reporting Act",
+          "bill_id": "H.R. 6495",
+          "title": "Taxpayer Notification and Privacy Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Matsui / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5201"
+          "sponsor": "Rep. Steube / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6495"
+        },
+        {
+          "bill_id": "H.R. 5366",
+          "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Steube / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5366"
+        },
+        {
+          "bill_id": "H.R. 2347",
+          "title": "Survivor Justice Tax Prevention Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Smucker / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2347"
+        },
+        {
+          "bill_id": "H.R. 5334",
+          "title": "SEED Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Panetta / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5334"
+        },
+        {
+          "bill_id": "H.R. 6903",
+          "title": "Ensuring Children Receive Support Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Van Duyne / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6903"
+        },
+        {
+          "bill_id": "H.R. 6431",
+          "title": "New Opportunities for Business Ownership and Self-Sufficiency Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Carey / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6431"
+        },
+        {
+          "bill_id": "H.R. 227",
+          "title": "Clergy Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Fong / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/227"
+        },
+        {
+          "bill_id": "H.R. 8364",
+          "title": "To amend title 5, United States Code, to authorize the increase of the retirement age in the United States Capitol Police.",
+          "procedure": "suspension",
+          "sponsor": "Rep. Steil / House Administration Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8364"
         }
       ]
     },
     {
       "day": "Tuesday",
-      "date": "2026-04-21",
+      "date": "2026-04-28",
       "bills": [
         {
-          "bill_id": "H.R. 2493",
-          "title": "Improving Care in Rural America Reauthorization Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Carter (GA",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2493"
-        },
-        {
-          "bill_id": "H.R. 3419",
-          "title": "To amend the Public Health Service Act to reauthorize the telehealth network and telehealth resource centers grant programs.",
-          "procedure": "suspension",
-          "sponsor": "Rep. Valadao / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3419"
-        },
-        {
-          "bill_id": "H.R. 2319",
-          "title": "Women and Lung Cancer Research and Preventive Services Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Boyle / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2319"
-        },
-        {
-          "bill_id": "H.R. 6387",
-          "title": "FIRE Act",
+          "bill_id": "H.R. 2616",
+          "title": "Stopping Indoctrination and Protecting Kids Act",
           "procedure": "rule",
-          "sponsor": "Rep. Evans / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6387"
+          "sponsor": "Rep. Walberg / Education and Workforce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2616"
         },
         {
-          "bill_id": "H.R. 2289",
+          "bill_id": "H.R. 7567",
           "title": "",
           "procedure": "rule",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2289"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7567"
         },
         {
-          "bill_id": "H.R. 4690",
-          "title": "Reliable Federal Infrastructure Act",
-          "procedure": "rule",
-          "sponsor": "Rep. Langworthy / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4690"
-        },
-        {
-          "bill_id": "H.R. 5587",
-          "title": "HEATS Act of 2026",
-          "procedure": "rule",
-          "sponsor": "Rep. Kim / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5587"
-        },
-        {
-          "bill_id": "H.R. 1897",
-          "title": "ESA Amendments Act of 2025",
-          "procedure": "rule",
-          "sponsor": "Rep. Westerman / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1897"
-        },
-        {
-          "bill_id": "H.Res. 1182",
-          "title": "Expressing support for rural communities across the United States as stewards of the environment, major suppliers of United States energy resources, critical providers of food production and manufacturing capacity, and drivers of national economic stability, and recognizing the work of the House of Representatives in the 119th Congress in support of those vital communities.",
-          "procedure": "rule",
-          "sponsor": "Rep. Fuller / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1182"
+          "bill_id": "H.Con.Res. 75",
+          "title": "Directing the President, pursuant to section 5",
+          "procedure": "may_be_considered",
+          "sponsor": "Rep. Gottheimer / Foreign Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/75"
         }
       ]
     }
