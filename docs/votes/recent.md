@@ -1,6 +1,6 @@
 # Recent Votes (Last 30 Days)
 
-*36 votes in the last 30 days*
+*32 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
@@ -36,10 +36,6 @@
 | Mar 27, 2026 | 108 | HRES 1142 | Passed | Aye | Yes |
 | Mar 27, 2026 | 107 | HRES 1142 | Passed | Yea | Yes |
 | Mar 27, 2026 | 106 | None None | Passed | Yea | Yes |
-| Mar 27, 2026 | 105 | HR 7084 | Passed | Yea | Yes |
-| Mar 26, 2026 | 104 | HR 8029 | Passed | Yea | Yes |
-| Mar 26, 2026 | 103 | HR 8029 | Failed | Nay | Yes |
-| Mar 26, 2026 | 102 | HRES 1128 | Passed | Yea | Yes |
 
 
 ---
