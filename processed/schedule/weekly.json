@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-26T11:45:16.508349",
-  "week_of": "2026-04-20",
+  "generated_at": "2026-04-27T12:22:12.817662",
+  "week_of": "2026-04-27",
   "days": [
     {
       "day": "Monday",
@@ -12,13 +12,6 @@
           "procedure": "suspension",
           "sponsor": "Rep. Moore (UT",
           "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4930"
-        },
-        {
-          "bill_id": "H.R. 6506",
-          "title": "Taxpayer Due Process Enhancement Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Moran / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6506"
         },
         {
           "bill_id": "H.R. 6956",
