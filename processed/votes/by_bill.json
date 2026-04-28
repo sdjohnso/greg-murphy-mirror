@@ -10608,6 +10608,40 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/5587"
   },
+  "HR-7959": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 138,
+        "congress": 119,
+        "date": "2026-04-27T19:00:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/7959"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/7959"
+  },
+  "HR-227": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 139,
+        "congress": 119,
+        "date": "2026-04-27T19:09:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/227"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/227"
+  },
   "HR-5103": {
     "vote_count": 2,
     "consistent": false,
