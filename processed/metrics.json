@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-29T12:38:08.808376",
+  "generated_at": "2026-04-30T12:37:00.218039",
   "participation": {
-    "total_votes": 1742,
-    "participated": 1481,
+    "total_votes": 1746,
+    "participated": 1485,
     "not_voting": 253,
     "not_found": 0,
-    "participation_rate": 85.0
+    "participation_rate": 85.1
   },
   "party_alignment": {
-    "with_party": 1394,
+    "with_party": 1398,
     "against_party": 67,
     "alignment_rate": 95.4,
     "bipartisan_votes": 67,
-    "calculable_votes": 1461
+    "calculable_votes": 1465
   },
   "votes_by_type": {
     "HR": {
@@ -96,7 +96,7 @@
       ]
     },
     "HRES": {
-      "count": 329,
+      "count": 331,
       "recent": [
         {
           "roll": 296,
@@ -176,7 +176,7 @@
       ]
     },
     "S": {
-      "count": 46,
+      "count": 47,
       "recent": [
         {
           "roll": 72,
@@ -294,6 +294,18 @@
           "voted_with_party": true
         }
       ]
+    },
+    "SCONRES": {
+      "count": 1,
+      "recent": [
+        {
+          "roll": 143,
+          "date": "2026-04-29T22:39:00-04:00",
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true
+        }
+      ]
     }
   },
   "legislation": {
@@ -322,8 +334,8 @@
     }
   },
   "summary": {
-    "total_votes": 1742,
-    "participation_rate": 85.0,
+    "total_votes": 1746,
+    "participation_rate": 85.1,
     "party_alignment_rate": 95.4,
     "bipartisan_votes": 67,
     "bills_sponsored": 117,

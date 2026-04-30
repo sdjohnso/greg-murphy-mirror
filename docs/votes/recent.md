@@ -1,9 +1,13 @@
 # Recent Votes (Last 30 Days)
 
-*31 votes in the last 30 days*
+*35 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Apr 29, 2026 | 143 | SCONRES 33 | Passed | Yea | Yes |
+| Apr 29, 2026 | 142 | S 1318 | Passed | Yea | Yes |
+| Apr 29, 2026 | 141 | HRES 1224 | Passed | Aye | Yes |
+| Apr 29, 2026 | 140 | HRES 1224 | Passed | Yea | Yes |
 | Apr 27, 2026 | 139 | HR 227 | Passed | Yea | Yes |
 | Apr 27, 2026 | 138 | HR 7959 | Passed | Yea | Yes |
 | Apr 23, 2026 | 137 | HR 5587 | Passed | Yea | Yes |

@@ -17232,6 +17232,82 @@
   {
     "congress": 119,
     "session": 2,
+    "roll_number": 140,
+    "date": "2026-04-29T11:11:00-04:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "Yea-and-Nay",
+    "legislation_type": "HRES",
+    "legislation_number": "1224",
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1224",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll140.xml",
+    "murphy_vote": "Yea",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 214,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 3
+      },
+      {
+        "party": "Democratic",
+        "yea": 0,
+        "nay": 210,
+        "present": 0,
+        "not_voting": 2
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 141,
+    "date": "2026-04-29T13:24:00-04:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "Recorded Vote",
+    "legislation_type": "HRES",
+    "legislation_number": "1224",
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1224",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll141.xml",
+    "murphy_vote": "Aye",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 215,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 2
+      },
+      {
+        "party": "Democratic",
+        "yea": 0,
+        "nay": 210,
+        "present": 0,
+        "not_voting": 2
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
     "roll_number": 132,
     "date": "2026-04-22T16:39:00-04:00",
     "question": null,
@@ -17257,6 +17333,44 @@
         "nay": 196,
         "present": 2,
         "not_voting": 7
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 142,
+    "date": "2026-04-29T17:25:00-04:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "Yea-and-Nay",
+    "legislation_type": "S",
+    "legislation_number": "1318",
+    "legislation_url": "https://www.congress.gov/bill/119/senate-bill/1318",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll142.xml",
+    "murphy_vote": "Yea",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 192,
+        "nay": 22,
+        "present": 0,
+        "not_voting": 3
+      },
+      {
+        "party": "Democratic",
+        "yea": 42,
+        "nay": 169,
+        "present": 0,
+        "not_voting": 1
       },
       {
         "party": "Independent",
@@ -17339,6 +17453,44 @@
         "yea": 1,
         "nay": 0,
         "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 143,
+    "date": "2026-04-29T22:39:00-04:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "Yea-and-Nay",
+    "legislation_type": "SCONRES",
+    "legislation_number": "33",
+    "legislation_url": "https://www.congress.gov/bill/119/senate-concurrent-resolution/33",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll143.xml",
+    "murphy_vote": "Yea",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 215,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 2
+      },
+      {
+        "party": "Democratic",
+        "yea": 0,
+        "nay": 211,
+        "present": 0,
+        "not_voting": 1
+      },
+      {
+        "party": "Independent",
+        "yea": 0,
+        "nay": 0,
+        "present": 1,
         "not_voting": 0
       }
     ]
