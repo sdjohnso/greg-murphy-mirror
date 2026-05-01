@@ -1,9 +1,21 @@
 # Recent Votes (Last 30 Days)
 
-*35 votes in the last 30 days*
+*47 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Apr 30, 2026 | 155 | S 4465 | Passed | Yea | Yes |
+| Apr 30, 2026 | 154 | HR 7567 | Passed | Yea | Yes |
+| Apr 30, 2026 | 153 | HR 7567 | Failed | Nay | Yes |
+| Apr 30, 2026 | 152 | None None | Agreed to | Aye | Yes |
+| Apr 30, 2026 | 151 | None None | Failed | No | No |
+| Apr 30, 2026 | 150 | None None | Agreed to | Aye | No |
+| Apr 30, 2026 | 149 | None None | Failed | Aye | Yes |
+| Apr 30, 2026 | 148 | None None | Agreed to | No | Yes |
+| Apr 30, 2026 | 147 | None None | Failed | No | Yes |
+| Apr 30, 2026 | 146 | None None | Agreed to | Aye | Yes |
+| Apr 30, 2026 | 145 | None None | Agreed to | Aye | Yes |
+| Apr 30, 2026 | 144 | None None | Failed | Aye | Yes |
 | Apr 29, 2026 | 143 | SCONRES 33 | Passed | Yea | Yes |
 | Apr 29, 2026 | 142 | S 1318 | Passed | Yea | Yes |
 | Apr 29, 2026 | 141 | HRES 1224 | Passed | Aye | Yes |

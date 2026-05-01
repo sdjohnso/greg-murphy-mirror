@@ -4,25 +4,25 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Votes** | 1746 |
-| **Participated** | 1485 |
+| **Total Votes** | 1758 |
+| **Participated** | 1497 |
 | **Not Voting** | 253 |
-| **Participation Rate** | 85.1% |
+| **Participation Rate** | 85.2% |
 
 ## Party Alignment
 
 | Metric | Value |
 |--------|-------|
-| **Voted with Party** | 1398 |
-| **Voted Against Party** | 67 |
-| **Alignment Rate** | 95.4% |
-| **Bipartisan Votes** | 67 |
+| **Voted with Party** | 1408 |
+| **Voted Against Party** | 69 |
+| **Alignment Rate** | 95.3% |
+| **Bipartisan Votes** | 69 |
 
 ## Votes by Congress
 
 | Congress | Votes |
 |----------|-------|
-| 119th | 505 |
+| 119th | 517 |
 | 118th | 1241 |
 
 
@@ -30,11 +30,11 @@
 
 | Type | Count |
 |------|-------|
-| HR | 645 |
-| null | 645 |
+| null | 654 |
+| HR | 647 |
 | HRES | 331 |
+| S | 48 |
 | HJRES | 48 |
-| S | 47 |
 | HCONRES | 18 |
 | SJRES | 11 |
 | SCONRES | 1 |

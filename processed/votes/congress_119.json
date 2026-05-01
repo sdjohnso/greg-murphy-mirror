@@ -17194,44 +17194,6 @@
   {
     "congress": 119,
     "session": 2,
-    "roll_number": 70,
-    "date": "2026-02-12T10:45:00-05:00",
-    "question": null,
-    "result": "Passed",
-    "vote_type": "Yea-and-Nay",
-    "legislation_type": "HR",
-    "legislation_number": "2189",
-    "legislation_url": "https://www.congress.gov/bill/119/house-bill/2189",
-    "source_xml": "https://clerk.house.gov/evs/2026/roll070.xml",
-    "murphy_vote": "Not Voting",
-    "voted_with_party": null,
-    "party_totals": [
-      {
-        "party": "Republican",
-        "yea": 211,
-        "nay": 1,
-        "present": 0,
-        "not_voting": 5
-      },
-      {
-        "party": "Democratic",
-        "yea": 22,
-        "nay": 184,
-        "present": 0,
-        "not_voting": 8
-      },
-      {
-        "party": "Independent",
-        "yea": 0,
-        "nay": 0,
-        "present": 0,
-        "not_voting": 0
-      }
-    ]
-  },
-  {
-    "congress": 119,
-    "session": 2,
     "roll_number": 140,
     "date": "2026-04-29T11:11:00-04:00",
     "question": null,
@@ -17270,35 +17232,35 @@
   {
     "congress": 119,
     "session": 2,
-    "roll_number": 141,
-    "date": "2026-04-29T13:24:00-04:00",
+    "roll_number": 70,
+    "date": "2026-02-12T10:45:00-05:00",
     "question": null,
     "result": "Passed",
-    "vote_type": "Recorded Vote",
-    "legislation_type": "HRES",
-    "legislation_number": "1224",
-    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1224",
-    "source_xml": "https://clerk.house.gov/evs/2026/roll141.xml",
-    "murphy_vote": "Aye",
-    "voted_with_party": true,
+    "vote_type": "Yea-and-Nay",
+    "legislation_type": "HR",
+    "legislation_number": "2189",
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/2189",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll070.xml",
+    "murphy_vote": "Not Voting",
+    "voted_with_party": null,
     "party_totals": [
       {
         "party": "Republican",
-        "yea": 215,
-        "nay": 0,
+        "yea": 211,
+        "nay": 1,
         "present": 0,
-        "not_voting": 2
+        "not_voting": 5
       },
       {
         "party": "Democratic",
-        "yea": 0,
-        "nay": 210,
+        "yea": 22,
+        "nay": 184,
         "present": 0,
-        "not_voting": 2
+        "not_voting": 8
       },
       {
         "party": "Independent",
-        "yea": 1,
+        "yea": 0,
         "nay": 0,
         "present": 0,
         "not_voting": 0
@@ -17346,31 +17308,69 @@
   {
     "congress": 119,
     "session": 2,
-    "roll_number": 142,
-    "date": "2026-04-29T17:25:00-04:00",
+    "roll_number": 144,
+    "date": "2026-04-30T10:30:00-04:00",
     "question": null,
-    "result": "Passed",
-    "vote_type": "Yea-and-Nay",
-    "legislation_type": "S",
-    "legislation_number": "1318",
-    "legislation_url": "https://www.congress.gov/bill/119/senate-bill/1318",
-    "source_xml": "https://clerk.house.gov/evs/2026/roll142.xml",
-    "murphy_vote": "Yea",
+    "result": "Failed",
+    "vote_type": "Recorded Vote",
+    "legislation_type": null,
+    "legislation_number": null,
+    "legislation_url": "https://www.congress.gov/amendment/119/house-amendment/181",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll144.xml",
+    "murphy_vote": "Aye",
     "voted_with_party": true,
     "party_totals": [
       {
         "party": "Republican",
-        "yea": 192,
-        "nay": 22,
+        "yea": 172,
+        "nay": 40,
         "present": 0,
-        "not_voting": 3
+        "not_voting": 7
       },
       {
         "party": "Democratic",
-        "yea": 42,
-        "nay": 169,
+        "yea": 37,
+        "nay": 176,
         "present": 0,
-        "not_voting": 1
+        "not_voting": 2
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 145,
+    "date": "2026-04-30T10:34:00-04:00",
+    "question": null,
+    "result": "Agreed to",
+    "vote_type": "Recorded Vote",
+    "legislation_type": null,
+    "legislation_number": null,
+    "legislation_url": "https://www.congress.gov/amendment/119/house-amendment/186",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll145.xml",
+    "murphy_vote": "Aye",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 187,
+        "nay": 23,
+        "present": 0,
+        "not_voting": 10
+      },
+      {
+        "party": "Democratic",
+        "yea": 196,
+        "nay": 12,
+        "present": 0,
+        "not_voting": 7
       },
       {
         "party": "Independent",
@@ -17460,6 +17460,44 @@
   {
     "congress": 119,
     "session": 2,
+    "roll_number": 139,
+    "date": "2026-04-27T19:09:00-04:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "2/3 Yea-And-Nay",
+    "legislation_type": "HR",
+    "legislation_number": "227",
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/227",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll139.xml",
+    "murphy_vote": "Yea",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 166,
+        "nay": 4,
+        "present": 0,
+        "not_voting": 46
+      },
+      {
+        "party": "Democratic",
+        "yea": 183,
+        "nay": 1,
+        "present": 0,
+        "not_voting": 28
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
     "roll_number": 143,
     "date": "2026-04-29T22:39:00-04:00",
     "question": null,
@@ -17498,36 +17536,454 @@
   {
     "congress": 119,
     "session": 2,
-    "roll_number": 139,
-    "date": "2026-04-27T19:09:00-04:00",
+    "roll_number": 141,
+    "date": "2026-04-29T13:24:00-04:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "Recorded Vote",
+    "legislation_type": "HRES",
+    "legislation_number": "1224",
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1224",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll141.xml",
+    "murphy_vote": "Aye",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 215,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 2
+      },
+      {
+        "party": "Democratic",
+        "yea": 0,
+        "nay": 210,
+        "present": 0,
+        "not_voting": 2
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 152,
+    "date": "2026-04-30T10:59:00-04:00",
+    "question": null,
+    "result": "Agreed to",
+    "vote_type": "Recorded Vote",
+    "legislation_type": null,
+    "legislation_number": null,
+    "legislation_url": "https://www.congress.gov/amendment/119/house-amendment/207",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll152.xml",
+    "murphy_vote": "Aye",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 206,
+        "nay": 8,
+        "present": 0,
+        "not_voting": 6
+      },
+      {
+        "party": "Democratic",
+        "yea": 8,
+        "nay": 205,
+        "present": 0,
+        "not_voting": 2
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 153,
+    "date": "2026-04-30T11:07:00-04:00",
+    "question": null,
+    "result": "Failed",
+    "vote_type": "Yea-and-Nay",
+    "legislation_type": "HR",
+    "legislation_number": "7567",
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/7567",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll153.xml",
+    "murphy_vote": "Nay",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 0,
+        "nay": 213,
+        "present": 0,
+        "not_voting": 4
+      },
+      {
+        "party": "Democratic",
+        "yea": 211,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 1
+      },
+      {
+        "party": "Independent",
+        "yea": 0,
+        "nay": 1,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 154,
+    "date": "2026-04-30T11:14:00-04:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "Yea-and-Nay",
+    "legislation_type": "HR",
+    "legislation_number": "7567",
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/7567",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll154.xml",
+    "murphy_vote": "Yea",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 209,
+        "nay": 3,
+        "present": 0,
+        "not_voting": 5
+      },
+      {
+        "party": "Democratic",
+        "yea": 14,
+        "nay": 197,
+        "present": 0,
+        "not_voting": 1
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 146,
+    "date": "2026-04-30T10:38:00-04:00",
+    "question": null,
+    "result": "Agreed to",
+    "vote_type": "Recorded Vote",
+    "legislation_type": null,
+    "legislation_number": null,
+    "legislation_url": "https://www.congress.gov/amendment/119/house-amendment/191",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll146.xml",
+    "murphy_vote": "Aye",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 209,
+        "nay": 1,
+        "present": 0,
+        "not_voting": 9
+      },
+      {
+        "party": "Democratic",
+        "yea": 206,
+        "nay": 7,
+        "present": 0,
+        "not_voting": 2
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 142,
+    "date": "2026-04-29T17:25:00-04:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "Yea-and-Nay",
+    "legislation_type": "S",
+    "legislation_number": "1318",
+    "legislation_url": "https://www.congress.gov/bill/119/senate-bill/1318",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll142.xml",
+    "murphy_vote": "Yea",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 192,
+        "nay": 22,
+        "present": 0,
+        "not_voting": 3
+      },
+      {
+        "party": "Democratic",
+        "yea": 42,
+        "nay": 169,
+        "present": 0,
+        "not_voting": 1
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 149,
+    "date": "2026-04-30T10:48:00-04:00",
+    "question": null,
+    "result": "Failed",
+    "vote_type": "Recorded Vote",
+    "legislation_type": null,
+    "legislation_number": null,
+    "legislation_url": "https://www.congress.gov/amendment/119/house-amendment/200",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll149.xml",
+    "murphy_vote": "Aye",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 184,
+        "nay": 28,
+        "present": 0,
+        "not_voting": 8
+      },
+      {
+        "party": "Democratic",
+        "yea": 3,
+        "nay": 210,
+        "present": 0,
+        "not_voting": 2
+      },
+      {
+        "party": "Independent",
+        "yea": 0,
+        "nay": 1,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 148,
+    "date": "2026-04-30T10:44:00-04:00",
+    "question": null,
+    "result": "Agreed to",
+    "vote_type": "Recorded Vote",
+    "legislation_type": null,
+    "legislation_number": null,
+    "legislation_url": "https://www.congress.gov/amendment/119/house-amendment/196",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll148.xml",
+    "murphy_vote": "No",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 73,
+        "nay": 135,
+        "present": 0,
+        "not_voting": 11
+      },
+      {
+        "party": "Democratic",
+        "yea": 207,
+        "nay": 6,
+        "present": 0,
+        "not_voting": 2
+      },
+      {
+        "party": "Independent",
+        "yea": 0,
+        "nay": 1,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 150,
+    "date": "2026-04-30T10:52:00-04:00",
+    "question": null,
+    "result": "Agreed to",
+    "vote_type": "Recorded Vote",
+    "legislation_type": null,
+    "legislation_number": null,
+    "legislation_url": "https://www.congress.gov/amendment/119/house-amendment/202",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll150.xml",
+    "murphy_vote": "Aye",
+    "voted_with_party": false,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 19,
+        "nay": 194,
+        "present": 0,
+        "not_voting": 6
+      },
+      {
+        "party": "Democratic",
+        "yea": 213,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 2
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 151,
+    "date": "2026-04-30T10:55:00-04:00",
+    "question": null,
+    "result": "Failed",
+    "vote_type": "Recorded Vote",
+    "legislation_type": null,
+    "legislation_number": null,
+    "legislation_url": "https://www.congress.gov/amendment/119/house-amendment/206",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll151.xml",
+    "murphy_vote": "No",
+    "voted_with_party": false,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 156,
+        "nay": 55,
+        "present": 0,
+        "not_voting": 8
+      },
+      {
+        "party": "Democratic",
+        "yea": 29,
+        "nay": 183,
+        "present": 0,
+        "not_voting": 3
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 155,
+    "date": "2026-04-30T16:43:00-04:00",
     "question": null,
     "result": "Passed",
     "vote_type": "2/3 Yea-And-Nay",
-    "legislation_type": "HR",
-    "legislation_number": "227",
-    "legislation_url": "https://www.congress.gov/bill/119/house-bill/227",
-    "source_xml": "https://clerk.house.gov/evs/2026/roll139.xml",
+    "legislation_type": "S",
+    "legislation_number": "4465",
+    "legislation_url": "https://www.congress.gov/bill/119/senate-bill/4465",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll155.xml",
     "murphy_vote": "Yea",
     "voted_with_party": true,
     "party_totals": [
       {
         "party": "Republican",
         "yea": 166,
-        "nay": 4,
+        "nay": 26,
         "present": 0,
-        "not_voting": 46
+        "not_voting": 25
       },
       {
         "party": "Democratic",
-        "yea": 183,
-        "nay": 1,
+        "yea": 94,
+        "nay": 85,
         "present": 0,
-        "not_voting": 28
+        "not_voting": 33
       },
       {
         "party": "Independent",
         "yea": 1,
         "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 147,
+    "date": "2026-04-30T10:41:00-04:00",
+    "question": null,
+    "result": "Failed",
+    "vote_type": "Recorded Vote",
+    "legislation_type": null,
+    "legislation_number": null,
+    "legislation_url": "https://www.congress.gov/amendment/119/house-amendment/193",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll147.xml",
+    "murphy_vote": "No",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 67,
+        "nay": 144,
+        "present": 0,
+        "not_voting": 8
+      },
+      {
+        "party": "Democratic",
+        "yea": 2,
+        "nay": 210,
+        "present": 0,
+        "not_voting": 3
+      },
+      {
+        "party": "Independent",
+        "yea": 0,
+        "nay": 1,
         "present": 0,
         "not_voting": 0
       }
