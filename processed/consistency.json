@@ -3625,22 +3625,22 @@
       "legislation_number": null
     },
     {
-      "roll_number": 150,
-      "congress": 119,
-      "date": "2026-04-30T10:52:00-04:00",
-      "question": null,
-      "result": "Agreed to",
-      "murphy_vote": "Aye",
-      "legislation_type": null,
-      "legislation_number": null
-    },
-    {
       "roll_number": 151,
       "congress": 119,
       "date": "2026-04-30T10:55:00-04:00",
       "question": null,
       "result": "Failed",
       "murphy_vote": "No",
+      "legislation_type": null,
+      "legislation_number": null
+    },
+    {
+      "roll_number": 150,
+      "congress": 119,
+      "date": "2026-04-30T10:52:00-04:00",
+      "question": null,
+      "result": "Agreed to",
+      "murphy_vote": "Aye",
       "legislation_type": null,
       "legislation_number": null
     },

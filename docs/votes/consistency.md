@@ -36,7 +36,7 @@
 | Jan 22, 2026 | 44 | None None | Failed | No |
 | Dec 01, 2023 | 691 | HRES 878 | Passed | Yea |
 | Sep 03, 2025 | 234 | None None | Failed | No |
-| Apr 30, 2026 | 150 | None None | Agreed to | Aye |
+| Apr 30, 2026 | 151 | None None | Failed | No |
 
 
 ## Bills with Inconsistent Positions
