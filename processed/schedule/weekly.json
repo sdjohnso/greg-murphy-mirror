@@ -1,114 +1,128 @@
 {
-  "generated_at": "2026-05-08T12:14:09.556611",
+  "generated_at": "2026-05-09T11:55:33.490534",
   "week_of": "2026-05-04",
   "days": [
     {
-      "day": "Monday",
-      "date": "2026-04-27",
+      "day": "Tuesday",
+      "date": "2026-05-12",
       "bills": [
         {
-          "bill_id": "H.R. 4930",
-          "title": "To expand the sharing of information with respect to suspected violations of intellectual property rights in trade.",
+          "bill_id": "H.R. 4437",
+          "title": "SMART Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Moore (UT",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4930"
+          "sponsor": "Rep. Timmons / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4437"
         },
         {
-          "bill_id": "H.R. 6956",
-          "title": "BARCODE Efficiency Act",
+          "bill_id": "H.R. 4478",
+          "title": "TRUST Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Schneider / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6956"
+          "sponsor": "Rep. Moore (NC",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4478"
         },
         {
-          "bill_id": "H.R. 7971",
-          "title": "Taxpayer Experience Improvement Act",
+          "bill_id": "H.R. 3709",
+          "title": "Advancing the Mentor-Prot\u00e9g\u00e9 Program for Small Financial Institutions Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Schweikert / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7971"
+          "sponsor": "Rep. Beatty / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3709"
         },
         {
-          "bill_id": "H.R. 7959",
-          "title": "IRS Whistleblower Program Improvement Act",
+          "bill_id": "H.R. 2071",
+          "title": "Save Our Shrimpers Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Kelly (PA",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7959"
+          "sponsor": "Rep. Nehls / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2071"
         },
         {
-          "bill_id": "H.R. 6495",
-          "title": "Taxpayer Notification and Privacy Act",
+          "bill_id": "H.Res. 1251",
+          "title": "Calling on elected officials and civil society leaders to counter antisemitism and educate the public on contributions of the Jewish-American community",
           "procedure": "suspension",
-          "sponsor": "Rep. Steube / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6495"
+          "sponsor": "Rep. Wasserman Schultz / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1251"
         },
         {
-          "bill_id": "H.R. 5366",
-          "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
+          "bill_id": "H.Res. 1252",
+          "title": "Resolution memorializing law enforcement officers killed in the line of duty",
           "procedure": "suspension",
-          "sponsor": "Rep. Steube / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5366"
+          "sponsor": "Rep. Guest / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1252"
         },
         {
-          "bill_id": "H.R. 2347",
-          "title": "Survivor Justice Tax Prevention Act",
+          "bill_id": "H.R. 2853",
+          "title": "Combating Organized Retail Crime Act of 2025",
           "procedure": "suspension",
-          "sponsor": "Rep. Smucker / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2347"
+          "sponsor": "Rep. Joyce (OH",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2853"
         },
         {
-          "bill_id": "H.R. 5334",
-          "title": "SEED Act of 2025",
+          "bill_id": "H.R. 2267",
+          "title": "",
           "procedure": "suspension",
-          "sponsor": "Rep. Panetta / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5334"
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2267"
         },
         {
-          "bill_id": "H.R. 6903",
-          "title": "Ensuring Children Receive Support Act",
+          "bill_id": "H.R. 8352",
+          "title": "Criminal History Access Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Van Duyne / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6903"
+          "sponsor": "Rep. Schmidt / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8352"
         },
         {
-          "bill_id": "H.R. 6431",
-          "title": "New Opportunities for Business Ownership and Self-Sufficiency Act",
+          "bill_id": "H.Res. 1259",
+          "title": "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People\u2019s Republic of China during future engagements with Chinese President Xi Jinping.",
           "procedure": "suspension",
-          "sponsor": "Rep. Carey / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6431"
-        },
-        {
-          "bill_id": "H.R. 227",
-          "title": "Clergy Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Fong / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/227"
-        },
-        {
-          "bill_id": "H.R. 8364",
-          "title": "To amend title 5, United States Code, to authorize the increase of the retirement age in the United States Capitol Police.",
-          "procedure": "suspension",
-          "sponsor": "Rep. Steil / House Administration Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8364"
+          "sponsor": "Rep. Smith (NJ",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1259"
         }
       ]
     },
     {
-      "day": "Tuesday",
-      "date": "2026-04-28",
+      "day": "Wednesday",
+      "date": "2026-05-13",
       "bills": [
         {
-          "bill_id": "H.R. 2616",
-          "title": "Stopping Indoctrination and Protecting Kids Act",
+          "bill_id": "H.R. 6260",
+          "title": "Keeping Violent Offenders Off Our Streets Act",
           "procedure": "rule",
-          "sponsor": "Rep. Walberg / Education and Workforce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2616"
+          "sponsor": "Rep. Fitzgerald / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6260"
         },
         {
-          "bill_id": "H.R. 7567",
-          "title": "",
+          "bill_id": "H.R. 5625",
+          "title": "Cashless Bail Reporting Act",
           "procedure": "rule",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7567"
+          "sponsor": "Rep. Harris (NC",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5625"
+        },
+        {
+          "bill_id": "H.R. 8365",
+          "title": "Monitor Accountability Act",
+          "procedure": "rule",
+          "sponsor": "Rep. Biggs (AZ",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8365"
+        },
+        {
+          "bill_id": "H.R. 8469",
+          "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
+          "procedure": "rule",
+          "sponsor": "Rep. Carter (TX",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8469"
+        },
+        {
+          "bill_id": "H.R. 1346",
+          "title": "Nationwide Consumer and Fuel Retailer Choice Act of 2025",
+          "procedure": "rule",
+          "sponsor": "Rep. Smith (NE",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1346"
+        },
+        {
+          "bill_id": "H.Con.Res. 96",
+          "title": "Expressing support for law enforcement officers.",
+          "procedure": "rule",
+          "sponsor": "Rep. Nunn / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/96"
         },
         {
           "bill_id": "H.Con.Res. 75",
