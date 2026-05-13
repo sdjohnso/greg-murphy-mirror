@@ -10730,6 +10730,40 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/senate-bill/1318"
   },
+  "HR-2071": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 156,
+        "congress": 119,
+        "date": "2026-05-12T19:05:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/2071"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/2071"
+  },
+  "HR-2853": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 157,
+        "congress": 119,
+        "date": "2026-05-12T19:12:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/2853"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/2853"
+  },
   "S-4465": {
     "vote_count": 1,
     "consistent": true,
