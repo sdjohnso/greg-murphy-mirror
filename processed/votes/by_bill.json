@@ -10730,6 +10730,23 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/senate-bill/1318"
   },
+  "S-4465": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 155,
+        "congress": 119,
+        "date": "2026-04-30T16:43:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/senate-bill/4465"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/senate-bill/4465"
+  },
   "HR-2071": {
     "vote_count": 1,
     "consistent": true,
@@ -10746,6 +10763,33 @@
       }
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/2071"
+  },
+  "HRES-1275": {
+    "vote_count": 2,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 158,
+        "congress": 119,
+        "date": "2026-05-13T15:20:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1275"
+      },
+      {
+        "roll_number": 159,
+        "congress": 119,
+        "date": "2026-05-13T15:27:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Aye",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1275"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1275"
   },
   "HR-2853": {
     "vote_count": 1,
@@ -10764,22 +10808,32 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/2853"
   },
-  "S-4465": {
-    "vote_count": 1,
+  "HRES-1274": {
+    "vote_count": 2,
     "consistent": true,
     "votes": [
       {
-        "roll_number": 155,
+        "roll_number": 160,
         "congress": 119,
-        "date": "2026-04-30T16:43:00-04:00",
+        "date": "2026-05-13T15:34:00-04:00",
         "question": null,
         "result": "Passed",
         "murphy_vote": "Yea",
         "voted_with_party": true,
-        "legislation_url": "https://www.congress.gov/bill/119/senate-bill/4465"
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1274"
+      },
+      {
+        "roll_number": 161,
+        "congress": 119,
+        "date": "2026-05-13T15:41:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Aye",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1274"
       }
     ],
-    "legislation_url": "https://www.congress.gov/bill/119/senate-bill/4465"
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1274"
   },
   "HR-5103": {
     "vote_count": 2,
@@ -11078,6 +11132,101 @@
       }
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/7084"
+  },
+  "HRES-1251": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 166,
+        "congress": 119,
+        "date": "2026-05-13T18:40:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1251"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1251"
+  },
+  "HRES-1259": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 167,
+        "congress": 119,
+        "date": "2026-05-13T18:46:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1259"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1259"
+  },
+  "HR-1346": {
+    "vote_count": 2,
+    "consistent": false,
+    "votes": [
+      {
+        "roll_number": 163,
+        "congress": 119,
+        "date": "2026-05-13T18:18:00-04:00",
+        "question": null,
+        "result": "Failed",
+        "murphy_vote": "Nay",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/1346"
+      },
+      {
+        "roll_number": 164,
+        "congress": 119,
+        "date": "2026-05-13T18:26:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/1346"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/1346"
+  },
+  "HCONRES-96": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 165,
+        "congress": 119,
+        "date": "2026-05-13T18:33:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-concurrent-resolution/96"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-concurrent-resolution/96"
+  },
+  "HRES-1252": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 162,
+        "congress": 119,
+        "date": "2026-05-13T15:56:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1252"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1252"
   },
   "HR-3391": {
     "vote_count": 1,
