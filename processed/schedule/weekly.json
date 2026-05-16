@@ -1,135 +1,156 @@
 {
-  "generated_at": "2026-05-15T12:59:23.379886",
+  "generated_at": "2026-05-16T11:57:16.041647",
   "week_of": "2026-05-11",
   "days": [
     {
       "day": "Tuesday",
-      "date": "2026-05-12",
+      "date": "2026-05-19",
       "bills": [
         {
-          "bill_id": "H.R. 4437",
-          "title": "SMART Act",
+          "bill_id": "H.R. 7432",
+          "title": "Foster Youth Housing Opportunity Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Timmons / Financial Services Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4437"
+          "sponsor": "Rep. LaHood / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7432"
         },
         {
-          "bill_id": "H.R. 4478",
-          "title": "TRUST Act",
+          "bill_id": "H.R. 6506",
+          "title": "Taxpayer Due Process Enhancement Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Moore (NC",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4478"
+          "sponsor": "Rep. Moran / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6506"
         },
         {
-          "bill_id": "H.R. 3709",
-          "title": "Advancing the Mentor-Prot\u00e9g\u00e9 Program for Small Financial Institutions Act",
+          "bill_id": "H.R. 2252",
+          "title": "North Dakota Trust Lands Completion Act of 2025",
           "procedure": "suspension",
-          "sponsor": "Rep. Beatty / Financial Services Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3709"
+          "sponsor": "Rep. Fedorchak / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2252"
         },
         {
-          "bill_id": "H.R. 2071",
-          "title": "Save Our Shrimpers Act",
+          "bill_id": "H.R. 4684",
+          "title": "Star-Spangled Summit Act of 2025",
           "procedure": "suspension",
-          "sponsor": "Rep. Nehls / Financial Services Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2071"
+          "sponsor": "Rep. Kennedy (UT",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4684"
         },
         {
-          "bill_id": "H.Res. 1251",
-          "title": "Calling on elected officials and civil society leaders to counter antisemitism and educate the public on contributions of the Jewish-American community",
+          "bill_id": "H.R. 1352",
+          "title": "To designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, and for other purposes.",
           "procedure": "suspension",
-          "sponsor": "Rep. Wasserman Schultz / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1251"
+          "sponsor": "Rep. Subramanyam / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1352"
         },
         {
-          "bill_id": "H.Res. 1252",
-          "title": "Resolution memorializing law enforcement officers killed in the line of duty",
+          "bill_id": "H.R. 785",
+          "title": "Representing our Seniors at VA Act of 2025",
           "procedure": "suspension",
-          "sponsor": "Rep. Guest / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1252"
+          "sponsor": "Rep. Kiggans / Veterans' Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/785"
         },
         {
-          "bill_id": "H.R. 2853",
-          "title": "Combating Organized Retail Crime Act of 2025",
+          "bill_id": "H.R. 3482",
+          "title": "Veterans Community Care Scheduling Improvement Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Joyce (OH",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2853"
+          "sponsor": "Rep. Barrett / Veterans' Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3482"
         },
         {
-          "bill_id": "H.R. 2267",
+          "bill_id": "H.R. 3726",
+          "title": "Fisher House Availability Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Miller-Meeks / Veterans' Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3726"
+        },
+        {
+          "bill_id": "H.R. 2954",
+          "title": "Veterans\u2019 Transition to Trucking Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Pappas / Veterans' Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2954"
+        },
+        {
+          "bill_id": "H.R. 1993",
+          "title": "25th Anniversary of 9/11 Commemorative Coin Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Goldman (NY",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1993"
+        },
+        {
+          "bill_id": "H.R. 3234",
+          "title": "Keeping Deposits Local Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Emmer / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3234"
+        },
+        {
+          "bill_id": "H.R. 4544",
+          "title": "American Access to Banking Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Waters / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4544"
+        },
+        {
+          "bill_id": "H.R. 5317",
+          "title": "Community Bank Deposit Access Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Hill / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5317"
+        },
+        {
+          "bill_id": "H.R. 6644",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2267"
-        },
-        {
-          "bill_id": "H.R. 8352",
-          "title": "Criminal History Access Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Schmidt / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8352"
-        },
-        {
-          "bill_id": "H.Res. 1259",
-          "title": "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People\u2019s Republic of China during future engagements with Chinese President Xi Jinping.",
-          "procedure": "suspension",
-          "sponsor": "Rep. Smith (NJ",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1259"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6644"
         }
       ]
     },
     {
       "day": "Wednesday",
-      "date": "2026-05-13",
+      "date": "2026-05-20",
       "bills": [
         {
-          "bill_id": "H.R. 6260",
-          "title": "Keeping Violent Offenders Off Our Streets Act",
+          "bill_id": "H.R. 1041",
+          "title": "Veterans 2nd Amendment Protection Act",
           "procedure": "rule",
-          "sponsor": "Rep. Fitzgerald / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6260"
+          "sponsor": "Rep. Bost / Veterans' Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1041"
         },
         {
-          "bill_id": "H.R. 5625",
-          "title": "Cashless Bail Reporting Act",
+          "bill_id": "H.R. 6047",
+          "title": "Sharri Briley and Eric Edmundson Veterans Benefits Expansion Act of 2026",
           "procedure": "rule",
-          "sponsor": "Rep. Harris (NC",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5625"
+          "sponsor": "Rep. Barrett / Veterans' Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6047"
         },
         {
-          "bill_id": "H.R. 8365",
-          "title": "Monitor Accountability Act",
+          "bill_id": "H.R. 1329",
+          "title": "Smithsonian American Women\u2019s History Museum Act",
           "procedure": "rule",
-          "sponsor": "Rep. Biggs (AZ",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8365"
+          "sponsor": "Rep. Malliotakis / House Administration Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1329"
         },
         {
-          "bill_id": "H.R. 8469",
-          "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
+          "bill_id": "H.R. 2616",
+          "title": "",
           "procedure": "rule",
-          "sponsor": "Rep. Carter (TX",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8469"
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2616"
         },
         {
-          "bill_id": "H.R. 1346",
-          "title": "Nationwide Consumer and Fuel Retailer Choice Act of 2025",
+          "bill_id": "H.R. 4312",
+          "title": "SCORE Act",
           "procedure": "rule",
-          "sponsor": "Rep. Smith (NE",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1346"
+          "sponsor": "Rep. Bilirakis / Education and Workforce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4312"
         },
         {
-          "bill_id": "H.Con.Res. 96",
-          "title": "Expressing support for law enforcement officers.",
-          "procedure": "rule",
-          "sponsor": "Rep. Nunn / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/96"
-        },
-        {
-          "bill_id": "H.Con.Res. 75",
-          "title": "Directing the President, pursuant to section 5",
+          "bill_id": "H.Con.Res. 86",
+          "title": "",
           "procedure": "may_be_considered",
-          "sponsor": "Rep. Gottheimer / Foreign Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/75"
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/86"
         }
       ]
     }

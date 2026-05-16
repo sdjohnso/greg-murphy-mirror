@@ -2050,33 +2050,6 @@
       ],
       "legislation_url": "https://www.congress.gov/bill/119/house-bill/1346"
     },
-    "HR-6260": {
-      "vote_count": 2,
-      "consistent": false,
-      "votes": [
-        {
-          "roll_number": 168,
-          "congress": 119,
-          "date": "2026-05-14T16:34:00-04:00",
-          "question": null,
-          "result": "Failed",
-          "murphy_vote": "Nay",
-          "voted_with_party": true,
-          "legislation_url": "https://www.congress.gov/bill/119/house-bill/6260"
-        },
-        {
-          "roll_number": 169,
-          "congress": 119,
-          "date": "2026-05-14T16:46:00-04:00",
-          "question": null,
-          "result": "Passed",
-          "murphy_vote": "Aye",
-          "voted_with_party": true,
-          "legislation_url": "https://www.congress.gov/bill/119/house-bill/6260"
-        }
-      ],
-      "legislation_url": "https://www.congress.gov/bill/119/house-bill/6260"
-    },
     "HR-8365": {
       "vote_count": 2,
       "consistent": false,
@@ -2103,6 +2076,33 @@
         }
       ],
       "legislation_url": "https://www.congress.gov/bill/119/house-bill/8365"
+    },
+    "HR-6260": {
+      "vote_count": 2,
+      "consistent": false,
+      "votes": [
+        {
+          "roll_number": 168,
+          "congress": 119,
+          "date": "2026-05-14T16:34:00-04:00",
+          "question": null,
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/6260"
+        },
+        {
+          "roll_number": 169,
+          "congress": 119,
+          "date": "2026-05-14T16:46:00-04:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Aye",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/6260"
+        }
+      ],
+      "legislation_url": "https://www.congress.gov/bill/119/house-bill/6260"
     },
     "HR-28": {
       "vote_count": 2,
