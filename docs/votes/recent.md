@@ -1,9 +1,20 @@
 # Recent Votes (Last 30 Days)
 
-*51 votes in the last 30 days*
+*60 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| May 20, 2026 | 186 | HRES 1300 | Passed | Aye | Yes |
+| May 20, 2026 | 185 | HRES 1300 | Passed | Yea | Yes |
+| May 20, 2026 | 184 | HR 2616 | Passed | Aye | Yes |
+| May 20, 2026 | 183 | HR 2616 | Failed | Nay | Yes |
+| May 20, 2026 | 182 | HR 1993 | Passed | Yea | Yes |
+| May 20, 2026 | 181 | S 1003 | Passed | Yea | Yes |
+| May 20, 2026 | 180 | S 2393 | Passed | Yea | Yes |
+| May 20, 2026 | 179 | HR 5317 | Passed | Yea | Yes |
+| May 20, 2026 | 178 | HR 4544 | Passed | Yea | Yes |
+| May 20, 2026 | 177 | HR 3234 | Passed | Yea | Yes |
+| May 20, 2026 | 176 | HRES 1299 | Passed | Yea | Yes |
 | May 15, 2026 | 175 | HR 8469 | Passed | Yea | Yes |
 | May 15, 2026 | 174 | None None | Failed | No | Yes |
 | May 14, 2026 | 173 | HR 8365 | Passed | Aye | Yes |
@@ -43,17 +54,6 @@
 | Apr 27, 2026 | 139 | HR 227 | Passed | Yea | Yes |
 | Apr 27, 2026 | 138 | HR 7959 | Passed | Yea | Yes |
 | Apr 23, 2026 | 137 | HR 5587 | Passed | Yea | Yes |
-| Apr 22, 2026 | 136 | HR 6387 | Passed | Yea | Yes |
-| Apr 22, 2026 | 135 | HR 6387 | Failed | Nay | Yes |
-| Apr 22, 2026 | 134 | HR 4690 | Passed | Yea | Yes |
-| Apr 22, 2026 | 133 | HR 4690 | Failed | Nay | Yes |
-| Apr 22, 2026 | 132 | HRES 1182 | Passed | Yea | Yes |
-| Apr 22, 2026 | 131 | HRES 1189 | Passed | Aye | Yes |
-| Apr 22, 2026 | 130 | HRES 1189 | Passed | Yea | Yes |
-| Apr 21, 2026 | 129 | S 1020 | Passed | Yea | Yes |
-| Apr 21, 2026 | 128 | HR 2493 | Passed | Yea | Yes |
-| Apr 21, 2026 | 127 | HR 5201 | Passed | Yea | Yes |
-| Apr 20, 2026 | 126 | HR 5200 | Passed | Yea | Yes |
 
 
 ---
