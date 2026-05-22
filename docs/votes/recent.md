@@ -4,6 +4,11 @@
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| May 21, 2026 | 191 | HR 6047 | Passed | Yea | Yes |
+| May 21, 2026 | 190 | HR 1041 | Passed | Yea | Yes |
+| May 21, 2026 | 189 | HR 1041 | Failed | Nay | Yes |
+| May 21, 2026 | 188 | HR 1329 | Failed | Yea | Yes |
+| May 21, 2026 | 187 | HR 1329 | Failed | Nay | Yes |
 | May 20, 2026 | 186 | HRES 1300 | Passed | Aye | Yes |
 | May 20, 2026 | 185 | HRES 1300 | Passed | Yea | Yes |
 | May 20, 2026 | 184 | HR 2616 | Passed | Aye | Yes |
@@ -49,11 +54,6 @@
 | Apr 30, 2026 | 144 | None None | Failed | Aye | Yes |
 | Apr 29, 2026 | 143 | SCONRES 33 | Passed | Yea | Yes |
 | Apr 29, 2026 | 142 | S 1318 | Passed | Yea | Yes |
-| Apr 29, 2026 | 141 | HRES 1224 | Passed | Aye | Yes |
-| Apr 29, 2026 | 140 | HRES 1224 | Passed | Yea | Yes |
-| Apr 27, 2026 | 139 | HR 227 | Passed | Yea | Yes |
-| Apr 27, 2026 | 138 | HR 7959 | Passed | Yea | Yes |
-| Apr 23, 2026 | 137 | HR 5587 | Passed | Yea | Yes |
 
 
 ---
