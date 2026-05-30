@@ -1,142 +1,142 @@
 {
-  "generated_at": "2026-05-29T14:11:39.481143",
+  "generated_at": "2026-05-30T12:07:20.226384",
   "week_of": "2026-05-25",
   "days": [
     {
       "day": "Tuesday",
-      "date": "2026-05-19",
+      "date": "2026-06-02",
       "bills": [
         {
-          "bill_id": "H.R. 7432",
-          "title": "Foster Youth Housing Opportunity Act",
+          "bill_id": "H.R. 5682",
+          "title": "To take certain land in the State of California into trust for the benefit of the Pechanga Band of Indians, and for other purposes.",
           "procedure": "suspension",
-          "sponsor": "Rep. LaHood / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7432"
+          "sponsor": "Rep. Issa / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5682"
         },
         {
-          "bill_id": "H.R. 6506",
-          "title": "Taxpayer Due Process Enhancement Act",
+          "bill_id": "H.R. 41",
+          "title": "Unrecognized Southeast Alaska Native Communities Recognition and Compensation Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Moran / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6506"
+          "sponsor": "Rep. Begich / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/41"
         },
         {
-          "bill_id": "H.R. 2252",
-          "title": "North Dakota Trust Lands Completion Act of 2025",
+          "bill_id": "H.R. 2768",
+          "title": "Benton MacKaye National Scenic Trail Feasibility Study Act of 2025",
           "procedure": "suspension",
-          "sponsor": "Rep. Fedorchak / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2252"
+          "sponsor": "Rep. Fleischmann / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2768"
         },
         {
-          "bill_id": "H.R. 4684",
-          "title": "Star-Spangled Summit Act of 2025",
+          "bill_id": "H.R. 3831",
+          "title": "Florida Safe Seas Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Webster / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3831"
+        },
+        {
+          "bill_id": "H.R. 4463",
+          "title": "To amend the Catawba Indian Tribe of South Carolina Land Claims Settlement Act of 1993.",
+          "procedure": "suspension",
+          "sponsor": "Rep. Norman / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4463"
+        },
+        {
+          "bill_id": "H.R. 5911",
+          "title": "Crystal Reservoir Conveyance Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Hurd / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5911"
+        },
+        {
+          "bill_id": "H.R. 6162",
+          "title": "Albuquerque Indian School Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Stansbury / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6162"
+        },
+        {
+          "bill_id": "H.R. 7618",
+          "title": "American Battlefield Protection Program Amendments Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Kiggans / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7618"
+        },
+        {
+          "bill_id": "H.R. 7831",
+          "title": "License to Drill Act",
           "procedure": "suspension",
           "sponsor": "Rep. Kennedy (UT",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4684"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7831"
         },
         {
-          "bill_id": "H.R. 1352",
-          "title": "To designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, and for other purposes.",
+          "bill_id": "H.R. 1687",
+          "title": "CLEAN Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Subramanyam / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1352"
+          "sponsor": "Rep. Fulcher / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1687"
         },
         {
-          "bill_id": "H.R. 3482",
-          "title": "Veterans Community Care Scheduling Improvement Act",
+          "bill_id": "H.R. 5631",
+          "title": "Geothermal Energy Advancement Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Barrett / Veterans' Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3482"
+          "sponsor": "Rep. Hurd / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5631"
         },
         {
-          "bill_id": "H.R. 3726",
-          "title": "Fisher House Availability Act of 2025",
+          "bill_id": "H.R. 7250",
+          "title": "To reauthorize the Fort Peck Reservation Rural Water System Act of 2000.",
           "procedure": "suspension",
-          "sponsor": "Rep. Miller-Meeks / Veterans' Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3726"
+          "sponsor": "Rep. Downing / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7250"
         },
         {
-          "bill_id": "H.R. 2954",
-          "title": "Veterans\u2019 Transition to Trucking Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Pappas / Veterans' Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2954"
-        },
-        {
-          "bill_id": "H.R. 1993",
-          "title": "25th Anniversary of 9/11 Commemorative Coin Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Goldman (NY",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1993"
-        },
-        {
-          "bill_id": "H.R. 3234",
-          "title": "Keeping Deposits Local Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Emmer / Financial Services Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3234"
-        },
-        {
-          "bill_id": "H.R. 4544",
-          "title": "American Access to Banking Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Waters / Financial Services Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4544"
-        },
-        {
-          "bill_id": "H.R. 5317",
-          "title": "Community Bank Deposit Access Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Hill / Financial Services Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5317"
-        },
-        {
-          "bill_id": "H.R. 6644",
+          "bill_id": "H.R. 3922",
           "title": "",
           "procedure": "suspension",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6644"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3922"
+        },
+        {
+          "bill_id": "H.R. 2860",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2860"
         }
       ]
     },
     {
       "day": "Wednesday",
-      "date": "2026-05-20",
+      "date": "2026-06-03",
       "bills": [
         {
-          "bill_id": "H.R. 1041",
-          "title": "Veterans 2nd Amendment Protection Act",
-          "procedure": "rule",
-          "sponsor": "Rep. Bost / Veterans' Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1041"
-        },
-        {
-          "bill_id": "H.R. 6047",
-          "title": "Sharri Briley and Eric Edmundson Veterans Benefits Expansion Act of 2026",
-          "procedure": "rule",
-          "sponsor": "Rep. Barrett / Veterans' Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6047"
-        },
-        {
-          "bill_id": "H.R. 1329",
-          "title": "Smithsonian American Women\u2019s History Museum Act",
-          "procedure": "rule",
-          "sponsor": "Rep. Malliotakis / House Administration Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1329"
-        },
-        {
-          "bill_id": "H.R. 2616",
+          "bill_id": "H.R. 7726",
           "title": "",
           "procedure": "rule",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2616"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7726"
         },
         {
-          "bill_id": "H.R. 4312",
-          "title": "SCORE Act",
+          "bill_id": "H.R. 8872",
+          "title": "",
           "procedure": "rule",
-          "sponsor": "Rep. Bilirakis / Education and Workforce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4312"
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8872"
+        },
+        {
+          "bill_id": "H.R. 8646",
+          "title": "",
+          "procedure": "rule",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8646"
+        },
+        {
+          "bill_id": "H.R. 7892",
+          "title": "",
+          "procedure": "rule",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7892"
         },
         {
           "bill_id": "H.Con.Res. 86",
@@ -144,6 +144,27 @@
           "procedure": "may_be_considered",
           "sponsor": "",
           "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/86"
+        },
+        {
+          "bill_id": "H.Con.Res. 84",
+          "title": "",
+          "procedure": "may_be_considered",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/84"
+        },
+        {
+          "bill_id": "H.Res. 518",
+          "title": "",
+          "procedure": "may_be_considered",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/518"
+        },
+        {
+          "bill_id": "H.R. 2913",
+          "title": "",
+          "procedure": "may_be_considered",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2913"
         }
       ]
     }
