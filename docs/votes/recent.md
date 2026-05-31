@@ -1,6 +1,6 @@
 # Recent Votes (Last 30 Days)
 
-*37 votes in the last 30 days*
+*36 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
@@ -40,7 +40,6 @@
 | May 13, 2026 | 158 | HRES 1275 | Passed | Yea | Yes |
 | May 12, 2026 | 157 | HR 2853 | Passed | Yea | Yes |
 | May 12, 2026 | 156 | HR 2071 | Passed | Yea | Yes |
-| Apr 30, 2026 | 155 | S 4465 | Passed | Yea | Yes |
 
 
 ---
