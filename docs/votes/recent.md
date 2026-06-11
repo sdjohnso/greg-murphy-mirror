@@ -1,9 +1,13 @@
 # Recent Votes (Last 30 Days)
 
-*61 votes in the last 30 days*
+*65 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Jun 10, 2026 | 220 | HR 8464 | Passed | Yea | Yes |
+| Jun 10, 2026 | 219 | HR 8464 | Failed | Nay | Yes |
+| Jun 10, 2026 | 218 | HR 8312 | Passed | Yea | Yes |
+| Jun 10, 2026 | 217 | HR 7892 | Passed | Yea | Yes |
 | Jun 09, 2026 | 216 | HR 5408 | Passed | Nay | Yes |
 | Jun 09, 2026 | 215 | HRES 1140 | Passed | Nay | Yes |
 | Jun 09, 2026 | 214 | S 2 | Passed | Aye | Yes |
@@ -50,10 +54,6 @@
 | May 14, 2026 | 173 | HR 8365 | Passed | Aye | Yes |
 | May 14, 2026 | 172 | HR 8365 | Failed | Nay | Yes |
 | May 14, 2026 | 171 | HR 5625 | Passed | Yea | Yes |
-| May 14, 2026 | 170 | HCONRES 75 | Failed | Nay | Yes |
-| May 14, 2026 | 169 | HR 6260 | Passed | Aye | Yes |
-| May 14, 2026 | 168 | HR 6260 | Failed | Nay | Yes |
-| May 13, 2026 | 167 | HRES 1259 | Passed | Yea | Yes |
 
 
 ---
