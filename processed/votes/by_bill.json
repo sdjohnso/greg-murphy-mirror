@@ -11912,6 +11912,40 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/8428"
   },
+  "HR-7892": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 217,
+        "congress": 119,
+        "date": "2026-06-10T16:09:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/7892"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/7892"
+  },
+  "HR-8312": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 218,
+        "congress": 119,
+        "date": "2026-06-10T16:16:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/8312"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/8312"
+  },
   "HR-8464": {
     "vote_count": 2,
     "consistent": false,
@@ -11965,40 +11999,6 @@
       }
     ],
     "legislation_url": "https://www.congress.gov/bill/119/senate-bill/2"
-  },
-  "HR-7892": {
-    "vote_count": 1,
-    "consistent": true,
-    "votes": [
-      {
-        "roll_number": 217,
-        "congress": 119,
-        "date": "2026-06-10T16:09:00-04:00",
-        "question": null,
-        "result": "Passed",
-        "murphy_vote": "Yea",
-        "voted_with_party": true,
-        "legislation_url": "https://www.congress.gov/bill/119/house-bill/7892"
-      }
-    ],
-    "legislation_url": "https://www.congress.gov/bill/119/house-bill/7892"
-  },
-  "HR-8312": {
-    "vote_count": 1,
-    "consistent": true,
-    "votes": [
-      {
-        "roll_number": 218,
-        "congress": 119,
-        "date": "2026-06-10T16:16:00-04:00",
-        "question": null,
-        "result": "Passed",
-        "murphy_vote": "Yea",
-        "voted_with_party": true,
-        "legislation_url": "https://www.congress.gov/bill/119/house-bill/8312"
-      }
-    ],
-    "legislation_url": "https://www.congress.gov/bill/119/house-bill/8312"
   },
   "HR-5408": {
     "vote_count": 1,

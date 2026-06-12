@@ -4,6 +4,8 @@
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Jun 11, 2026 | 222 | None None | Passed | Yea | Yes |
+| Jun 11, 2026 | 221 | None None | Failed | Yea | Yes |
 | Jun 10, 2026 | 220 | HR 8464 | Passed | Yea | Yes |
 | Jun 10, 2026 | 219 | HR 8464 | Failed | Nay | Yes |
 | Jun 10, 2026 | 218 | HR 8312 | Passed | Yea | Yes |
@@ -52,8 +54,6 @@
 | May 15, 2026 | 175 | HR 8469 | Passed | Yea | Yes |
 | May 15, 2026 | 174 | None None | Failed | No | Yes |
 | May 14, 2026 | 173 | HR 8365 | Passed | Aye | Yes |
-| May 14, 2026 | 172 | HR 8365 | Failed | Nay | Yes |
-| May 14, 2026 | 171 | HR 5625 | Passed | Yea | Yes |
 
 
 ---
