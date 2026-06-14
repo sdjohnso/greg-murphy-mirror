@@ -1,6 +1,6 @@
 # Recent Votes (Last 30 Days)
 
-*55 votes in the last 30 days*
+*47 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
@@ -51,9 +51,6 @@
 | May 20, 2026 | 178 | HR 4544 | Passed | Yea | Yes |
 | May 20, 2026 | 177 | HR 3234 | Passed | Yea | Yes |
 | May 20, 2026 | 176 | HRES 1299 | Passed | Yea | Yes |
-| May 15, 2026 | 175 | HR 8469 | Passed | Yea | Yes |
-| May 15, 2026 | 174 | None None | Failed | No | Yes |
-| May 14, 2026 | 173 | HR 8365 | Passed | Aye | Yes |
 
 
 ---
