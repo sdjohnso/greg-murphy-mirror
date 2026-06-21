@@ -1,191 +1,114 @@
 {
-  "generated_at": "2026-06-19T14:16:11.562578",
+  "generated_at": "2026-06-21T13:11:52.044727",
   "week_of": "2026-06-15",
   "days": [
     {
-      "day": "Monday",
-      "date": "2026-06-08",
+      "day": "Tuesday",
+      "date": "2026-06-23",
       "bills": [
         {
-          "bill_id": "H.R. 8463",
-          "title": "Pre-Payment Fraud Prevention and Treasury Data Access Act",
+          "bill_id": "H.R. 7396",
+          "title": "Native American Entrepreneurial Opportunity Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Comer / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8463"
+          "sponsor": "Rep. Davids / Small Business Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7396"
         },
         {
-          "bill_id": "H.R. 6916",
-          "title": "Federal Program Integrity and Fraud Prevention Act of 2025",
+          "bill_id": "H.R. 7401",
+          "title": "Small Business Lending Fraud Prevention Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Self / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6916"
+          "sponsor": "Rep. Meuser / Small Business Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7401"
         },
         {
-          "bill_id": "H.R. 428",
-          "title": "Bonuses for Cost-Cutters and Fraud Preventers Act",
+          "bill_id": "H.R. 826",
+          "title": "COVID Fraud Transparency Act of 2025",
           "procedure": "suspension",
-          "sponsor": "Rep. Fleischmann / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/428"
+          "sponsor": "Rep. Williams (TX",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/826"
         },
         {
-          "bill_id": "H.R. 8467",
-          "title": "Zeroing Out Monetary Benefits Improperly Expended Act",
+          "bill_id": "H.R. 915",
+          "title": "Small Business Technological Act of 2025",
           "procedure": "suspension",
-          "sponsor": "Rep. Palmer / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8467"
+          "sponsor": "Rep. Alford / Small Business Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/915"
         },
         {
-          "bill_id": "H.R. 8466",
-          "title": "Taxpayer Resources Used in Emergencies",
+          "bill_id": "H.R. 4238",
+          "title": "Disaster Loan Accountability and Reform Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Biggs (AZ",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8466"
+          "sponsor": "Rep. Moore (NC",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4238"
         },
         {
-          "bill_id": "H.R. 8340",
-          "title": "Taxpayer Funds Oversight and Accountability Act",
+          "bill_id": "H.R. 8879",
+          "title": "Oversight and Transparency for Small Business Certifications Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Min / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8340"
+          "sponsor": "Rep. Olszewski / Small Business Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8879"
         },
         {
-          "bill_id": "H.R. 8107",
-          "title": "Government Audit and Accountability of Federally Funded State-Administered Programs Act",
+          "bill_id": "H.R. 8880",
+          "title": "Small Business Cybersecurity Assistance Evaluation Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Khanna / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8107"
+          "sponsor": "Rep. Simon / Small Business Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8880"
         },
         {
-          "bill_id": "H.R. 8428",
-          "title": "Federal Fraud Prevention Workforce Training Act",
+          "bill_id": "H.R. 8881",
+          "title": "SBA Artificial Intelligence Utilization Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Grothman / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8428"
+          "sponsor": "Rep. Finstad / Small Business Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8881"
         },
         {
-          "bill_id": "H.R. 2505",
-          "title": "Block the Use of Transatlantic Technology in Iranian Made Drones Act",
+          "bill_id": "H.R. 8882",
+          "title": "Main Street Competes Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Keating / Foreign Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2505"
-        },
-        {
-          "bill_id": "H.R. 3429",
-          "title": "US-Japan-ROK Trilateral Cooperation Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Bera / Foreign Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3429"
-        },
-        {
-          "bill_id": "H.R. 6338",
-          "title": "",
-          "procedure": "suspension",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6338"
-        },
-        {
-          "bill_id": "H.R. 1744",
-          "title": "USCIRF Reauthorization Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Smith (NJ",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1744"
-        },
-        {
-          "bill_id": "H.R. 6297",
-          "title": "PEACE Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Fine / Foreign Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6297"
-        },
-        {
-          "bill_id": "H.R. 5248",
-          "title": "",
-          "procedure": "suspension",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5248"
-        },
-        {
-          "bill_id": "H.R. 6230",
-          "title": "Tehran Incitement to Violence Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Self / Foreign Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6230"
-        },
-        {
-          "bill_id": "H.R. 7037",
-          "title": "",
-          "procedure": "suspension",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7037"
-        },
-        {
-          "bill_id": "H.R. 8665",
-          "title": "Allied Defense Sales Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Zinke / Foreign Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8665"
-        },
-        {
-          "bill_id": "H.R. 7668",
-          "title": "",
-          "procedure": "suspension",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7668"
-        },
-        {
-          "bill_id": "H.R. 6028",
-          "title": "Legislative Branch Agencies Clarification Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Steil / House Administration Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6028"
+          "sponsor": "Rep. Scholten / Small Business Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8882"
         }
       ]
     },
     {
-      "day": "Tuesday",
-      "date": "2026-06-09",
+      "day": "Wednesday",
+      "date": "2026-06-24",
       "bills": [
         {
-          "bill_id": "H.R. 7892",
-          "title": "No Aid for Ghost Students Act of 2026",
-          "procedure": "rule",
-          "sponsor": "Rep. Owens / Education and Workforce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7892"
+          "bill_id": "H.R. 2478",
+          "title": "Financial Exploitation Prevention Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Wagner / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2478"
         },
         {
-          "bill_id": "H.R. 8312",
-          "title": "Fraud Prevention and Accountability Act",
+          "bill_id": "H.R. 1181",
+          "title": "Protecting Privacy in Purchases Act",
           "procedure": "rule",
-          "sponsor": "Rep. Sessions / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8312"
+          "sponsor": "Rep. Moore (WV",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1181"
         },
         {
-          "bill_id": "H.R. 8464",
+          "bill_id": "H.R. 8595",
+          "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
+          "procedure": "rule",
+          "sponsor": "Rep. Diaz-Balart / Appropriations Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8595"
+        },
+        {
+          "bill_id": "H.R. 9022",
+          "title": "Energy and Water Development and Related Agencies Appropriations Act, 2027",
+          "procedure": "rule",
+          "sponsor": "Rep. Fleischmann / Appropriations Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9022"
+        },
+        {
+          "bill_id": "H.R. 9237",
           "title": "",
           "procedure": "rule",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8464"
-        },
-        {
-          "bill_id": "H.Res. 1335",
-          "title": "Condemning actors seeking to defraud the United States Government, and expressing the sense of the House of Representatives that governmentwide fraud and improper payment prevention reforms will meaningfully improve the financial prosperity of the United States, and that Federal program eligibility should be verified before payment.",
-          "procedure": "rule",
-          "sponsor": "Rep. Fallon / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1335"
-        },
-        {
-          "bill_id": "H.Res. 1140",
-          "title": "Providing for consideration of the bill",
-          "procedure": "may_be_considered",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1140"
-        },
-        {
-          "bill_id": "H.R. 5408",
-          "title": "to-contract under the National Labor Relations Act.",
-          "procedure": "may_be_considered",
-          "sponsor": "Rep. Norcross / Rules Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5408"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9237"
         }
       ]
     }
