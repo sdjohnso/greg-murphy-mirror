@@ -1,9 +1,11 @@
 # Recent Votes (Last 30 Days)
 
-*31 votes in the last 30 days*
+*33 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Jun 23, 2026 | 224 | HR 6644 | Passed | Yea | Yes |
+| Jun 23, 2026 | 223 | S 629 | Passed | Yea | Yes |
 | Jun 11, 2026 | 222 | HRES 1335 | Passed | Yea | Yes |
 | Jun 11, 2026 | 221 | None None | Failed | Yea | Yes |
 | Jun 10, 2026 | 220 | HR 8464 | Passed | Yea | Yes |
