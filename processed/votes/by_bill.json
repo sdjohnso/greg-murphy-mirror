@@ -12044,6 +12044,23 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/senate-bill/2"
   },
+  "HR-2478": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 227,
+        "congress": 119,
+        "date": "2026-06-25T13:29:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/2478"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/2478"
+  },
   "HR-7401": {
     "vote_count": 1,
     "consistent": true,
@@ -12077,23 +12094,6 @@
       }
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/915"
-  },
-  "HR-2478": {
-    "vote_count": 1,
-    "consistent": true,
-    "votes": [
-      {
-        "roll_number": 227,
-        "congress": 119,
-        "date": "2026-06-25T13:29:00-04:00",
-        "question": null,
-        "result": "Passed",
-        "murphy_vote": "Yea",
-        "voted_with_party": true,
-        "legislation_url": "https://www.congress.gov/bill/119/house-bill/2478"
-      }
-    ],
-    "legislation_url": "https://www.congress.gov/bill/119/house-bill/2478"
   },
   "HR-5408": {
     "vote_count": 1,

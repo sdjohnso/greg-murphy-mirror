@@ -1,93 +1,100 @@
 {
-  "generated_at": "2026-06-26T13:14:54.562511",
+  "generated_at": "2026-06-27T12:12:01.422676",
   "week_of": "2026-06-22",
   "days": [
     {
-      "day": "Tuesday",
-      "date": "2026-06-23",
+      "day": "Monday",
+      "date": "2026-06-29",
       "bills": [
         {
-          "bill_id": "H.R. 7396",
-          "title": "Native American Entrepreneurial Opportunity Act",
+          "bill_id": "H.R. 8873",
+          "title": "Recover COVID Unemployment Fraud in Banks Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Davids / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7396"
+          "sponsor": "Rep. Van Duyne / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8873"
         },
         {
-          "bill_id": "H.R. 7401",
-          "title": "Small Business Lending Fraud Prevention Act",
+          "bill_id": "H.R. 5347",
+          "title": "",
           "procedure": "suspension",
-          "sponsor": "Rep. Meuser / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7401"
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5347"
         },
         {
-          "bill_id": "H.R. 826",
-          "title": "COVID Fraud Transparency Act of 2025",
+          "bill_id": "H.R. 7128",
+          "title": "TRIA Program Reauthorization Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Williams (TX",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/826"
+          "sponsor": "Rep. Flood / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7128"
         },
         {
-          "bill_id": "H.R. 915",
-          "title": "Small Business Technological Act of 2025",
+          "bill_id": "H.R. 3350",
+          "title": "To designate the facility of the United States Postal Service located at 340 East 1st Street in Tustin, California, as the \"Ursula Ellen Kennedy Post Office Building\".",
           "procedure": "suspension",
-          "sponsor": "Rep. Alford / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/915"
+          "sponsor": "Rep. Kim / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3350"
         },
         {
-          "bill_id": "H.R. 4238",
-          "title": "Disaster Loan Accountability and Reform Act",
+          "bill_id": "H.R. 4662",
+          "title": "To designate the facility of the United States Postal Service located at 6444 San Fernando Road in Glendale, California, as the \"Paul Ignatius Post Office\".",
           "procedure": "suspension",
-          "sponsor": "Rep. Moore (NC",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4238"
+          "sponsor": "Rep. Friedman / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4662"
         },
         {
-          "bill_id": "H.R. 8879",
-          "title": "Oversight and Transparency for Small Business Certifications Act of 2026",
+          "bill_id": "H.R. 7757",
+          "title": "",
           "procedure": "suspension",
-          "sponsor": "Rep. Olszewski / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8879"
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7757"
         },
         {
-          "bill_id": "H.R. 8880",
-          "title": "Small Business Cybersecurity Assistance Evaluation Act of 2026",
+          "bill_id": "H.R. 7257",
+          "title": "Securing Community Upgrades for a Resilient Grid",
           "procedure": "suspension",
-          "sponsor": "Rep. Simon / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8880"
+          "sponsor": "Rep. Latta / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7257"
         },
         {
-          "bill_id": "H.R. 8881",
-          "title": "SBA Artificial Intelligence Utilization Act of 2026",
+          "bill_id": "H.R. 7258",
+          "title": "Energy Emergency Leadership Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Finstad / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8881"
+          "sponsor": "Rep. Lee (FL",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7258"
         },
         {
-          "bill_id": "H.R. 8882",
-          "title": "Main Street Competes Act",
+          "bill_id": "H.R. 7266",
+          "title": "",
           "procedure": "suspension",
-          "sponsor": "Rep. Scholten / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8882"
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7266"
+        },
+        {
+          "bill_id": "H.R. 7305",
+          "title": "Energy Threat Analysis Center Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Castor / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7305"
         }
       ]
     },
     {
-      "day": "Wednesday",
-      "date": "2026-06-24",
+      "day": "Tuesday",
+      "date": "2026-06-30",
       "bills": [
         {
-          "bill_id": "H.R. 2478",
-          "title": "Financial Exploitation Prevention Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Wagner / Financial Services Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2478"
+          "bill_id": "H.R. 8884",
+          "title": "Removing Barriers to Work for Disabled Americans Act",
+          "procedure": "rule",
+          "sponsor": "Rep. Scott (GA",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8884"
         },
         {
-          "bill_id": "H.R. 1181",
-          "title": "Protecting Privacy in Purchases Act",
+          "bill_id": "H.R. 8800",
+          "title": "National Defense Authorization Act for Fiscal Year 2027",
           "procedure": "rule",
-          "sponsor": "Rep. Moore (WV",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1181"
+          "sponsor": "Rep. Rogers (AL",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8800"
         },
         {
           "bill_id": "H.R. 8595",
@@ -97,18 +104,18 @@
           "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8595"
         },
         {
-          "bill_id": "H.R. 9022",
-          "title": "Energy and Water Development and Related Agencies Appropriations Act, 2027",
+          "bill_id": "H.Res. 1383",
+          "title": "Commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts.",
           "procedure": "rule",
-          "sponsor": "Rep. Fleischmann / Appropriations Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9022"
+          "sponsor": "Rep. Van Duyne / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1383"
         },
         {
-          "bill_id": "H.R. 9237",
-          "title": "",
-          "procedure": "rule",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9237"
+          "bill_id": "H.Con.Res. 108",
+          "title": "Directing the President pursuant to section 5",
+          "procedure": "may_be_considered",
+          "sponsor": "Rep. Tlaib / Foreign Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/108"
         }
       ]
     }
