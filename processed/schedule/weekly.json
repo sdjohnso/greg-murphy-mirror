@@ -1,100 +1,184 @@
 {
-  "generated_at": "2026-07-10T13:15:50.725161",
+  "generated_at": "2026-07-11T11:57:15.764859",
   "week_of": "2026-07-06",
   "days": [
     {
       "day": "Monday",
-      "date": "2026-06-29",
+      "date": "2026-07-13",
       "bills": [
         {
-          "bill_id": "H.R. 8873",
-          "title": "Recover COVID Unemployment Fraud in Banks Act",
+          "bill_id": "H.R. 6332",
+          "title": "To designate the facility of the United States Postal Service located at 10660 Page Avenue in Fairfax, Virginia, as the \"Congressman Gerald E. Connolly Post Office Building\".",
           "procedure": "suspension",
-          "sponsor": "Rep. Van Duyne / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8873"
+          "sponsor": "Rep. Walkinshaw / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6332"
         },
         {
-          "bill_id": "H.R. 5347",
-          "title": "",
+          "bill_id": "H.R. 7809",
+          "title": "To designate the facility of the United States Postal Service located at 201 East Grant Avenue in Georgetown, Ohio, as the \"Ulysses S. Grant Post Office Building\".",
           "procedure": "suspension",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5347"
+          "sponsor": "Rep. Taylor / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7809"
         },
         {
-          "bill_id": "H.R. 7128",
-          "title": "TRIA Program Reauthorization Act of 2026",
+          "bill_id": "H.R. 8770",
+          "title": "SAFEGUARDS Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Flood / Financial Services Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7128"
+          "sponsor": "Rep. Strong / Homeland Security Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8770"
         },
         {
-          "bill_id": "H.R. 3350",
-          "title": "To designate the facility of the United States Postal Service located at 340 East 1st Street in Tustin, California, as the \"Ursula Ellen Kennedy Post Office Building\".",
+          "bill_id": "H.R. 9328",
+          "title": "Improving Travel for Military Members Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Kim / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3350"
+          "sponsor": "Rep. Biggs (SC",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9328"
         },
         {
-          "bill_id": "H.R. 4662",
-          "title": "To designate the facility of the United States Postal Service located at 6444 San Fernando Road in Glendale, California, as the \"Paul Ignatius Post Office\".",
+          "bill_id": "H.R. 8874",
+          "title": "Homeland Security Capabilities Preservation Reporting Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Friedman / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4662"
+          "sponsor": "Rep. Carter (LA",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8874"
         },
         {
-          "bill_id": "H.R. 7757",
-          "title": "",
+          "bill_id": "H.R. 9391",
+          "title": "Reimbursable Screening Service Program Extension Act of 2026",
           "procedure": "suspension",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7757"
+          "sponsor": "Rep. Garbarino / Homeland Security Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9391"
         },
         {
-          "bill_id": "H.R. 7257",
-          "title": "Securing Community Upgrades for a Resilient Grid",
+          "bill_id": "H.R. 9388",
+          "title": "One-Stop Pilot Program Extension Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Latta / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7257"
+          "sponsor": "Rep. Gimenez / Homeland Security Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9388"
         },
         {
-          "bill_id": "H.R. 7258",
-          "title": "Energy Emergency Leadership Act",
+          "bill_id": "H.R. 3106",
+          "title": "Weatherizing Infrastructure in the North and Terrorism Emergency Readiness Act of 2025",
           "procedure": "suspension",
-          "sponsor": "Rep. Lee (FL",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7258"
+          "sponsor": "Rep. Kennedy (NY",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3106"
         },
         {
-          "bill_id": "H.R. 7266",
-          "title": "",
+          "bill_id": "H.R. 8897",
+          "title": "Improving Travel for American Families Act",
           "procedure": "suspension",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7266"
+          "sponsor": "Rep. Mackenzie / Homeland Security Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8897"
         },
         {
-          "bill_id": "H.R. 7305",
-          "title": "Energy Threat Analysis Center Act of 2026",
+          "bill_id": "H.R. 8168",
+          "title": "Major Non-NATO Ally Terror Threat Assessment Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Castor / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7305"
+          "sponsor": "Rep. Van Epps / Homeland Security Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8168"
+        },
+        {
+          "bill_id": "H.R. 8535",
+          "title": "Measuring Illicit Fentanyl Trafficking Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Walkinshaw / Homeland Security Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8535"
+        },
+        {
+          "bill_id": "H.R. 7574",
+          "title": "ELO Realignment and Strategic Engagement Reform Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Evans (CO",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7574"
+        },
+        {
+          "bill_id": "H.R. 8720",
+          "title": "Campaign Finance Transparency Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Steil / House Administration Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8720"
+        },
+        {
+          "bill_id": "H.R. 3535",
+          "title": "Stop Foreign Funds in Elections Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Fitzpatrick / House Administration Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3535"
+        },
+        {
+          "bill_id": "H.R. 8738",
+          "title": "FEC Administrative Improvements Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Morelle / House Administration Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8738"
         }
       ]
     },
     {
       "day": "Tuesday",
-      "date": "2026-06-30",
+      "date": "2026-07-14",
       "bills": [
         {
-          "bill_id": "H.R. 8884",
-          "title": "Removing Barriers to Work for Disabled Americans Act",
-          "procedure": "rule",
-          "sponsor": "Rep. Scott (GA",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8884"
+          "bill_id": "H.R. 3074",
+          "title": "Common Cents Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. McClain (MI",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3074"
         },
         {
-          "bill_id": "H.R. 8800",
-          "title": "National Defense Authorization Act for Fiscal Year 2027",
+          "bill_id": "H.R. 6556",
+          "title": "Failing Bank Acquisition Fairness Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Lynch / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6556"
+        },
+        {
+          "bill_id": "H.R. 5362",
+          "title": "To name the VA clinic in Marietta, GA, as the \u201cColonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic.",
+          "procedure": "suspension",
+          "sponsor": "Rep. Loudermilk / Veterans' Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5362"
+        },
+        {
+          "bill_id": "H.R. 6963",
+          "title": "To designate the community-based outpatient clinic of the Department of Veterans Affairs in Lafayette, Louisiana, as the \u201cRodney C. Hamilton Sr. VA Clinic.\u201d",
+          "procedure": "suspension",
+          "sponsor": "Rep. Higgins / Veterans' Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6963"
+        },
+        {
+          "bill_id": "H.R. 4647",
+          "title": "Captain Paul W. \u2018Bud\u2019 Bucha VA Medical Center Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. DeLauro / Veterans' Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4647"
+        },
+        {
+          "bill_id": "H.R. 6007",
+          "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Newton, New Jersey, as the \"Anthony 'Tony' J. Gallopo VA Clinic\".",
+          "procedure": "suspension",
+          "sponsor": "Rep. Gottheimer / Veterans' Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6007"
+        },
+        {
+          "bill_id": "H.R. 4288",
+          "title": "To name the Department of Veterans Affairs community-based outpatient clinic in San Jose, California, as the \"Corporal Patrick D. Tillman VA Clinic\".",
+          "procedure": "suspension",
+          "sponsor": "Rep. Panetta / Veterans' Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4288"
+        },
+        {
+          "bill_id": "H.R. 1181",
+          "title": "Protecting Privacy in Purchases Act",
           "procedure": "rule",
-          "sponsor": "Rep. Rogers (AL",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8800"
+          "sponsor": "Rep. Moore (WV",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1181"
+        },
+        {
+          "bill_id": "H.R. 139",
+          "title": "Sunshine Protection Act of 2025",
+          "procedure": "rule",
+          "sponsor": "Rep. Buchanan / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/139"
         },
         {
           "bill_id": "H.R. 8595",
@@ -104,18 +188,11 @@
           "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8595"
         },
         {
-          "bill_id": "H.Res. 1383",
-          "title": "Commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts.",
+          "bill_id": "H.R. 9237",
+          "title": "Take Care of America\u2019s Veterans Act",
           "procedure": "rule",
-          "sponsor": "Rep. Van Duyne / Ways and Means Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1383"
-        },
-        {
-          "bill_id": "H.Con.Res. 108",
-          "title": "Directing the President pursuant to section 5",
-          "procedure": "may_be_considered",
-          "sponsor": "Rep. Tlaib / Foreign Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/108"
+          "sponsor": "Rep. Bost / Veterans' Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9237"
         }
       ]
     }
