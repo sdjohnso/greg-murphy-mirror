@@ -1,9 +1,11 @@
 # Recent Votes (Last 30 Days)
 
-*11 votes in the last 30 days*
+*13 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Jul 13, 2026 | 235 | HR 8897 | Passed | Yea | Yes |
+| Jul 13, 2026 | 234 | HR 3106 | Passed | Yea | Yes |
 | Jun 30, 2026 | 233 | HRES 1399 | Passed | Yea | Yes |
 | Jun 30, 2026 | 232 | HCONRES 108 | Failed | Nay | Yes |
 | Jun 30, 2026 | 231 | HRES 1398 | Failed | Aye | Yes |

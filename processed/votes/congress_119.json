@@ -20994,6 +20994,44 @@
   {
     "congress": 119,
     "session": 2,
+    "roll_number": 234,
+    "date": "2026-07-13T18:55:00-04:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "2/3 Yea-And-Nay",
+    "legislation_type": "HR",
+    "legislation_number": "3106",
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/3106",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll234.xml",
+    "murphy_vote": "Yea",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 198,
+        "nay": 7,
+        "present": 0,
+        "not_voting": 12
+      },
+      {
+        "party": "Democratic",
+        "yea": 201,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 11
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
     "roll_number": 221,
     "date": "2026-06-11T10:34:00-04:00",
     "question": null,
@@ -21589,6 +21627,44 @@
         "nay": 210,
         "present": 0,
         "not_voting": 2
+      },
+      {
+        "party": "Independent",
+        "yea": 1,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 0
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 235,
+    "date": "2026-07-13T19:02:00-04:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "2/3 Yea-And-Nay",
+    "legislation_type": "HR",
+    "legislation_number": "8897",
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/8897",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll235.xml",
+    "murphy_vote": "Yea",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 196,
+        "nay": 10,
+        "present": 0,
+        "not_voting": 11
+      },
+      {
+        "party": "Democratic",
+        "yea": 201,
+        "nay": 2,
+        "present": 0,
+        "not_voting": 9
       },
       {
         "party": "Independent",
