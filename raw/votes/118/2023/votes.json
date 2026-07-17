@@ -25658,44 +25658,6 @@
   {
     "congress": 118,
     "session": 1,
-    "roll_number": 709,
-    "date": "2023-12-11T19:15:00-05:00",
-    "question": null,
-    "result": "Passed",
-    "vote_type": "2/3 Yea-And-Nay",
-    "legislation_type": "HR",
-    "legislation_number": "6503",
-    "legislation_url": "https://www.congress.gov/bill/118/house-bill/6503",
-    "source_xml": "https://clerk.house.gov/evs/2023/roll709.xml",
-    "murphy_vote": "Yea",
-    "voted_with_party": true,
-    "party_totals": [
-      {
-        "party": "Republican",
-        "yea": 191,
-        "nay": 15,
-        "present": 0,
-        "not_voting": 14
-      },
-      {
-        "party": "Democratic",
-        "yea": 185,
-        "nay": 0,
-        "present": 0,
-        "not_voting": 28
-      },
-      {
-        "party": "Independent",
-        "yea": 0,
-        "nay": 0,
-        "present": 0,
-        "not_voting": 0
-      }
-    ]
-  },
-  {
-    "congress": 118,
-    "session": 1,
     "roll_number": 71,
     "date": "2023-01-27T11:28:00-05:00",
     "question": null,

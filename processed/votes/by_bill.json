@@ -12200,6 +12200,40 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/8897"
   },
+  "HR-5362": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 248,
+        "congress": 119,
+        "date": "2026-07-16T10:50:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/5362"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/5362"
+  },
+  "HR-9237": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 249,
+        "congress": 119,
+        "date": "2026-07-16T11:15:00-04:00",
+        "question": null,
+        "result": "Failed",
+        "murphy_vote": "Nay",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/9237"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/9237"
+  },
   "HR-5408": {
     "vote_count": 1,
     "consistent": true,
@@ -12321,6 +12355,33 @@
       }
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/1181"
+  },
+  "HR-8595": {
+    "vote_count": 2,
+    "consistent": false,
+    "votes": [
+      {
+        "roll_number": 246,
+        "congress": 119,
+        "date": "2026-07-15T16:58:00-04:00",
+        "question": null,
+        "result": "Failed",
+        "murphy_vote": "Nay",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/8595"
+      },
+      {
+        "roll_number": 247,
+        "congress": 119,
+        "date": "2026-07-15T17:11:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/8595"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/8595"
   },
   "HR-3391": {
     "vote_count": 1,
@@ -14144,19 +14205,9 @@
     "legislation_url": "https://www.congress.gov/bill/118/house-resolution/793"
   },
   "HR-6503": {
-    "vote_count": 2,
+    "vote_count": 1,
     "consistent": true,
     "votes": [
-      {
-        "roll_number": 709,
-        "congress": 118,
-        "date": "2023-12-11T19:15:00-05:00",
-        "question": null,
-        "result": "Passed",
-        "murphy_vote": "Yea",
-        "voted_with_party": true,
-        "legislation_url": "https://www.congress.gov/bill/118/house-bill/6503"
-      },
       {
         "roll_number": 709,
         "congress": 118,

@@ -1,5 +1,5 @@
 {
-  "inconsistent_bill_count": 119,
+  "inconsistent_bill_count": 120,
   "inconsistent_bills": {
     "HR-4366": {
       "vote_count": 2,
@@ -2347,6 +2347,33 @@
       ],
       "legislation_url": "https://www.congress.gov/bill/119/house-bill/1181"
     },
+    "HR-8595": {
+      "vote_count": 2,
+      "consistent": false,
+      "votes": [
+        {
+          "roll_number": 246,
+          "congress": 119,
+          "date": "2026-07-15T16:58:00-04:00",
+          "question": null,
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/8595"
+        },
+        {
+          "roll_number": 247,
+          "congress": 119,
+          "date": "2026-07-15T17:11:00-04:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/8595"
+        }
+      ],
+      "legislation_url": "https://www.congress.gov/bill/119/house-bill/8595"
+    },
     "HR-28": {
       "vote_count": 2,
       "consistent": false,
@@ -3745,7 +3772,7 @@
       }
     }
   ],
-  "against_party_count": 70,
+  "against_party_count": 71,
   "against_party_votes": [
     {
       "roll_number": 539,
@@ -4018,6 +4045,16 @@
       "legislation_number": "2913"
     },
     {
+      "roll_number": 245,
+      "congress": 119,
+      "date": "2026-07-15T16:50:00-04:00",
+      "question": null,
+      "result": "Failed",
+      "murphy_vote": "No",
+      "legislation_type": null,
+      "legislation_number": null
+    },
+    {
       "roll_number": 157,
       "congress": 118,
       "date": "2023-03-24T10:38:00-04:00",
@@ -4231,16 +4268,6 @@
       "roll_number": 624,
       "congress": 118,
       "date": "2023-11-08T14:38:00-05:00",
-      "question": null,
-      "result": "Failed",
-      "murphy_vote": "No",
-      "legislation_type": null,
-      "legislation_number": null
-    },
-    {
-      "roll_number": 626,
-      "congress": 118,
-      "date": "2023-11-08T14:46:00-05:00",
       "question": null,
       "result": "Failed",
       "murphy_vote": "No",
