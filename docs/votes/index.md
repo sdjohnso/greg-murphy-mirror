@@ -30,9 +30,9 @@
 
 | Type | Count |
 |------|-------|
-| HR | 697 |
-| null | 661 |
-| HRES | 357 |
+| HR | 696 |
+| null | 667 |
+| HRES | 352 |
 | S | 54 |
 | HJRES | 48 |
 | HCONRES | 23 |

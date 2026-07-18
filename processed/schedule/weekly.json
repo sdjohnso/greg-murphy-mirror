@@ -1,95 +1,11 @@
 {
-  "generated_at": "2026-07-17T12:15:27.689238",
+  "generated_at": "2026-07-18T11:57:14.403762",
   "week_of": "2026-07-13",
   "days": [
     {
       "day": "Monday",
-      "date": "2026-07-13",
+      "date": "2026-07-20",
       "bills": [
-        {
-          "bill_id": "H.R. 6332",
-          "title": "To designate the facility of the United States Postal Service located at 10660 Page Avenue in Fairfax, Virginia, as the \"Congressman Gerald E. Connolly Post Office Building\".",
-          "procedure": "suspension",
-          "sponsor": "Rep. Walkinshaw / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6332"
-        },
-        {
-          "bill_id": "H.R. 7809",
-          "title": "To designate the facility of the United States Postal Service located at 201 East Grant Avenue in Georgetown, Ohio, as the \"Ulysses S. Grant Post Office Building\".",
-          "procedure": "suspension",
-          "sponsor": "Rep. Taylor / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7809"
-        },
-        {
-          "bill_id": "H.R. 8770",
-          "title": "SAFEGUARDS Act of 2026",
-          "procedure": "suspension",
-          "sponsor": "Rep. Strong / Homeland Security Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8770"
-        },
-        {
-          "bill_id": "H.R. 9328",
-          "title": "Improving Travel for Military Members Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Biggs (SC",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9328"
-        },
-        {
-          "bill_id": "H.R. 8874",
-          "title": "Homeland Security Capabilities Preservation Reporting Act of 2026",
-          "procedure": "suspension",
-          "sponsor": "Rep. Carter (LA",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8874"
-        },
-        {
-          "bill_id": "H.R. 9391",
-          "title": "Reimbursable Screening Service Program Extension Act of 2026",
-          "procedure": "suspension",
-          "sponsor": "Rep. Garbarino / Homeland Security Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9391"
-        },
-        {
-          "bill_id": "H.R. 9388",
-          "title": "One-Stop Pilot Program Extension Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Gimenez / Homeland Security Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9388"
-        },
-        {
-          "bill_id": "H.R. 3106",
-          "title": "Weatherizing Infrastructure in the North and Terrorism Emergency Readiness Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Kennedy (NY",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3106"
-        },
-        {
-          "bill_id": "H.R. 8897",
-          "title": "Improving Travel for American Families Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Mackenzie / Homeland Security Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8897"
-        },
-        {
-          "bill_id": "H.R. 8168",
-          "title": "Major Non-NATO Ally Terror Threat Assessment Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Van Epps / Homeland Security Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8168"
-        },
-        {
-          "bill_id": "H.R. 8535",
-          "title": "Measuring Illicit Fentanyl Trafficking Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Walkinshaw / Homeland Security Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8535"
-        },
-        {
-          "bill_id": "H.R. 7574",
-          "title": "ELO Realignment and Strategic Engagement Reform Act of 2026",
-          "procedure": "suspension",
-          "sponsor": "Rep. Evans (CO",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7574"
-        },
         {
           "bill_id": "H.R. 8720",
           "title": "Campaign Finance Transparency Act",
@@ -98,101 +14,199 @@
           "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8720"
         },
         {
-          "bill_id": "H.R. 3535",
-          "title": "Stop Foreign Funds in Elections Act",
+          "bill_id": "H.R. 2715",
+          "title": "",
           "procedure": "suspension",
-          "sponsor": "Rep. Fitzpatrick / House Administration Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3535"
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2715"
         },
         {
-          "bill_id": "H.R. 8738",
-          "title": "FEC Administrative Improvements Act",
+          "bill_id": "H.R. 2821",
+          "title": "FDA Modernization Act 3.0",
           "procedure": "suspension",
-          "sponsor": "Rep. Morelle / House Administration Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8738"
+          "sponsor": "Rep. Carter (GA",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2821"
+        },
+        {
+          "bill_id": "H.R. 4348",
+          "title": "To reauthorize the Kay Hagan Tick Act, and for other purposes",
+          "procedure": "suspension",
+          "sponsor": "Rep. Smith (NJ",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4348"
+        },
+        {
+          "bill_id": "H.R. 5160",
+          "title": "Stem Cell Therapeutic and Research Reauthorization Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Smith (NJ",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5160"
+        },
+        {
+          "bill_id": "H.R. 3747",
+          "title": "Accelerating Access to Dementia and Alzheimer\u2019s Provider Training",
+          "procedure": "suspension",
+          "sponsor": "Rep. Balderson / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3747"
+        },
+        {
+          "bill_id": "H.R. 8209",
+          "title": "School-Based Health Centers Reauthorization Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Tonko / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8209"
+        },
+        {
+          "bill_id": "H.R. 2001",
+          "title": "To amend the Public Health Service Act to reauthorize a grant program for addressing dental workforce needs",
+          "procedure": "suspension",
+          "sponsor": "Rep. Kelly (IL",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2001"
+        },
+        {
+          "bill_id": "H.R. 1493",
+          "title": "To reauthorize and make improvements to Federal programs relating to the prevention, detection, and treatment of traumatic brain injuries, and for other purposes",
+          "procedure": "suspension",
+          "sponsor": "Rep. Pallone / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1493"
+        },
+        {
+          "bill_id": "H.R. 3491",
+          "title": "DeOndra Dixon INCLUDE Project Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. DeGette / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3491"
+        },
+        {
+          "bill_id": "H.R. 4541",
+          "title": "EARLY Act Reauthorization of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Wasserman Schultz / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4541"
+        },
+        {
+          "bill_id": "H.R. 6238",
+          "title": "NIH IMPROVE Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Underwood / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6238"
+        },
+        {
+          "bill_id": "H.R. 8205",
+          "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Quigley / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8205"
+        },
+        {
+          "bill_id": "H.R. 1703",
+          "title": "Choices for Increased Mobility Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Joyce (PA",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1703"
+        },
+        {
+          "bill_id": "H.R. 8823",
+          "title": "Putting Patients First by Strengthening Provider Accountability in FECA Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Mackenzie / Education and Workforce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8823"
+        },
+        {
+          "bill_id": "H.R. 1118",
+          "title": "Value Over Cost Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Donalds / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1118"
+        },
+        {
+          "bill_id": "H.R. 7283",
+          "title": "Ensuring Federal Purchasing Efficiency Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Fallon / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7283"
+        },
+        {
+          "bill_id": "H.R. 2069",
+          "title": "Stop Secret Spending Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Moore (AL",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2069"
+        },
+        {
+          "bill_id": "H.R. 4123",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4123"
+        },
+        {
+          "bill_id": "H.R. 6330",
+          "title": "Federal Relocation Payment Improvement Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Jack / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6330"
+        },
+        {
+          "bill_id": "H.R. 1722",
+          "title": "Billion Dollar Boondoggle Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Miller-Meeks / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1722"
+        },
+        {
+          "bill_id": "H.R. 5578",
+          "title": "Expanding Whistleblower Protections for Contractors Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Garcia (CA",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5578"
+        },
+        {
+          "bill_id": "H.R. 3029",
+          "title": "Nucleic Acid Standards for Biosecurity Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Salinas / Science, Space, and Technology Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3029"
+        },
+        {
+          "bill_id": "H.R. 8790",
+          "title": "Next-Generation Geothermal Research and Development Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Harrigan / Science, Space, and Technology Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8790"
         }
       ]
     },
     {
       "day": "Tuesday",
-      "date": "2026-07-14",
+      "date": "2026-07-21",
       "bills": [
         {
-          "bill_id": "H.R. 3074",
-          "title": "Common Cents Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. McClain (MI",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3074"
-        },
-        {
-          "bill_id": "H.R. 6556",
-          "title": "Failing Bank Acquisition Fairness Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Lynch / Financial Services Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6556"
-        },
-        {
-          "bill_id": "H.R. 5362",
-          "title": "To name the VA clinic in Marietta, GA, as the \u201cColonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic.",
-          "procedure": "suspension",
-          "sponsor": "Rep. Loudermilk / Veterans' Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5362"
-        },
-        {
-          "bill_id": "H.R. 6963",
-          "title": "To designate the community-based outpatient clinic of the Department of Veterans Affairs in Lafayette, Louisiana, as the \u201cRodney C. Hamilton Sr. VA Clinic.\u201d",
-          "procedure": "suspension",
-          "sponsor": "Rep. Higgins / Veterans' Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6963"
-        },
-        {
-          "bill_id": "H.R. 4647",
-          "title": "Captain Paul W. \u2018Bud\u2019 Bucha VA Medical Center Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. DeLauro / Veterans' Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4647"
-        },
-        {
-          "bill_id": "H.R. 6007",
-          "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Newton, New Jersey, as the \"Anthony 'Tony' J. Gallopo VA Clinic\".",
-          "procedure": "suspension",
-          "sponsor": "Rep. Gottheimer / Veterans' Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6007"
-        },
-        {
-          "bill_id": "H.R. 4288",
-          "title": "To name the Department of Veterans Affairs community-based outpatient clinic in San Jose, California, as the \"Corporal Patrick D. Tillman VA Clinic\".",
-          "procedure": "suspension",
-          "sponsor": "Rep. Panetta / Veterans' Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4288"
-        },
-        {
-          "bill_id": "H.R. 1181",
-          "title": "Protecting Privacy in Purchases Act",
+          "bill_id": "H.R. 6955",
+          "title": "",
           "procedure": "rule",
-          "sponsor": "Rep. Moore (WV",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1181"
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6955"
         },
         {
-          "bill_id": "H.R. 139",
-          "title": "Sunshine Protection Act of 2025",
+          "bill_id": "H.R. 7008",
+          "title": "",
           "procedure": "rule",
-          "sponsor": "Rep. Buchanan / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/139"
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7008"
         },
         {
-          "bill_id": "H.R. 8595",
-          "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
+          "bill_id": "H.R. 8800",
+          "title": "",
           "procedure": "rule",
-          "sponsor": "Rep. Diaz-Balart / Appropriations Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8595"
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8800"
         },
         {
-          "bill_id": "H.R. 9237",
-          "title": "Take Care of America\u2019s Veterans Act",
+          "bill_id": "H.R. 8844",
+          "title": "",
           "procedure": "rule",
-          "sponsor": "Rep. Bost / Veterans' Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9237"
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8844"
         }
       ]
     }
