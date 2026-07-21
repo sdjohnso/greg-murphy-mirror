@@ -1,9 +1,11 @@
 # Recent Votes (Last 30 Days)
 
-*27 votes in the last 30 days*
+*29 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Jul 20, 2026 | 251 | HR 8823 | Passed | Yea | Yes |
+| Jul 20, 2026 | 250 | HR 4541 | Passed | Yea | Yes |
 | Jul 16, 2026 | 249 | HR 9237 | Failed | Nay | Yes |
 | Jul 16, 2026 | 248 | HR 5362 | Passed | Yea | Yes |
 | Jul 15, 2026 | 247 | HR 8595 | Passed | Yea | Yes |

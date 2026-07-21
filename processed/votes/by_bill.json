@@ -12095,6 +12095,40 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/915"
   },
+  "HR-4541": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 250,
+        "congress": 119,
+        "date": "2026-07-20T19:02:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/4541"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/4541"
+  },
+  "HR-8823": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 251,
+        "congress": 119,
+        "date": "2026-07-20T19:09:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/8823"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/8823"
+  },
   "HR-8897": {
     "vote_count": 1,
     "consistent": true,
