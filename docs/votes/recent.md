@@ -1,9 +1,18 @@
 # Recent Votes (Last 30 Days)
 
-*50 votes in the last 30 days*
+*59 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Jul 22, 2026 | 281 | HCONRES 113 | Passed | Yea | Yes |
+| Jul 22, 2026 | 280 | HR 7008 | Passed | Yea | Yes |
+| Jul 22, 2026 | 279 | HR 7008 | Failed | Nay | Yes |
+| Jul 22, 2026 | 278 | HR 8800 | Passed | Yea | Yes |
+| Jul 22, 2026 | 277 | HR 8800 | Failed | Nay | Yes |
+| Jul 22, 2026 | 276 | None None | Failed | No | No |
+| Jul 22, 2026 | 275 | None None | Agreed to | Aye | Yes |
+| Jul 22, 2026 | 274 | None None | Failed | Aye | Yes |
+| Jul 22, 2026 | 273 | None None | Agreed to | Aye | Yes |
 | Jul 21, 2026 | 272 | HR 9770 | Passed | Yea | Yes |
 | Jul 21, 2026 | 271 | HR 6955 | Passed | Yea | Yes |
 | Jul 21, 2026 | 270 | HR 6955 | Failed | Nay | Yes |
@@ -45,15 +54,6 @@
 | Jul 13, 2026 | 234 | HR 3106 | Passed | Yea | Yes |
 | Jun 30, 2026 | 233 | HRES 1399 | Passed | Yea | Yes |
 | Jun 30, 2026 | 232 | HCONRES 108 | Failed | Nay | Yes |
-| Jun 30, 2026 | 231 | HRES 1398 | Failed | Aye | Yes |
-| Jun 30, 2026 | 230 | HRES 1398 | Passed | Yea | Yes |
-| Jun 29, 2026 | 229 | HR 7128 | Passed | Yea | Yes |
-| Jun 29, 2026 | 228 | HR 7757 | Passed | Yea | Yes |
-| Jun 25, 2026 | 227 | HR 2478 | Passed | Yea | Yes |
-| Jun 24, 2026 | 226 | HR 915 | Passed | Yea | Yes |
-| Jun 24, 2026 | 225 | HR 7401 | Passed | Yea | Yes |
-| Jun 23, 2026 | 224 | HR 6644 | Passed | Yea | Yes |
-| Jun 23, 2026 | 223 | S 629 | Passed | Yea | Yes |
 
 
 ---
