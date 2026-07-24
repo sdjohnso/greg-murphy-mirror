@@ -4,6 +4,8 @@
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Jul 23, 2026 | 283 | HR 8884 | Passed | Yea | Yes |
+| Jul 23, 2026 | 282 | HCONRES 89 | Passed | Nay | Yes |
 | Jul 22, 2026 | 281 | HCONRES 113 | Passed | Yea | Yes |
 | Jul 22, 2026 | 280 | HR 7008 | Passed | Yea | Yes |
 | Jul 22, 2026 | 279 | HR 7008 | Failed | Nay | Yes |
@@ -52,8 +54,6 @@
 | Jul 14, 2026 | 236 | HRES 1423 | Passed | Yea | Yes |
 | Jul 13, 2026 | 235 | HR 8897 | Passed | Yea | Yes |
 | Jul 13, 2026 | 234 | HR 3106 | Passed | Yea | Yes |
-| Jun 30, 2026 | 233 | HRES 1399 | Passed | Yea | Yes |
-| Jun 30, 2026 | 232 | HCONRES 108 | Failed | Nay | Yes |
 
 
 ---

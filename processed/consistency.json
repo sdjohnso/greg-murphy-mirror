@@ -2347,33 +2347,6 @@
       ],
       "legislation_url": "https://www.congress.gov/bill/119/house-bill/6955"
     },
-    "HR-7008": {
-      "vote_count": 2,
-      "consistent": false,
-      "votes": [
-        {
-          "roll_number": 279,
-          "congress": 119,
-          "date": "2026-07-22T16:43:00-04:00",
-          "question": null,
-          "result": "Failed",
-          "murphy_vote": "Nay",
-          "voted_with_party": true,
-          "legislation_url": "https://www.congress.gov/bill/119/house-bill/7008"
-        },
-        {
-          "roll_number": 280,
-          "congress": 119,
-          "date": "2026-07-22T16:51:00-04:00",
-          "question": null,
-          "result": "Passed",
-          "murphy_vote": "Yea",
-          "voted_with_party": true,
-          "legislation_url": "https://www.congress.gov/bill/119/house-bill/7008"
-        }
-      ],
-      "legislation_url": "https://www.congress.gov/bill/119/house-bill/7008"
-    },
     "HR-8800": {
       "vote_count": 2,
       "consistent": false,
@@ -2400,6 +2373,33 @@
         }
       ],
       "legislation_url": "https://www.congress.gov/bill/119/house-bill/8800"
+    },
+    "HR-7008": {
+      "vote_count": 2,
+      "consistent": false,
+      "votes": [
+        {
+          "roll_number": 279,
+          "congress": 119,
+          "date": "2026-07-22T16:43:00-04:00",
+          "question": null,
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/7008"
+        },
+        {
+          "roll_number": 280,
+          "congress": 119,
+          "date": "2026-07-22T16:51:00-04:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/7008"
+        }
+      ],
+      "legislation_url": "https://www.congress.gov/bill/119/house-bill/7008"
     },
     "HR-1181": {
       "vote_count": 2,
@@ -4139,9 +4139,9 @@
       "legislation_number": "2913"
     },
     {
-      "roll_number": 276,
+      "roll_number": 245,
       "congress": 119,
-      "date": "2026-07-22T16:22:00-04:00",
+      "date": "2026-07-15T16:50:00-04:00",
       "question": null,
       "result": "Failed",
       "murphy_vote": "No",
@@ -4149,9 +4149,9 @@
       "legislation_number": null
     },
     {
-      "roll_number": 245,
+      "roll_number": 276,
       "congress": 119,
-      "date": "2026-07-15T16:50:00-04:00",
+      "date": "2026-07-22T16:22:00-04:00",
       "question": null,
       "result": "Failed",
       "murphy_vote": "No",
