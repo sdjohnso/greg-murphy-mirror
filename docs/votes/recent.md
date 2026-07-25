@@ -1,6 +1,6 @@
 # Recent Votes (Last 30 Days)
 
-*59 votes in the last 30 days*
+*57 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
