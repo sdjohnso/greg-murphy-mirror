@@ -1,6 +1,6 @@
 # Recent Votes (Last 30 Days)
 
-*50 votes in the last 30 days*
+*48 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
@@ -52,8 +52,6 @@
 | Jul 14, 2026 | 238 | HR 139 | Passed | Yea | Yes |
 | Jul 14, 2026 | 237 | HRES 1423 | Passed | Aye | Yes |
 | Jul 14, 2026 | 236 | HRES 1423 | Passed | Yea | Yes |
-| Jul 13, 2026 | 235 | HR 8897 | Passed | Yea | Yes |
-| Jul 13, 2026 | 234 | HR 3106 | Passed | Yea | Yes |
 
 
 ---
