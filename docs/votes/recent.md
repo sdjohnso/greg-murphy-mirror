@@ -1,6 +1,6 @@
 # Recent Votes (Last 30 Days)
 
-*48 votes in the last 30 days*
+*43 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
@@ -47,11 +47,6 @@
 | Jul 15, 2026 | 243 | None None | Failed | No | Yes |
 | Jul 15, 2026 | 242 | None None | Failed | Aye | Yes |
 | Jul 15, 2026 | 241 | None None | Failed | No | Yes |
-| Jul 14, 2026 | 240 | HR 1181 | Passed | Yea | Yes |
-| Jul 14, 2026 | 239 | HR 1181 | Failed | Nay | Yes |
-| Jul 14, 2026 | 238 | HR 139 | Passed | Yea | Yes |
-| Jul 14, 2026 | 237 | HRES 1423 | Passed | Aye | Yes |
-| Jul 14, 2026 | 236 | HRES 1423 | Passed | Yea | Yes |
 
 
 ---
