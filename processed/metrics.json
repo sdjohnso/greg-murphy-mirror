@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T11:53:43.310574",
+  "generated_at": "2026-08-21T11:54:36.464663",
   "participation": {
     "total_votes": 1886,
     "participated": 1625,
@@ -16,7 +16,7 @@
   },
   "votes_by_type": {
     "HR": {
-      "count": 707,
+      "count": 709,
       "recent": [
         {
           "roll": 240,
@@ -56,7 +56,7 @@
       ]
     },
     "null": {
-      "count": 686,
+      "count": 679,
       "recent": [
         {
           "roll": 320,
@@ -96,7 +96,7 @@
       ]
     },
     "HRES": {
-      "count": 354,
+      "count": 359,
       "recent": [
         {
           "roll": 296,
