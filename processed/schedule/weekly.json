@@ -1,212 +1,135 @@
 {
-  "generated_at": "2026-08-28T21:20:24.445787",
+  "generated_at": "2026-08-29T15:33:29.611197",
   "week_of": "2026-08-24",
   "days": [
     {
       "day": "Monday",
-      "date": "2026-07-20",
+      "date": "2026-08-31",
       "bills": [
         {
-          "bill_id": "H.R. 8720",
-          "title": "Campaign Finance Transparency Act",
+          "bill_id": "H.R. 8481",
+          "title": "Kayleigh\u2019s Law Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Steil / House Administration Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8720"
+          "sponsor": "Rep. Hamadeh / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8481"
         },
         {
-          "bill_id": "H.R. 2715",
-          "title": "",
+          "bill_id": "H.R. 1869",
+          "title": "Protecting American Industry and Labor from International Trade Crimes Act of 2025",
           "procedure": "suspension",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2715"
+          "sponsor": "Rep. Hinson / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1869"
         },
         {
-          "bill_id": "H.R. 2821",
-          "title": "FDA Modernization Act 3.0",
+          "bill_id": "H.R. 6048",
+          "title": "NDO Fairness Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Carter (GA",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2821"
+          "sponsor": "Rep. Fitzgerald / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6048"
         },
         {
-          "bill_id": "H.R. 4348",
-          "title": "To reauthorize the Kay Hagan Tick Act, and for other purposes",
+          "bill_id": "H.R. 4584",
+          "title": "To make technical amendments to update statutory references to certain provisions which were formerly classified to chapters 14 and 19 of title 25, United States Code, and to correct related technical errors.",
           "procedure": "suspension",
-          "sponsor": "Rep. Smith (NJ",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4348"
+          "sponsor": "Rep. Baumgartner / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4584"
         },
         {
-          "bill_id": "H.R. 5160",
-          "title": "Stem Cell Therapeutic and Research Reauthorization Act of 2025",
+          "bill_id": "H.R. 4499",
+          "title": "To make technical amendments to update statutory references to provisions reclassified to title 34, United States Code, and to correct related technical errors.",
           "procedure": "suspension",
-          "sponsor": "Rep. Smith (NJ",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5160"
+          "sponsor": "Rep. Harris (NC",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4499"
         },
         {
-          "bill_id": "H.R. 3747",
-          "title": "Accelerating Access to Dementia and Alzheimer\u2019s Provider Training",
+          "bill_id": "H.R. 4523",
+          "title": "To make technical amendments to title 49, United States Code, as necessary to improve the Code.",
           "procedure": "suspension",
-          "sponsor": "Rep. Balderson / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3747"
+          "sponsor": "Rep. Onder / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4523"
         },
         {
-          "bill_id": "H.R. 8209",
-          "title": "School-Based Health Centers Reauthorization Act of 2026",
+          "bill_id": "H.R. 4465",
+          "title": "To amend chapters 4, 10, and 131 of title 5, United States Code, as necessary to keep those chapters current and to correct related technical errors.",
           "procedure": "suspension",
-          "sponsor": "Rep. Tonko / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8209"
+          "sponsor": "Rep. Schmidt / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4465"
         },
         {
-          "bill_id": "H.R. 2001",
-          "title": "To amend the Public Health Service Act to reauthorize a grant program for addressing dental workforce needs",
+          "bill_id": "H.R. 5210",
+          "title": "To make technical amendments to update statutory references to certain provisions classified to title 2, United States Code, title 50, United States Code, and title 52, United States Code, and to correct related technical errors.",
           "procedure": "suspension",
-          "sponsor": "Rep. Kelly (IL",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2001"
+          "sponsor": "Rep. Raskin / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5210"
         },
         {
-          "bill_id": "H.R. 1493",
-          "title": "To reauthorize and make improvements to Federal programs relating to the prevention, detection, and treatment of traumatic brain injuries, and for other purposes",
+          "bill_id": "H.R. 5185",
+          "title": "To make improvements in the enactment of title 41, United States Code, into a positive law title and to improve the Code.",
           "procedure": "suspension",
-          "sponsor": "Rep. Pallone / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1493"
+          "sponsor": "Rep. Kamlager-Dove / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5185"
         },
         {
-          "bill_id": "H.R. 3491",
-          "title": "DeOndra Dixon INCLUDE Project Act of 2025",
+          "bill_id": "H.R. 5174",
+          "title": "To make revisions in title 51, United States Code, as necessary to keep the title current, and to make technical amendments to improve the United States Code.",
           "procedure": "suspension",
-          "sponsor": "Rep. DeGette / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3491"
+          "sponsor": "Rep. Crockett / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5174"
         },
         {
-          "bill_id": "H.R. 4541",
-          "title": "EARLY Act Reauthorization of 2025",
+          "bill_id": "H.R. 5182",
+          "title": "To make improvements in the enactment of title 54, United States Code, into a positive law title and to correct related technical errors.",
           "procedure": "suspension",
-          "sponsor": "Rep. Wasserman Schultz / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4541"
-        },
-        {
-          "bill_id": "H.R. 6238",
-          "title": "NIH IMPROVE Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Underwood / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6238"
-        },
-        {
-          "bill_id": "H.R. 8205",
-          "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
-          "procedure": "suspension",
-          "sponsor": "Rep. Quigley / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8205"
-        },
-        {
-          "bill_id": "H.R. 1703",
-          "title": "Choices for Increased Mobility Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Joyce (PA",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1703"
-        },
-        {
-          "bill_id": "H.R. 8823",
-          "title": "Putting Patients First by Strengthening Provider Accountability in FECA Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Mackenzie / Education and Workforce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8823"
-        },
-        {
-          "bill_id": "H.R. 1118",
-          "title": "Value Over Cost Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Donalds / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1118"
-        },
-        {
-          "bill_id": "H.R. 7283",
-          "title": "Ensuring Federal Purchasing Efficiency Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Fallon / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7283"
-        },
-        {
-          "bill_id": "H.R. 2069",
-          "title": "Stop Secret Spending Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Moore (AL",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2069"
-        },
-        {
-          "bill_id": "H.R. 4123",
-          "title": "",
-          "procedure": "suspension",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4123"
-        },
-        {
-          "bill_id": "H.R. 6330",
-          "title": "Federal Relocation Payment Improvement Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Jack / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6330"
-        },
-        {
-          "bill_id": "H.R. 1722",
-          "title": "Billion Dollar Boondoggle Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Miller-Meeks / Oversight and Government Reform Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1722"
-        },
-        {
-          "bill_id": "H.R. 5578",
-          "title": "Expanding Whistleblower Protections for Contractors Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Garcia (CA",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5578"
-        },
-        {
-          "bill_id": "H.R. 3029",
-          "title": "Nucleic Acid Standards for Biosecurity Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Salinas / Science, Space, and Technology Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3029"
-        },
-        {
-          "bill_id": "H.R. 8790",
-          "title": "Next-Generation Geothermal Research and Development Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Harrigan / Science, Space, and Technology Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8790"
+          "sponsor": "Rep. Goldman (NY",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5182"
         }
       ]
     },
     {
       "day": "Tuesday",
-      "date": "2026-07-21",
+      "date": "2026-09-01",
       "bills": [
         {
-          "bill_id": "H.R. 6955",
-          "title": "",
-          "procedure": "rule",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6955"
+          "bill_id": "H.R. 6500",
+          "title": "Continuing Appropriations and Extensions Act, 2027",
+          "procedure": "suspension",
+          "sponsor": "Rep. Smith (MO",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6500"
         },
         {
-          "bill_id": "H.R. 7008",
-          "title": "",
-          "procedure": "rule",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7008"
+          "bill_id": "H.J.Res. 1",
+          "title": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "procedure": "suspension",
+          "sponsor": "Rep. Biggs (AZ",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/1"
         },
         {
-          "bill_id": "H.R. 8800",
-          "title": "",
+          "bill_id": "H.R. 9436",
+          "title": "Northeast Lobsterman Protection Act of 2026",
           "procedure": "rule",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8800"
+          "sponsor": "Rep. Lawler / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9436"
         },
         {
-          "bill_id": "H.R. 8844",
+          "bill_id": "H.Res. 1490",
+          "title": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
+          "procedure": "rule",
+          "sponsor": "Rep. Crank / House Administration Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1490"
+        },
+        {
+          "bill_id": "H.R. 1501",
+          "title": "Protecting Domestic Mining Act",
+          "procedure": "rule",
+          "sponsor": "Rep. Shreve / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1501"
+        },
+        {
+          "bill_id": "H.R. 4795",
           "title": "",
           "procedure": "rule",
           "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8844"
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4795"
         }
       ]
     }
