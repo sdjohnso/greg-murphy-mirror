@@ -2959,6 +2959,40 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-resolution/936"
   },
+  "S-307": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 284,
+        "congress": 119,
+        "date": "2026-08-31T18:56:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/senate-bill/307"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/senate-bill/307"
+  },
+  "S-32": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 285,
+        "congress": 119,
+        "date": "2026-08-31T19:10:00-04:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/senate-bill/32"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/senate-bill/32"
+  },
   "S-723": {
     "vote_count": 1,
     "consistent": true,
