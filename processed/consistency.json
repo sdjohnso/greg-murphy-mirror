@@ -1,5 +1,5 @@
 {
-  "inconsistent_bill_count": 123,
+  "inconsistent_bill_count": 124,
   "inconsistent_bills": {
     "HR-4366": {
       "vote_count": 2,
@@ -1634,6 +1634,33 @@
         }
       ],
       "legislation_url": "https://www.congress.gov/bill/119/house-bill/4"
+    },
+    "HR-9436": {
+      "vote_count": 2,
+      "consistent": false,
+      "votes": [
+        {
+          "roll_number": 290,
+          "congress": 119,
+          "date": "2026-09-01T17:55:00-04:00",
+          "question": null,
+          "result": "Failed",
+          "murphy_vote": "Nay",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/9436"
+        },
+        {
+          "roll_number": 291,
+          "congress": 119,
+          "date": "2026-09-01T18:00:00-04:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/9436"
+        }
+      ],
+      "legislation_url": "https://www.congress.gov/bill/119/house-bill/9436"
     },
     "HR-6945": {
       "vote_count": 2,
