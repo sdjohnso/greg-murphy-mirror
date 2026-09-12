@@ -1,135 +1,485 @@
 {
-  "generated_at": "2026-09-11T14:56:24.694714",
+  "generated_at": "2026-09-12T13:58:23.037842",
   "week_of": "2026-09-07",
   "days": [
     {
       "day": "Monday",
-      "date": "2026-08-31",
+      "date": "2026-09-14",
       "bills": [
         {
-          "bill_id": "H.R. 8481",
-          "title": "Kayleigh\u2019s Law Act of 2026",
+          "bill_id": "H.R. 10159",
+          "title": "To authorize the Secretary of the Army to convey to the State of North Carolina a certain parcel of real property located at Fort Bragg, North Carolina, on which the State shall construct a veterans' State home, and for other purposes.",
           "procedure": "suspension",
-          "sponsor": "Rep. Hamadeh / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8481"
+          "sponsor": "Rep. Hudson / Armed Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/10159"
         },
         {
-          "bill_id": "H.R. 1869",
-          "title": "Protecting American Industry and Labor from International Trade Crimes Act of 2025",
+          "bill_id": "H.R. 9360",
+          "title": "Advisory Committee on the Records of Congress Sunset Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Hinson / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1869"
+          "sponsor": "Rep. Miller (IL",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9360"
         },
         {
-          "bill_id": "H.R. 6048",
-          "title": "NDO Fairness Act",
+          "bill_id": "H.R. 9342",
+          "title": "GPO Modernization Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Fitzgerald / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6048"
+          "sponsor": "Rep. Bice / House Administration Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9342"
         },
         {
-          "bill_id": "H.R. 4584",
-          "title": "To make technical amendments to update statutory references to certain provisions which were formerly classified to chapters 14 and 19 of title 25, United States Code, and to correct related technical errors.",
+          "bill_id": "H.R. 10204",
+          "title": "Legislative Branch Agencies Clarification Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Baumgartner / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4584"
+          "sponsor": "Rep. Griffith / House Administration Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/10204"
         },
         {
-          "bill_id": "H.R. 4499",
-          "title": "To make technical amendments to update statutory references to provisions reclassified to title 34, United States Code, and to correct related technical errors.",
+          "bill_id": "H.R. 4219",
+          "title": "National Wildlife Refuge System Invasive Species Strike Team Act of 2025",
           "procedure": "suspension",
-          "sponsor": "Rep. Harris (NC",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4499"
+          "sponsor": "Rep. Case / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4219"
         },
         {
-          "bill_id": "H.R. 4523",
-          "title": "To make technical amendments to title 49, United States Code, as necessary to improve the Code.",
+          "bill_id": "H.R. 309",
+          "title": "National Law Enforcement Officers Remembrance, Support and Community Outreach Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Onder / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4523"
+          "sponsor": "Rep. Nehls / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/309"
         },
         {
-          "bill_id": "H.R. 4465",
-          "title": "To amend chapters 4, 10, and 131 of title 5, United States Code, as necessary to keep those chapters current and to correct related technical errors.",
+          "bill_id": "H.R. 4931",
+          "title": "National Park System Long-Term Lease Investment Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Schmidt / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4465"
+          "sponsor": "Rep. Murphy (NC",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4931"
         },
         {
-          "bill_id": "H.R. 5210",
-          "title": "To make technical amendments to update statutory references to certain provisions classified to title 2, United States Code, title 50, United States Code, and title 52, United States Code, and to correct related technical errors.",
+          "bill_id": "H.R. 5063",
+          "title": "Safe Beaches, Safe Swimmers Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Raskin / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5210"
+          "sponsor": "Rep. Kiggans / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5063"
         },
         {
-          "bill_id": "H.R. 5185",
-          "title": "To make improvements in the enactment of title 41, United States Code, into a positive law title and to improve the Code.",
+          "bill_id": "H.R. 6021",
+          "title": "Archie Cavanaugh Migratory Bird Treaty Amendment Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Kamlager-Dove / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5185"
+          "sponsor": "Rep. Begich / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6021"
         },
         {
-          "bill_id": "H.R. 5174",
-          "title": "To make revisions in title 51, United States Code, as necessary to keep the title current, and to make technical amendments to improve the United States Code.",
+          "bill_id": "H.R. 8121",
+          "title": "To designate the Christiansted Bandstand at the Christiansted National Historic Site, St. Croix, Virgin Islands, as the \u201cPeter G. Thurland, Sr., Bandstand\u201d.",
           "procedure": "suspension",
-          "sponsor": "Rep. Crockett / Judiciary Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5174"
+          "sponsor": "Del. Plaskett / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8121"
         },
         {
-          "bill_id": "H.R. 5182",
-          "title": "To make improvements in the enactment of title 54, United States Code, into a positive law title and to correct related technical errors.",
+          "bill_id": "H.R. 8454",
+          "title": "To provide for the transfer of administrative jurisdiction over certain Federal land in the State of California, and for other purposes.",
           "procedure": "suspension",
-          "sponsor": "Rep. Goldman (NY",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5182"
+          "sponsor": "Rep. McClintock / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8454"
+        },
+        {
+          "bill_id": "H.R. 741",
+          "title": "Stronger Engagement for Indian Health Needs Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Stanton / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/741"
+        },
+        {
+          "bill_id": "H.R. 2406",
+          "title": "National Oceanic and Atmospheric Administration Sexual Harassment and Assault Prevention Improvements Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Bonamici /Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2406"
+        },
+        {
+          "bill_id": "H.R. 6893",
+          "title": "Chesapeake Bay Watershed Advancement for Training, Education, Restoration, and Science",
+          "procedure": "suspension",
+          "sponsor": "Rep. Scott (VA",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6893"
+        },
+        {
+          "bill_id": "H.R. 7889",
+          "title": "Advancing Water Research and Collaboration Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Wittman / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7889"
+        },
+        {
+          "bill_id": "H.R. 8658",
+          "title": "Indian Health Service Emergency Claims Parity Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Kennedy (UT",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8658"
+        },
+        {
+          "bill_id": "H.R. 3276",
+          "title": "Local Communities & Bird Habitat Stewardship Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Dingell / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3276"
+        },
+        {
+          "bill_id": "H.R. 3925",
+          "title": "Yuhaaviatam of San Manuel Nation Land Exchange Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Obernolte / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3925"
+        },
+        {
+          "bill_id": "H.R. 2317",
+          "title": "",
+          "procedure": "suspension",
+          "sponsor": "",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2317"
+        },
+        {
+          "bill_id": "H.R. 2978",
+          "title": "GUARD Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Nunn / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2978"
+        },
+        {
+          "bill_id": "H.R. 8278",
+          "title": "Fostering the Use of Technology to Uphold Regulatory Effectiveness in Supervision Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Stutzman / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8278"
+        },
+        {
+          "bill_id": "H.R. 10167",
+          "title": "Common Cents Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. McClain / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/10167"
+        },
+        {
+          "bill_id": "H.R. 4646",
+          "title": "Whistleblower Protection Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. De La Cruz / Financial Services Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4646"
         }
       ]
     },
     {
       "day": "Tuesday",
-      "date": "2026-09-01",
+      "date": "2026-09-15",
       "bills": [
         {
-          "bill_id": "H.R. 6500",
-          "title": "Continuing Appropriations and Extensions Act, 2027",
+          "bill_id": "H.R. 1266",
+          "title": "Combating Illicit Xylazine Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Smith (MO",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6500"
+          "sponsor": "Rep. Panetta / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1266"
         },
         {
-          "bill_id": "H.J.Res. 1",
-          "title": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "bill_id": "H.R. 2004",
+          "title": "Tyler\u2019s Law",
           "procedure": "suspension",
-          "sponsor": "Rep. Biggs (AZ",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/1"
+          "sponsor": "Rep. Lieu / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2004"
         },
         {
-          "bill_id": "H.R. 9436",
-          "title": "Northeast Lobsterman Protection Act of 2026",
-          "procedure": "rule",
-          "sponsor": "Rep. Lawler / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9436"
+          "bill_id": "H.R. 8005",
+          "title": "Stop Pills That Kill Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Evans (CO",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8005"
         },
         {
-          "bill_id": "H.Res. 1490",
-          "title": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
-          "procedure": "rule",
-          "sponsor": "Rep. Crank / House Administration Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-resolution/1490"
+          "bill_id": "H.R. 2846",
+          "title": "To amend title II of the Public Health Service Act to include as an additional right or privilege of commissioned officers of the Public Health Service",
+          "procedure": "suspension",
+          "sponsor": "Rep. Houlahan / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2846"
         },
         {
-          "bill_id": "H.R. 1501",
-          "title": "Protecting Domestic Mining Act",
-          "procedure": "rule",
-          "sponsor": "Rep. Shreve / Natural Resources Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1501"
+          "bill_id": "H.R. 979",
+          "title": "AM Radio for Every Vehicle Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Bilirakis / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/979"
         },
         {
-          "bill_id": "H.R. 4795",
-          "title": "",
+          "bill_id": "H.R. 9340",
+          "title": "Ratepayer Protection Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Evans (CO",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9340"
+        },
+        {
+          "bill_id": "H.R. 6633",
+          "title": "High-Capacity Grid Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Fedorchak / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6633"
+        },
+        {
+          "bill_id": "H.R. 9332",
+          "title": "Load Forecasting Enhancement Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Balderson / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9332"
+        },
+        {
+          "bill_id": "H.R. 9339",
+          "title": "Affordable Innovation for the Grid Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Harshbarger / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9339"
+        },
+        {
+          "bill_id": "H.R. 9616",
+          "title": "EMRTAI Authorization Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Pfluger / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9616"
+        },
+        {
+          "bill_id": "H.R. 9617",
+          "title": "CHARM Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Palmer / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9617"
+        },
+        {
+          "bill_id": "H.R. 9615",
+          "title": "BRACE Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Miller-Meeks / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9615"
+        },
+        {
+          "bill_id": "H.R. 2140",
+          "title": "Diesel Emissions Reduction Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Matsui / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2140"
+        },
+        {
+          "bill_id": "H.R. 9496",
+          "title": "End Tax Penalties on American Hostages Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Tenney / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9496"
+        },
+        {
+          "bill_id": "H.R. 9498",
+          "title": "Taxpayer Advocate Participation Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Steube / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9498"
+        },
+        {
+          "bill_id": "H.R. 9501",
+          "title": "AI Tax Integrity Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Buchanan / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9501"
+        },
+        {
+          "bill_id": "H.R. 9499",
+          "title": "Protecting Taxpayers from Ghost Preparers Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Malliotakis / Ways and Means Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9499"
+        },
+        {
+          "bill_id": "H.R. 9500",
+          "title": "Tax Relief for Fraud Victims Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Miller (OH",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9500"
+        },
+        {
+          "bill_id": "H.R. 9497",
+          "title": "Water Resources Development Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Graves / Transportation and Infrastructure Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9497"
+        },
+        {
+          "bill_id": "H.R. 1342",
+          "title": "Stopping Political Discrimination in Disaster Assistance Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Perry / Transportation and Infrastructure Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1342"
+        },
+        {
+          "bill_id": "H.R. 5109",
+          "title": "TWICE Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Carter (LA",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5109"
+        },
+        {
+          "bill_id": "H.R. 5517",
+          "title": "Northern Border Security Enhancement and Review Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Langworthy / Homeland Security Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5517"
+        },
+        {
+          "bill_id": "H.R. 7436",
+          "title": "Department of Homeland Security Intelligence and Analysis Training Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Magaziner / Homeland Security Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7436"
+        },
+        {
+          "bill_id": "H.R. 7443",
+          "title": "I&A Mission Reorientation Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Pfluger / Homeland Security Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7443"
+        },
+        {
+          "bill_id": "H.R. 9327",
+          "title": "PEARL Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Joyce (OH",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9327"
+        },
+        {
+          "bill_id": "H.R. 9382",
+          "title": "NEXUS for Families Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Kennedy (NY",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9382"
+        },
+        {
+          "bill_id": "H.R. 9394",
+          "title": "Civil Preparedness for Agroterrorism Exercise Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Strong / Homeland Security Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9394"
+        },
+        {
+          "bill_id": "H.R. 8775",
+          "title": "Ending Predator Access to Union Power Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Wilson (SC",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8775"
+        },
+        {
+          "bill_id": "H.R. 9723",
+          "title": "Fit Future Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Mackenzie / Education and Workforce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9723"
+        },
+        {
+          "bill_id": "H.R. 7890",
+          "title": "Science of Reading Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Houchin / Education and Workforce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7890"
+        },
+        {
+          "bill_id": "H.R. 9086",
+          "title": "Foreign Service Modernization Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Lawler / Foreign Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9086"
+        },
+        {
+          "bill_id": "H.R. 7365",
+          "title": "To designate the facility of the United States Postal Service located at 1225 Kempsville Road in Virginia Beach, Virginia, as the \"Colonel Edward Shames Post Office Building\".",
+          "procedure": "suspension",
+          "sponsor": "Rep. Kiggans / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7365"
+        },
+        {
+          "bill_id": "H.R. 9570",
+          "title": "To designate the facility of the United States Postal Service located at 117 West Lovett Street in Charlotte, Michigan, as the \"Francis C. Flaherty Post Office Building\".",
+          "procedure": "suspension",
+          "sponsor": "Rep. Barrett / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9570"
+        },
+        {
+          "bill_id": "H.R. 6006",
+          "title": "To designate the facility of the United States Postal Service located at 401 North Elm Street in Tuskegee, Alabama, as the \"Tuskegee Airmen Memorial Post Office\".",
+          "procedure": "suspension",
+          "sponsor": "Rep. Figures / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6006"
+        },
+        {
+          "bill_id": "H.R. 8193",
+          "title": "To designate the facility of the United States Postal Service located at 189 East Main Street in Xenia, Ohio, as the \"Gilman 'Gil' Whitney Post Office Building\".",
+          "procedure": "suspension",
+          "sponsor": "Rep. Turner / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8193"
+        },
+        {
+          "bill_id": "H.R. 7834",
+          "title": "Safe Cloud Storage Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Lee (FL",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7834"
+        },
+        {
+          "bill_id": "H.R. 9191",
+          "title": "National Fossil Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Houchin / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9191"
+        },
+        {
+          "bill_id": "H.R. 7730",
+          "title": "Bankruptcy Threshold Adjustment Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. Cline / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7730"
+        },
+        {
+          "bill_id": "H.J.Res. 210",
+          "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Nonroad Engine Pollution Control Standards; Ocean-Going Vessels At-Berth; Notice of Decision\".",
           "procedure": "rule",
-          "sponsor": "",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4795"
+          "sponsor": "Rep. Fong / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/210"
+        },
+        {
+          "bill_id": "H.J.Res. 213",
+          "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule issued by the Environmental Protection Agency relating to the \"California State Nonroad Engine Pollution Control Standards; Commercial Harbor Craft Regulations; Notice of Decision\".",
+          "procedure": "rule",
+          "sponsor": "Rep. Gallagher / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/213"
+        },
+        {
+          "bill_id": "H.R. 9576",
+          "title": "National Fraud Enforcement Division Act of 2026",
+          "procedure": "rule",
+          "sponsor": "Rep. Finstad / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9576"
+        },
+        {
+          "bill_id": "H.R. 10326",
+          "title": "Preventing Rip-offs and Obtaining Oversight of Funds Act",
+          "procedure": "rule",
+          "sponsor": "Rep. Van Drew / Judiciary Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/10326"
+        },
+        {
+          "bill_id": "H.R. 5334",
+          "title": "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
+          "procedure": "rule",
+          "sponsor": "Rep. Panetta / Foreign Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5334"
+        },
+        {
+          "bill_id": "H.Con.Res. 93",
+          "title": "Directing the President, pursuant to section 5",
+          "procedure": "may_be_considered",
+          "sponsor": "Rep. Moulton / Foreign Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/93"
         }
       ]
     }
