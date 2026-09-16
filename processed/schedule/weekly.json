@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T15:30:21.458184",
+  "generated_at": "2026-09-16T15:22:30.874983",
   "week_of": "2026-09-14",
   "days": [
     {
@@ -174,41 +174,6 @@
       "date": "2026-09-15",
       "bills": [
         {
-          "bill_id": "H.R. 1266",
-          "title": "Combating Illicit Xylazine Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Panetta / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1266"
-        },
-        {
-          "bill_id": "H.R. 2004",
-          "title": "Tyler\u2019s Law",
-          "procedure": "suspension",
-          "sponsor": "Rep. Lieu / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2004"
-        },
-        {
-          "bill_id": "H.R. 8005",
-          "title": "Stop Pills That Kill Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Evans (CO",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8005"
-        },
-        {
-          "bill_id": "H.R. 2846",
-          "title": "To amend title II of the Public Health Service Act to include as an additional right or privilege of commissioned officers of the Public Health Service",
-          "procedure": "suspension",
-          "sponsor": "Rep. Houlahan / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2846"
-        },
-        {
-          "bill_id": "H.R. 979",
-          "title": "AM Radio for Every Vehicle Act of 2025",
-          "procedure": "suspension",
-          "sponsor": "Rep. Bilirakis / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/979"
-        },
-        {
           "bill_id": "H.R. 9340",
           "title": "Ratepayer Protection Act",
           "procedure": "suspension",
@@ -237,6 +202,41 @@
           "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9339"
         },
         {
+          "bill_id": "H.R. 979",
+          "title": "AM Radio for Every Vehicle Act of 2025",
+          "procedure": "suspension",
+          "sponsor": "Rep. Bilirakis / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/979"
+        },
+        {
+          "bill_id": "H.R. 1266",
+          "title": "Combating Illicit Xylazine Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Panetta / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1266"
+        },
+        {
+          "bill_id": "H.R. 2004",
+          "title": "Tyler\u2019s Law",
+          "procedure": "suspension",
+          "sponsor": "Rep. Lieu / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2004"
+        },
+        {
+          "bill_id": "H.R. 8005",
+          "title": "Stop Pills That Kill Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Evans (CO",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8005"
+        },
+        {
+          "bill_id": "H.R. 2846",
+          "title": "To amend title II of the Public Health Service Act to include as an additional right or privilege of commissioned officers of the Public Health Service",
+          "procedure": "suspension",
+          "sponsor": "Rep. Houlahan / Energy and Commerce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2846"
+        },
+        {
           "bill_id": "H.R. 9616",
           "title": "EMRTAI Authorization Act of 2026",
           "procedure": "suspension",
@@ -261,7 +261,7 @@
           "bill_id": "H.R. 2140",
           "title": "Diesel Emissions Reduction Act of 2025",
           "procedure": "suspension",
-          "sponsor": "Rep. Matsui / Energy and Commerce Committee",
+          "sponsor": "",
           "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2140"
         },
         {

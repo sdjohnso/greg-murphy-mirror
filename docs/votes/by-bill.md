@@ -134,6 +134,19 @@ This page shows bills that received multiple votes (amendments, recommit motions
 | Feb 13, 2024 | 43 | Vote | Passed | Yea |
 
 
+## HRES-1486
+
+**Votes:** 3 | **Consistency:** Consistent
+
+[View on Congress.gov](https://www.congress.gov/bill/118/house-resolution/1486)
+
+| Date | Roll | Question | Result | Murphy |
+|------|------|----------|--------|--------|
+| Sep 24, 2024 | 443 | Vote | Passed | Yea |
+| Sep 24, 2024 | 444 | Vote | Passed | Aye |
+| Sep 15, 2026 | 298 | Vote | Passed | Yea |
+
+
 ## HR-22
 
 **Votes:** 3 | **Consistency:** **Inconsistent**
@@ -390,18 +403,6 @@ This page shows bills that received multiple votes (amendments, recommit motions
 |------|------|----------|--------|--------|
 | Jul 26, 2023 | 367 | Vote | Passed | Yea |
 | Jul 26, 2023 | 368 | Vote | Passed | Aye |
-
-
-## HR-4366
-
-**Votes:** 2 | **Consistency:** **Inconsistent**
-
-[View on Congress.gov](https://www.congress.gov/bill/118/house-bill/4366)
-
-| Date | Roll | Question | Result | Murphy |
-|------|------|----------|--------|--------|
-| Jul 27, 2023 | 379 | Vote | Failed | Nay |
-| Jul 27, 2023 | 380 | Vote | Passed | Yea |
 
 
 ---
