@@ -1,6 +1,6 @@
 # Recent Votes (Last 30 Days)
 
-*19 votes in the last 30 days*
+*17 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
@@ -21,8 +21,6 @@
 | Sep 15, 2026 | 300 | HRES 1530 | Passed | Aye | Yes |
 | Sep 15, 2026 | 299 | HRES 1530 | Passed | Yea | Yes |
 | Sep 15, 2026 | 298 | HRES 1486 | Passed | Yea | Yes |
-| Sep 14, 2026 | 297 | HR 3276 | Passed | Yea | Yes |
-| Sep 14, 2026 | 296 | HR 4219 | Passed | Yea | Yes |
 
 
 ---
