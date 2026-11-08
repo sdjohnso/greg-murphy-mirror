@@ -1,6 +1,6 @@
 # Rep. Greg Murphy Congressional Dashboard
 
-*Data updated: 2026-11-07*
+*Data updated: 2026-11-08*
 
 ## Representative Profile
 
