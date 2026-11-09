@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T16:58:30.435807",
-  "week_of": "2026-11-02",
+  "generated_at": "2026-11-09T21:21:58.620963",
+  "week_of": "2026-11-09",
   "days": [
     {
       "day": "Monday",
@@ -15,9 +15,9 @@
         },
         {
           "bill_id": "H.R. 5549",
-          "title": "",
+          "title": "Efficient Nuclear Licensing Hearings Act",
           "procedure": "suspension",
-          "sponsor": "",
+          "sponsor": "Rep. Griffith / Energy and Commerce Committee",
           "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5549"
         },
         {
