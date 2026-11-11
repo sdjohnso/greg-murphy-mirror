@@ -13119,6 +13119,84 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/9576"
   },
+  "HR-9612": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 316,
+        "congress": 119,
+        "date": "2026-11-09T19:07:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/9612"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/9612"
+  },
+  "HRES-1650": {
+    "vote_count": 2,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 318,
+        "congress": 119,
+        "date": "2026-11-10T18:10:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1650"
+      },
+      {
+        "roll_number": 319,
+        "congress": 119,
+        "date": "2026-11-10T18:20:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Aye",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1650"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1650"
+  },
+  "HRES-1655": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 317,
+        "congress": 119,
+        "date": "2026-11-10T18:02:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1655"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-resolution/1655"
+  },
+  "HR-3978": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 315,
+        "congress": 119,
+        "date": "2026-11-09T18:59:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/3978"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/3978"
+  },
   "HR-3391": {
     "vote_count": 1,
     "consistent": true,
