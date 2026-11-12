@@ -3893,7 +3893,7 @@
       }
     }
   ],
-  "against_party_count": 72,
+  "against_party_count": 73,
   "against_party_votes": [
     {
       "roll_number": 539,
@@ -4186,6 +4186,16 @@
       "legislation_number": null
     },
     {
+      "roll_number": 322,
+      "congress": 119,
+      "date": "2026-11-12T09:45:00-05:00",
+      "question": null,
+      "result": "Passed",
+      "murphy_vote": "Yea",
+      "legislation_type": null,
+      "legislation_number": null
+    },
+    {
       "roll_number": 157,
       "congress": 118,
       "date": "2023-03-24T10:38:00-04:00",
@@ -4379,16 +4389,6 @@
       "roll_number": 638,
       "congress": 118,
       "date": "2023-11-08T21:41:00-05:00",
-      "question": null,
-      "result": "Failed",
-      "murphy_vote": "No",
-      "legislation_type": null,
-      "legislation_number": null
-    },
-    {
-      "roll_number": 620,
-      "congress": 118,
-      "date": "2023-11-07T22:10:00-05:00",
       "question": null,
       "result": "Failed",
       "murphy_vote": "No",
