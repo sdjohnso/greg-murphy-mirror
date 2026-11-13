@@ -4192,8 +4192,8 @@
       "question": null,
       "result": "Passed",
       "murphy_vote": "Yea",
-      "legislation_type": null,
-      "legislation_number": null
+      "legislation_type": "HRES",
+      "legislation_number": "1247"
     },
     {
       "roll_number": 157,
