@@ -1,121 +1,121 @@
 {
-  "generated_at": "2026-11-13T18:27:36.917248",
+  "generated_at": "2026-11-14T16:56:00.500636",
   "week_of": "2026-11-09",
   "days": [
     {
-      "day": "Monday",
-      "date": "2026-11-09",
+      "day": "Tuesday",
+      "date": "2026-11-17",
       "bills": [
         {
-          "bill_id": "H.R. 3978",
-          "title": "Nuclear REFUEL",
+          "bill_id": "H.R. 7954",
+          "title": "Don Young Doug LaMalfa Indian Buffalo Management Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Latta / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3978"
+          "sponsor": "Rep. Hurd / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7954"
         },
         {
-          "bill_id": "H.R. 5549",
-          "title": "Efficient Nuclear Licensing Hearings Act",
+          "bill_id": "H.R. 8195",
+          "title": "Responsible Cormorant Management and Control Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Griffith / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5549"
+          "sponsor": "Rep. Walberg / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8195"
         },
         {
-          "bill_id": "H.R. 9084",
-          "title": "Department of Energy Nuclear Transparency Act",
+          "bill_id": "H.R. 8483",
+          "title": "Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Castor / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9084"
+          "sponsor": "Rep. Issa / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8483"
         },
         {
-          "bill_id": "H.R. 9612",
-          "title": "American Enrichment Deployment Act",
+          "bill_id": "H.R. 9600",
+          "title": "Common Sense 250 Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Fry / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9612"
+          "sponsor": "Rep. Raskin / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9600"
         },
         {
-          "bill_id": "H.R. 9613",
-          "title": "Nuclear Advisory Committee Reform Act",
+          "bill_id": "H.R. 10136",
+          "title": "Crossett Experimental Forest Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Harshbarger / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9613"
+          "sponsor": "Rep. Westerman / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/10136"
         },
         {
-          "bill_id": "H.R. 9614",
-          "title": "NRC Staff Pay Alignment Act",
+          "bill_id": "H.R. 9640",
+          "title": "Earth MRI Reauthorization Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. Menendez / Energy and Commerce Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9614"
+          "sponsor": "Rep. Wittman / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9640"
         },
         {
-          "bill_id": "H.R. 8552",
-          "title": "Veterans\u2019 Compensation Cost-of-Living Adjustment Act of 2026",
+          "bill_id": "H.R. 9785",
+          "title": "South Dakota Water Feasibility Studies Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Luttrell / Veterans' Affairs Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8552"
+          "sponsor": "Rep. Johnson (SD",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9785"
+        },
+        {
+          "bill_id": "H.R. 9269",
+          "title": "Renewing the African American Civil Rights Network Act",
+          "procedure": "suspension",
+          "sponsor": "Rep. Clyburn / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9269"
+        },
+        {
+          "bill_id": "H.R. 2400",
+          "title": "Pit River Land Transfer Act of 2026",
+          "procedure": "suspension",
+          "sponsor": "Rep. LaMalfa / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2400"
+        },
+        {
+          "bill_id": "H.R. 7254",
+          "title": "To amend the National Trails System Act to direct the Secretary of the Interior to conduct a study on the feasibility of designating the Bay Area Ridge National Scenic Trail, and for other purposes.",
+          "procedure": "suspension",
+          "sponsor": "Rep. Huffman / Natural Resources Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7254"
         }
       ]
     },
     {
-      "day": "Tuesday",
-      "date": "2026-11-10",
+      "day": "Wednesday",
+      "date": "2026-11-18",
       "bills": [
         {
-          "bill_id": "H.R. 10329",
-          "title": "Combating Foreign Threats to Main Street Act of 2026",
+          "bill_id": "H.R. 5490",
+          "title": "Dismantle Foreign Scam Syndicates Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Williams (TX",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/10329"
+          "sponsor": "Rep. Shreve / Foreign Affairs Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5490"
         },
         {
-          "bill_id": "H.R. 10355",
-          "title": "Disaster Loan Outreach Consistency Act",
+          "bill_id": "H.R. 4464",
+          "title": "Preventive Health Savings Act",
           "procedure": "suspension",
-          "sponsor": "Rep. Mejia / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/10355"
+          "sponsor": "Rep. Obernolte / Budget Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4464"
         },
         {
-          "bill_id": "H.R. 10371",
-          "title": "Ensuring SBA Implementation of GAO Recommendations Act of 2026",
+          "bill_id": "H.R. 7934",
+          "title": "Settlement Agreement Information Database Act of 2026",
           "procedure": "suspension",
-          "sponsor": "Rep. McIver / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/10371"
+          "sponsor": "Rep. Palmer / Oversight and Government Reform Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7934"
         },
         {
-          "bill_id": "H.R. 10353",
-          "title": "SBIC Reporting Modernization Act of 2026",
-          "procedure": "suspension",
-          "sponsor": "Rep. Finstad / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/10353"
-        },
-        {
-          "bill_id": "H.R. 10238",
-          "title": "Cybersecurity for Small Businesses Act of 2026",
-          "procedure": "suspension",
-          "sponsor": "Rep. Wied / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/10238"
-        },
-        {
-          "bill_id": "H.R. 9718",
-          "title": "Reshoring American Manufacturing Act of 2026",
-          "procedure": "suspension",
-          "sponsor": "Rep. Wied / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9718"
-        },
-        {
-          "bill_id": "H.R. 10375",
-          "title": "504 Modernization and Small Manufacturer Enhancement Act",
-          "procedure": "suspension",
-          "sponsor": "Rep. Velazquez / Small Business Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/10375"
-        },
-        {
-          "bill_id": "H.R. 1013",
-          "title": "Retirement Fairness for Charities and Educational Institutions Act of 2025",
+          "bill_id": "H.R. 5267",
+          "title": "American Franchise Act",
           "procedure": "rule",
-          "sponsor": "Rep. Lucas / Financial Services Committee",
-          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1013"
+          "sponsor": "Rep. Hern / Education and Workforce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5267"
+        },
+        {
+          "bill_id": "H.R. 3495",
+          "title": "Direct Seller and Real Estate Agent Harmonization Act",
+          "procedure": "rule",
+          "sponsor": "Rep. Kiley / Education and Workforce Committee",
+          "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3495"
         }
       ]
     }
