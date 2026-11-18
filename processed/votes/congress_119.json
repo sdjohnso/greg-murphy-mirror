@@ -25173,6 +25173,82 @@
   },
   {
     "congress": 119,
+    "session": 2,
+    "roll_number": 324,
+    "date": "2026-11-17T18:56:00-05:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "2/3 Yea-And-Nay",
+    "legislation_type": "HR",
+    "legislation_number": "8483",
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/8483",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll324.xml",
+    "murphy_vote": "Yea",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 199,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 19
+      },
+      {
+        "party": "Democratic",
+        "yea": 199,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 15
+      },
+      {
+        "party": "Independent",
+        "yea": 0,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 1
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
+    "roll_number": 325,
+    "date": "2026-11-17T19:05:00-05:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "2/3 Yea-And-Nay",
+    "legislation_type": "HR",
+    "legislation_number": "9600",
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/9600",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll325.xml",
+    "murphy_vote": "Nay",
+    "voted_with_party": false,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 163,
+        "nay": 36,
+        "present": 0,
+        "not_voting": 19
+      },
+      {
+        "party": "Democratic",
+        "yea": 202,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 12
+      },
+      {
+        "party": "Independent",
+        "yea": 0,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 1
+      }
+    ]
+  },
+  {
+    "congress": 119,
     "session": 1,
     "roll_number": 17,
     "date": "2025-01-16T11:00:00-05:00",

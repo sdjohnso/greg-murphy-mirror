@@ -13258,6 +13258,50 @@
     ],
     "legislation_url": "https://www.congress.gov/bill/119/house-bill/2102"
   },
+  "HR-8483": {
+    "vote_count": 1,
+    "consistent": true,
+    "votes": [
+      {
+        "roll_number": 324,
+        "congress": 119,
+        "date": "2026-11-17T18:56:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/8483"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/8483"
+  },
+  "HR-9600": {
+    "vote_count": 2,
+    "consistent": false,
+    "votes": [
+      {
+        "roll_number": 486,
+        "congress": 118,
+        "date": "2024-12-05T17:22:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Yea",
+        "voted_with_party": true,
+        "legislation_url": "https://www.congress.gov/bill/118/house-bill/9600"
+      },
+      {
+        "roll_number": 325,
+        "congress": 119,
+        "date": "2026-11-17T19:05:00-05:00",
+        "question": null,
+        "result": "Passed",
+        "murphy_vote": "Nay",
+        "voted_with_party": false,
+        "legislation_url": "https://www.congress.gov/bill/119/house-bill/9600"
+      }
+    ],
+    "legislation_url": "https://www.congress.gov/bill/118/house-bill/9600"
+  },
   "HR-3391": {
     "vote_count": 1,
     "consistent": true,
@@ -18120,23 +18164,6 @@
       }
     ],
     "legislation_url": "https://www.congress.gov/bill/118/senate-bill/709"
-  },
-  "HR-9600": {
-    "vote_count": 1,
-    "consistent": true,
-    "votes": [
-      {
-        "roll_number": 486,
-        "congress": 118,
-        "date": "2024-12-05T17:22:00-05:00",
-        "question": null,
-        "result": "Passed",
-        "murphy_vote": "Yea",
-        "voted_with_party": true,
-        "legislation_url": "https://www.congress.gov/bill/118/house-bill/9600"
-      }
-    ],
-    "legislation_url": "https://www.congress.gov/bill/118/house-bill/9600"
   },
   "HR-7198": {
     "vote_count": 2,

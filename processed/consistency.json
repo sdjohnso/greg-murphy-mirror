@@ -1,5 +1,5 @@
 {
-  "inconsistent_bill_count": 124,
+  "inconsistent_bill_count": 125,
   "inconsistent_bills": {
     "HR-4366": {
       "vote_count": 2,
@@ -2482,6 +2482,33 @@
       ],
       "legislation_url": "https://www.congress.gov/bill/119/house-bill/8595"
     },
+    "HR-9600": {
+      "vote_count": 2,
+      "consistent": false,
+      "votes": [
+        {
+          "roll_number": 486,
+          "congress": 118,
+          "date": "2024-12-05T17:22:00-05:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Yea",
+          "voted_with_party": true,
+          "legislation_url": "https://www.congress.gov/bill/118/house-bill/9600"
+        },
+        {
+          "roll_number": 325,
+          "congress": 119,
+          "date": "2026-11-17T19:05:00-05:00",
+          "question": null,
+          "result": "Passed",
+          "murphy_vote": "Nay",
+          "voted_with_party": false,
+          "legislation_url": "https://www.congress.gov/bill/119/house-bill/9600"
+        }
+      ],
+      "legislation_url": "https://www.congress.gov/bill/118/house-bill/9600"
+    },
     "HR-28": {
       "vote_count": 2,
       "consistent": false,
@@ -3893,7 +3920,7 @@
       }
     }
   ],
-  "against_party_count": 73,
+  "against_party_count": 74,
   "against_party_votes": [
     {
       "roll_number": 539,
@@ -4196,6 +4223,16 @@
       "legislation_number": "1247"
     },
     {
+      "roll_number": 325,
+      "congress": 119,
+      "date": "2026-11-17T19:05:00-05:00",
+      "question": null,
+      "result": "Passed",
+      "murphy_vote": "Nay",
+      "legislation_type": "HR",
+      "legislation_number": "9600"
+    },
+    {
       "roll_number": 157,
       "congress": 118,
       "date": "2023-03-24T10:38:00-04:00",
@@ -4382,16 +4419,6 @@
       "question": null,
       "result": "Failed",
       "murphy_vote": "Aye",
-      "legislation_type": null,
-      "legislation_number": null
-    },
-    {
-      "roll_number": 638,
-      "congress": 118,
-      "date": "2023-11-08T21:41:00-05:00",
-      "question": null,
-      "result": "Failed",
-      "murphy_vote": "No",
       "legislation_type": null,
       "legislation_number": null
     }

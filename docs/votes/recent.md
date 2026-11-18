@@ -1,9 +1,11 @@
 # Recent Votes (Last 30 Days)
 
-*9 votes in the last 30 days*
+*11 votes in the last 30 days*
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
+| Nov 17, 2026 | 325 | HR 9600 | Passed | Nay | No |
+| Nov 17, 2026 | 324 | HR 8483 | Passed | Yea | Yes |
 | Nov 12, 2026 | 323 | HR 2102 | Passed | Yea | Yes |
 | Nov 12, 2026 | 322 | HRES 1247 | Passed | Yea | No |
 | Nov 11, 2026 | 321 | HR 1013 | Passed | Yea | Yes |
