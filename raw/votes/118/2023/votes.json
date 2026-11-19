@@ -13278,44 +13278,6 @@
   {
     "congress": 118,
     "session": 1,
-    "roll_number": 159,
-    "date": "2023-03-24T10:46:00-04:00",
-    "question": null,
-    "result": "Failed",
-    "vote_type": "Recorded Vote",
-    "legislation_type": null,
-    "legislation_number": null,
-    "legislation_url": "https://www.congress.gov/amendment/118/house-amendment/129",
-    "source_xml": "https://clerk.house.gov/evs/2023/roll159.xml",
-    "murphy_vote": "No",
-    "voted_with_party": true,
-    "party_totals": [
-      {
-        "party": "Republican",
-        "yea": 83,
-        "nay": 126,
-        "present": 0,
-        "not_voting": 15
-      },
-      {
-        "party": "Democratic",
-        "yea": 0,
-        "nay": 205,
-        "present": 0,
-        "not_voting": 11
-      },
-      {
-        "party": "Independent",
-        "yea": 0,
-        "nay": 0,
-        "present": 0,
-        "not_voting": 0
-      }
-    ]
-  },
-  {
-    "congress": 118,
-    "session": 1,
     "roll_number": 16,
     "date": "2023-01-06T14:55:00-05:00",
     "question": null,
