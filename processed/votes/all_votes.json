@@ -42186,6 +42186,44 @@
   {
     "congress": 119,
     "session": 2,
+    "roll_number": 327,
+    "date": "2026-11-19T09:43:00-05:00",
+    "question": null,
+    "result": "Passed",
+    "vote_type": "2/3 Yea-And-Nay",
+    "legislation_type": "HR",
+    "legislation_number": "4464",
+    "legislation_url": "https://www.congress.gov/bill/119/house-bill/4464",
+    "source_xml": "https://clerk.house.gov/evs/2026/roll327.xml",
+    "murphy_vote": "Yea",
+    "voted_with_party": true,
+    "party_totals": [
+      {
+        "party": "Republican",
+        "yea": 197,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 21
+      },
+      {
+        "party": "Democratic",
+        "yea": 204,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 10
+      },
+      {
+        "party": "Independent",
+        "yea": 0,
+        "nay": 0,
+        "present": 0,
+        "not_voting": 1
+      }
+    ]
+  },
+  {
+    "congress": 119,
+    "session": 2,
     "roll_number": 326,
     "date": "2026-11-18T12:54:00-05:00",
     "question": null,
@@ -42211,44 +42249,6 @@
         "nay": 0,
         "present": 0,
         "not_voting": 8
-      },
-      {
-        "party": "Independent",
-        "yea": 0,
-        "nay": 0,
-        "present": 0,
-        "not_voting": 1
-      }
-    ]
-  },
-  {
-    "congress": 119,
-    "session": 2,
-    "roll_number": 327,
-    "date": "2026-11-19T09:43:00-05:00",
-    "question": null,
-    "result": "Passed",
-    "vote_type": "2/3 Yea-And-Nay",
-    "legislation_type": null,
-    "legislation_number": null,
-    "legislation_url": null,
-    "source_xml": "https://clerk.house.gov/evs/2026/roll327.xml",
-    "murphy_vote": "Yea",
-    "voted_with_party": true,
-    "party_totals": [
-      {
-        "party": "Republican",
-        "yea": 197,
-        "nay": 0,
-        "present": 0,
-        "not_voting": 21
-      },
-      {
-        "party": "Democratic",
-        "yea": 204,
-        "nay": 0,
-        "present": 0,
-        "not_voting": 10
       },
       {
         "party": "Independent",

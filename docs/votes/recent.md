@@ -4,7 +4,7 @@
 
 | Date | Roll | Legislation | Result | Murphy | With Party |
 |------|------|-------------|--------|--------|------------|
-| Nov 19, 2026 | 327 | None None | Passed | Yea | Yes |
+| Nov 19, 2026 | 327 | HR 4464 | Passed | Yea | Yes |
 | Nov 18, 2026 | 326 | HR 9640 | Passed | Yea | Yes |
 | Nov 17, 2026 | 325 | HR 9600 | Passed | Nay | No |
 | Nov 17, 2026 | 324 | HR 8483 | Passed | Yea | Yes |
